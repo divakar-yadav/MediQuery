@@ -1,0 +1,17 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: INFO
+  loggers:
+    "com.example.myapp": DEBUG
+
+metrics:
+  reporters:
+    - type: console
+      frequency: 1 minute
