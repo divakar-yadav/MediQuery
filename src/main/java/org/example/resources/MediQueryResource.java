@@ -30,13 +30,7 @@ public class MediQueryResource {
         String lookupType = jsonObject.getString("lookupType");
         LuceaneSearch ls = new LuceaneSearch();
         List<ModelObject> res = ls.query(searchTerm);
-        // Logic to fetch search result based on searchTerm and lookupType
-        String result = "Searching for searchTerm: " + searchTerm + ", with lookupType: " + lookupType;
-
-        // Create a SearchResultResponse object
         SearchResponse searchResultResponse = new SearchResponse(searchTerm, lookupType, res);
-
-        // Return the SearchResultResponse object in JSON format
         return Response.ok(searchResultResponse).build();
     }
 
