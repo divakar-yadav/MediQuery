@@ -9,7 +9,7 @@ server:
 logging:
   level: INFO
   loggers:
-    "com.example.myapp": DEBUG
+    "org.example.MediQuery": DEBUG
 
 metrics:
   reporters:
