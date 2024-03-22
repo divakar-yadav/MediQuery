@@ -19,7 +19,7 @@ Thumbs.db
 .DS_Store
 
 # Ignore directories starting with "data"
-/data*/
+#/data*/
 
 # Ignore node_modules directory
 node_modules/
