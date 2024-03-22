@@ -21,7 +21,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.MediQuery</mainClass>
+                            <mainClass>org.example.MediQuery</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
