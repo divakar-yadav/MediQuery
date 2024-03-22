@@ -1,6 +1,4 @@
-# Ignore compiled files
-*.class
-*.jar
+
 
 # Ignore build directories
 /build/
