@@ -5,13 +5,3 @@ server:
   adminConnectors:
     - type: http
       port: 8081
-
-logging:
-  level: INFO
-  loggers:
-    "org.example.MediQuery": DEBUG
-
-metrics:
-  reporters:
-    - type: console
-      frequency: 1 minute
