@@ -1,0 +1,91 @@
+
+
+.search-icon {
+    width: 23px;
+    height: 23px;
+    margin: 7px;
+}
+
+.search-input {
+    width: 100%;
+    height: 38px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+}
+
+.search-button {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #357ae8;
+}
+
+.search-container {
+    display: flex;
+    width: 38%;
+    margin: auto;
+}
+
+.search-icon-container {
+    /* margin: auto; */
+    background-color: darkslateblue;
+    /* border-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 2px 2px 0px;
+}
+h1 {
+    color: blueviolet;
+    font-size: xxx-large;
+    font-weight: 200;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+  
+.radio-buttons label {
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 200;
+}
+  .radio-buttons input[type="radio"] {
+    display: none;
+  }
+  
+  .search-page {
+    margin-top: 10%;
+}
+  
+  .radio-buttons label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .radio-buttons input[type="radio"]:checked + label::before {
+    background-color: #4285f4;
+  }
+  
