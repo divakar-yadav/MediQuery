@@ -15,9 +15,7 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.example.data.ModelObject;
-
 import java.io.IOException;
-
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +58,7 @@ public class LuceaneSearch {
 
         Directory indexDir = FSDirectory.open(Paths.get(INDEX_DIR));
         IndexSearcher indexSearcher = new IndexSearcher(DirectoryReader.open(indexDir));
-        String[] fields = {"nctId", "briefTitle", "briefSummary", "detailedDescription"};
+        String[] fields = {"title", "abstract", "description"};
         MultiFieldQueryParser multiFieldQueryParser = new MultiFieldQueryParser(fields, new StandardAnalyzer());
         List<ModelObject> res = new ArrayList<>();
             if (term!=null) {
@@ -71,7 +69,7 @@ public class LuceaneSearch {
 
                     for (ScoreDoc scoreDoc : topDocs.scoreDocs) {
                         Document doc = indexSearcher.doc(scoreDoc.doc);
-                        ModelObject obj = new ModelObject(doc.get("nctId"), doc.get("briefTitle"), doc.get("briefSummary"), doc.get("detailedDescription"));
+                        ModelObject obj = new ModelObject(doc.get("title"), doc.get("abstract"), doc.get("description"), doc.get("url"),doc.get("authors"),doc.get("doi"));
                         res.add(obj);
                     }
                 } catch (org.apache.lucene.queryparser.classic.ParseException e) {

@@ -1,0 +1,16 @@
+{
+    "title": "Computed tomography scan radiation and brain cancer incidence",
+    "abstract": "The National Cancer Institute CT program was used to estimate radiation doses to the brain from CT exposures in 1985\u20132005, Poisson regression was used to model the dependence of brain cancer incidence on brain radiation dose, which lagged by 2\u00a0years to minimize reverse causation bias. Results Of 10\u00a0524\u00a0842 young Australians, 611\u00a0544 were CT-exposed before the age of 20\u00a0years, with a mean cumulative brain dose of 44 milligrays (mGy) at an average follow-up of 13.5\u00a0years after the 2-year lag period. Brain cancer incidence increased with radiation dose to the brain, with an excess relative risk of 0.8 (95% CI 0.57\u20131.06) per 100 mGy.",
+    "authors": [
+        "Nicolas R Smoll",
+        "Zoe Brady",
+        "Katrina J Scurrah",
+        "Choonsik Lee",
+        "Amy Berrington de Gonz\u00e1lez",
+        "John D Mathews"
+    ],
+    "published_year": "",
+    "description": "Background\n          Computed tomography (CT) scans make substantial contributions to low-dose ionizing radiation exposures, raising concerns about excess cancers caused by diagnostic radiation.\nMethods\n          Deidentified medicare records for all Australians aged 0\u201319\u00a0years between 1985\u20132005 were linked to national death and cancer registrations to 2012. The National Cancer Institute CT program was used to estimate radiation doses to the brain from CT exposures in 1985\u20132005, Poisson regression was used to model the dependence of brain cancer incidence on brain radiation dose, which lagged by 2\u00a0years to minimize reverse causation bias.\nResults\n          Of 10\u00a0524\u00a0842 young Australians, 611\u00a0544 were CT-exposed before the age of 20\u00a0years, with a mean cumulative brain dose of 44 milligrays (mGy) at an average follow-up of 13.5\u00a0years after the 2-year lag period. 4472 were diagnosed with brain cancer, of whom only 237 had been CT-exposed. Brain cancer incidence increased with radiation dose to the brain, with an excess relative risk of 0.8 (95% CI 0.57\u20131.06) per 100 mGy. Approximately 6391 (95% CI 5255, 8155)\u00a0persons would need to be exposed to cause 1 extra brain cancer.\nConclusions\n          For brain tumors that follow CT exposures in childhood by more than 2\u00a0years, we estimate that 40% (95% CI 29%\u201350%) are attributable to CT Radiation and not due to reverse causation. However, because of relatively low rates of CT exposure in Australia, only 3.7% (95% CI 2.3%\u20135.4%) of all brain cancers are attributable to CT scans. The population-attributable fraction will be greater in countries with higher rates of pediatric scanning.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC10326490/\nhttps://doi.org/10.1093/neuonc/noad012",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10326490/",
+    "doi": "https://doi.org/10.1093/neuonc/noad012"
+}

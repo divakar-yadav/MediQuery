@@ -9,16 +9,15 @@ import org.json.JSONObject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.List;
 
 @Path("/")
-@Produces(MediaType.APPLICATION_JSON)
+@Produces({MediaType.APPLICATION_JSON, MediaType.TEXT_HTML}) // Added TEXT_HTML as well
 public class MediQueryResource {
-    @GET
-    public String sayHello() {
-        return "Hello, World!";
-    }
+
 
 
     @POST
@@ -35,18 +34,10 @@ public class MediQueryResource {
     }
 
 
-
-    @POST
-    @Path("/users")
-    @Consumes(MediaType.APPLICATION_JSON)
-    public String createUser(String userData) {
-        // Logic to create a new user
-        return "User created successfully";
-    }
     @PUT
     @Path("/update-index")
     @Consumes(MediaType.APPLICATION_JSON)
-    public String updateIndex( ) throws IOException {
+    public String updateIndex() throws IOException {
         // Logic to create a new user
         IndexBuilder.buildIndex();
         return "Index created successfully";

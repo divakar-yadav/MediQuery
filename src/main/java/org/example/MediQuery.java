@@ -13,7 +13,6 @@ public class MediQuery extends Application<MediQueryConfiguration> {
     public static void main(String[] args) throws Exception {
         new MediQuery().run(args);
     }
-
     @Override
     public void run(MediQueryConfiguration configuration, Environment environment) {
         // Register your resource classes here
@@ -29,5 +28,7 @@ public class MediQuery extends Application<MediQueryConfiguration> {
 
         // Add URL mapping for the filter
         cors.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
+
     }
+
 }

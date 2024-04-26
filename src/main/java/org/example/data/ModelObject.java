@@ -2,24 +2,31 @@ package org.example.data;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ModelObject {
-    @JsonProperty("nctId")
-    private String nctId;
+    @JsonProperty("title")
+    private String title;
 
-    @JsonProperty("briefTitle")
-    private String briefTitle;
+    @JsonProperty("description")
+    private String description;
 
-    @JsonProperty("briefSummary")
-    private String briefSummary;
+    @JsonProperty("abstract_")
+    private String abstract_;
 
-    @JsonProperty("detailedDescription")
-    private String detailedDescription;
+    @JsonProperty("url")
+    private String url;
 
+    @JsonProperty("authors")
+    private String authors;
+
+    @JsonProperty("doi")
+    private String doi;
     // Constructor
-    public ModelObject(String nctId, String briefTitle, String briefSummary, String detailedDescription) {
-        this.nctId = nctId;
-        this.briefTitle = briefTitle;
-        this.briefSummary = briefSummary;
-        this.detailedDescription = detailedDescription;
+    public ModelObject(String title, String abstract_,String description, String url, String authors,String doi ) {
+        this.title = title;
+        this.abstract_ = abstract_;
+        this.description = description;
+        this.url = url;
+        this.authors = authors;
+        this.doi = doi;
     }
 
     public ModelObject() {
@@ -27,20 +34,31 @@ public class ModelObject {
     }
 
     // Getters
-    public String getNctId() {
-        return nctId;
+    public String getTitle() {
+        return title;
     }
 
-    public String getBriefTitle() {
-        return briefTitle;
+    public String getDescription() {
+        return description;
     }
 
-    public String getBriefSummary() {
-        return briefSummary;
+    public String getAbstract() {
+        return abstract_;
     }
 
-    public String getDetailedDescription() {
-        return detailedDescription;
+    public String getUrl() {
+        return url;
     }
+
+    public String getAuthors() {
+        return authors;
+    }
+
+    public String getDoi() {
+        return doi;
+    }
+
+
+
 }
 

@@ -5,3 +5,29 @@ server:
   adminConnectors:
     - type: http
       port: 8081
+  gzip:
+    bufferSize: 8192
+    minGzipSize: 0
+    inflateBufferSize: 2048
+    gzipOutput: true
+    enableForRequests: true
+    enableForResponses: true
+  threadPool:
+    minThreads: 8
+    maxThreads: 64
+    maxQueuedRequests: 1024
+    idleTimeout: 60 seconds
+#assets:
+#  # Path to the React build folder
+#  resourceBase: /mediquery-frontend/build
+#  uriPath: /
+#  cacheTime: 3600 seconds
+#  overrides:
+#    - file: /favicon.ico
+#      uri: /favicon.ico
+#    - file: /robots.txt
+#      uri: /robots.txt
+#    - file: /main.ea82437b.js
+#      uri: /static/js/main.ea82437b.js
+#    - file: /main.f249eba1.css
+#      uri: /static/css

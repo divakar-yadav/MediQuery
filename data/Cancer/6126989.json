@@ -1,0 +1,19 @@
+{
+    "title": "Mono-exponential, diffusion kurtosis and stretched exponential diffusion MR imaging response to chemoradiation in newly diagnosed glioblastoma",
+    "abstract": "Mono-exponential, diffusion kurtosis and stretched exponential diffusion MR imaging response to chemoradiation in newly diagnosed glioblastoma Ararat Chakhoyan Davis C. Woodworth Robert J. Harris Albert Lai Phioanh L. Nghiemphu Linda M. Liau Whitney B. Pope Timothy F. Cloughesy Benjamin M. Ellingson Purpose To quantify changes and prognostic value of diffusion MRI measurements obtained using mono-exponential, diffusion kurtosis imaging (DKI) and stretched exponential (SE) models prior and after chemoradiation in newly diagnosed glioblastoma (GBM). Mono-exponential diffusion (apparent diffusion coefficient: ADC), isotropic (non-directional) DKI model with apparent diffusivity (Dapp) and kurtosis (Kapp) estimates as well as SE model with distributed-diffusion coefficient (DDC) and mean intra-voxel heterogeneity (\u03b1) were computed for all patients prior and after chemoradiation. Conclusions Despite increased tissue complexity following chemoradiation, advanced diffusion models have longer acquisition times, provide largely comparable measures of diffusivity, and do not appear to provide additional prognostic value compared to mono-exponential ADC maps.",
+    "authors": [
+        "Ararat Chakhoyan",
+        "Davis C. Woodworth",
+        "Robert J. Harris",
+        "Albert Lai",
+        "Phioanh L. Nghiemphu",
+        "Linda M. Liau",
+        "Whitney B. Pope",
+        "Timothy F. Cloughesy",
+        "Benjamin M. Ellingson"
+    ],
+    "published_year": "",
+    "description": "Purpose\n          To quantify changes and prognostic value of diffusion MRI measurements obtained using mono-exponential, diffusion kurtosis imaging (DKI) and stretched exponential (SE) models prior and after chemoradiation in newly diagnosed glioblastoma (GBM).\nMethods\n          Diffusion-weighted images (DWIs) were acquired in twenty-three patients following surgery, prior chemoradiation and within 7 days following completion of treatment, using b-values ranging from 0 to 5000s/mm2. Mono-exponential diffusion (apparent diffusion coefficient: ADC), isotropic (non-directional) DKI model with apparent diffusivity (Dapp) and kurtosis (Kapp) estimates as well as SE model with distributed-diffusion coefficient (DDC) and mean intra-voxel heterogeneity (\u03b1) were computed for all patients prior and after chemoradiation. Median values were calculated for normal appearing white matter (NAWM) and contrast-enhancing tumor (CET). The magnitudes of diffusion change prior and after chemoradiation were used to predict overall survival (OS).\nResults\n          Diffusivity in NAWM was consistent for all diffusion measures during chemoradiation, while diffusivity measurements (ADC, Dapp and DDC) within CET changed significantly. A strong positive correlation existed between ADC, Dapp, and DDC measurements prior to chemoradiation; however, this association was weak following chemoradiation, suggesting a more complex microstructural environment after cytotoxic therapy. When combined with baseline tumor volume and MGMT status, age and ADC changes added significant prognostic values, whereas more complex diffusion models did not show significant value in predicting OS.\nConclusions\n          Despite increased tissue complexity following chemoradiation, advanced diffusion models have longer acquisition times, provide largely comparable measures of diffusivity, and do not appear to provide additional prognostic value compared to mono-exponential ADC maps.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6126989/\nhttps://doi.org/10.1007/s11060-018-2910-9",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6126989/",
+    "doi": "https://doi.org/10.1007/s11060-018-2910-9"
+}

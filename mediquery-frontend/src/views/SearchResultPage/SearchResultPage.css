@@ -1,0 +1,138 @@
+.search-box-sidenav {
+  padding-top: 35px;
+  margin-right: 25px;
+  font-size: 22px;
+}
+.search-results {
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+/* .search-input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+} */
+span.chip {
+  padding: 8px;
+  font-size: small;
+  color: blue;
+  font-weight: 600;
+}
+.chips-container {
+  display: flex;
+}
+.search-box {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+h3.search-results-title {
+  color: #1a0dab;
+}
+.search-input {
+  padding: 10px;
+  width: 89%;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  height: 18px;
+  min-width: 89%;
+}
+
+.search-button-result {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .result-item {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+} */
+
+.result-item {
+  /* border: 1px solid #ccc; */
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.search-page-header h3 {
+  color: blueviolet;
+  font-weight: 300;
+}
+
+
+.search-dropdown-result-page {
+  position: absolute;
+  top: calc(100% + -1px);
+  width: calc(100% - 93px);
+  left: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  /* border-top: none; */
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.result-item h2 {
+  color: #1a0dab; /* Google's blue color for titles */
+  font-size: 18px; /* Decrease font size for titles */
+  margin-bottom: 5px; /* Add some space between title and snippet */
+  text-align: start;
+}
+.result-item h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.result-item p {
+  font-size: 14px; /* Decrease font size for snippet */
+  margin-bottom: 10px; /* Add some space between snippets */
+  text-align: start;
+}
+
+.result-item a {
+  color: #1a0dab; /* Google's blue color for links */
+  text-decoration: none;
+}
+
+.result-item a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin-right: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}

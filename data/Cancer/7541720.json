@@ -1,0 +1,25 @@
+{
+    "title": "Genetic determinants of lung cancer prognosis in never smokers: A pooled analysis in the International Lung Cancer Consortium",
+    "abstract": "Genetic determinants of lung cancer prognosis in never smokers: A pooled analysis in the International Lung Cancer Consortium Yonathan Brhane Ping Yang David C. Christiani Geoffrey Liu John R McLaughlin Paul Brennan Sanjay Shete John K. Field Adonina Tard\u00f3n Takashi Kohno Kouya Shiraishi Keitaro Matsuo Yohan Bosse Christopher I. Amos Rayjean J. Results: One locus at 13q22.2 was associated with lung adenocarcinoma survival at genome-wide level, with carriers of rs12875562-T allele exhibiting poor prognosis(HR=1.71(1.41\u20132.07), p=3.60\u00d710\u22128), and altered mRNA expression of LMO7DN in lung tissue(GTEx, p=9.40\u00d710\u22127; Lung eQTL dataset, p=0.003). Conclusions: Based on the largest genomic investigation on the lung cancer prognosis of never smokers to date, we observed that lung cancer prognosis is affected by inherited genetic variants.",
+    "authors": [
+        "Yonathan Brhane",
+        "Ping Yang",
+        "David C. Christiani",
+        "Geoffrey Liu",
+        "John R McLaughlin",
+        "Paul Brennan",
+        "Sanjay Shete",
+        "John K. Field",
+        "Adonina Tard\u00f3n",
+        "Takashi Kohno",
+        "Kouya Shiraishi",
+        "Keitaro Matsuo",
+        "Yohan Bosse",
+        "Christopher I. Amos",
+        "Rayjean J. Hung"
+    ],
+    "published_year": "Not available",
+    "description": "Background:\n          Lung cancer remains the leading cause of cancer death worldwide with 15\u201320% occurring in never-smokers. To assess genetic determinants for prognosis among never smokers, we conducted a genome-wide investigation in the International Lung Cancer Consortium(ILCCO).\nMethods:\n          Genomic and clinical data from 1569 never-smoking lung cancer patients of European ancestry from 10 ILCCO studies were included. Hazard ratios(HRs) and 95% confidence intervals of overall survival were estimated. We assessed whether the associations were mediated through mRNA expression based 1553 normal lung tissues from the Lung expression quantitative trait loci(eQTL) dataset and GTEx. For cross-ethnicity generalization, we assessed the associations in a Japanese study(N=887).\nResults:\n          One locus at 13q22.2 was associated with lung adenocarcinoma survival at genome-wide level, with carriers of rs12875562-T allele exhibiting poor prognosis(HR=1.71(1.41\u20132.07), p=3.60\u00d710\u22128), and altered mRNA expression of LMO7DN in lung tissue(GTEx, p=9.40\u00d710\u22127; Lung eQTL dataset, p=0.003). Furthermore, two of 11 independent loci that reached the suggestive significance level(p<10\u22126) were significant eQTL affecting mRNA expression of nearby gene in lung tissues, including CAPZB at 1p36.13 and UBAC1 at 9q34.3. One locus encoding NWD2/KIAA1239 at 4p14 showed associations in both European(HR=0.50(0.38\u20130.66), p=6.92\u00d710\u22127) and Japanese populations(HR=0.79(0.67\u20130.94), p=0.007).\nConclusions:\n          Based on the largest genomic investigation on the lung cancer prognosis of never smokers to date, we observed that lung cancer prognosis is affected by inherited genetic variants.\nImpact:\n          We identified one locus near LMO7DN at genome-wide level and several potential prognostic genes with cis-effect on mRNA expression. Further functional genomics work is required to understand their role in tumor progression.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7541720/",
+    "doi": "https://doi.org/10.1158/1055-9965.EPI-20-0248"
+}

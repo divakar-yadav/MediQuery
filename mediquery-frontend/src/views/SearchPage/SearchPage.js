@@ -1,15 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './SearchPage.css';
 import search from '../../assets/images/search.svg';
 import axios from 'axios';
-//import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SearchPage = () => {
-
-//  const history = useHistory();
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [lookupType, setLookupType] = useState('Researcher'); // Default lookup type
+  const [searchHistory, setSearchHistory] = useState([]);
+
+  // Load search history from local storage on component mount
+  useEffect(() => {
+    const storedSearchHistory = localStorage.getItem('searchHistory');
+    if (storedSearchHistory) {
+      setSearchHistory(JSON.parse(storedSearchHistory));
+    }
+  }, []);
+
+  // Update local storage whenever search history changes
+  useEffect(() => {
+    localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
+  }, [searchHistory]);
 
   const handleInputChange = async (event) => {
     setSearchTerm(event.target.value);
@@ -20,10 +32,7 @@ const SearchPage = () => {
   const handleRadioChange = (event) => {
     setLookupType(event.target.value);
   };
-  const handleDropdownClick = () => {
-    // Redirect to search results page
-//    history.push('/search-results');
-  };
+
   const fetchSearchResults = async (term) => {
     try {
       const response = await axios.post('http://3.144.94.68:8080/search', {
@@ -32,6 +41,8 @@ const SearchPage = () => {
       });
       if (response.status === 200) {
         setSearchResults(response.data.result); // Update search results
+        // Add current search term to search history
+        setSearchHistory(prevHistory => [term, ...prevHistory.filter(item => item !== term)]);
       } else {
         console.error('Failed to fetch search results');
       }
@@ -40,31 +51,44 @@ const SearchPage = () => {
     }
   };
 
+  const handleDeleteHistory = (index) => {
+    setSearchHistory(prevHistory => prevHistory.filter((_, i) => i !== index));
+  };
+
   return (
     <div className="search-page">
       <div className="search-page-header">
         <h1>MediQuery</h1>
       </div>
       <div className='search-input-dropdown-wrapper'>
-            <div className="search-container">
-                <input
-                type="text"
-                className="search-input"
-                placeholder="Search..."
-                value={searchTerm}
-                onChange={handleInputChange}
-                />
-                <div className="search-icon-container">
-                <img src={search} alt="Search Icon" className="search-icon" />
-                </div>
+        <div className="search-container">
+          <input
+            type="text"
+            className="search-input"
+            placeholder="Search..."
+            value={searchTerm}
+            onChange={handleInputChange}
+          />
+          <div className="search-icon-container">
+            <img src={search} alt="Search Icon" className="search-icon" />
+          </div>
+        </div>
+        {/* Search dropdown */}
+        <div className="search-dropdown" style={{display : `${searchResults.length > 0 ? 'unset' : 'none'}`}}>
+          {/* Render search history */}
+          {searchHistory.map((term, index) => (
+            <div key={index} className="search-dropdown-item-history" onClick={() => setSearchTerm(term)}>
+              <Link to="/search-results" key={index}><div className='search-dropdown-item-history-text'>{term}</div></Link>
+              <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
             </div>
-            <div className="search-dropdown" style={{display : `${searchResults.length > 0 ? 'unset' : 'none'}`}}>
-                {searchResults.map((result, index) => (
-                <div key={index} className="search-dropdown-item" onClick = {handleDropdownClick}>
-                    {result.briefTitle} {/* Display search results here */}
-                </div>
-                ))}
-            </div>
+          ))}
+          {/* Render search results */}
+          {searchResults.map((result, index) => (
+            <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.briefTitle}) }>
+              <div className="search-dropdown-item">{result.briefTitle}</div>
+            </Link>
+          ))}
+        </div>
       </div>
       <div className="radio-buttons">
         <input type="radio" id="option1" name="options" value="Information" checked={lookupType === 'Information'} onChange={handleRadioChange} />

@@ -37,25 +37,13 @@ public class IndexBuilder {
                             String jsonString = new String(jsonData);
                             JSONObject jsonObj = new JSONObject(jsonString);
 
-                            String nctId = jsonObj.getJSONObject("protocolSection")
-                                    .getJSONObject("identificationModule")
-                                    .getString("nctId");;
-                            String briefTitle = jsonObj.getJSONObject("protocolSection")
-                                    .getJSONObject("identificationModule")
-                                    .getString("briefTitle");
-                            String briefSummary = jsonObj.getJSONObject("protocolSection")
-                                    .getJSONObject("descriptionModule")
-                                    .getString("briefSummary");
-                            String detailedDescription = jsonObj.getJSONObject("protocolSection")
-                                    .getJSONObject("descriptionModule").has("detailedDescription") ?
-                                    jsonObj.getJSONObject("protocolSection")
-                                            .getJSONObject("descriptionModule").getString("detailedDescription") : "";
-                            // Create Lucene document and add title and summary fields
+                            String description = jsonObj.getString("description");;
+                            String abstract_ = jsonObj.getString("abstract");
+                            String title = jsonObj.getString("title");
                             Document doc = new Document();
-                            doc.add(new TextField("nctId", nctId, Field.Store.YES));
-                            doc.add(new TextField("briefTitle", briefTitle, Field.Store.YES));
-                            doc.add(new TextField("briefSummary", briefSummary, Field.Store.YES));
-                            doc.add(new TextField("detailedDescription", detailedDescription, Field.Store.YES));
+                            doc.add(new TextField("description", description, Field.Store.YES));
+                            doc.add(new TextField("abstract", abstract_, Field.Store.YES));
+                            doc.add(new TextField("title", title, Field.Store.YES));
                             // Add document to the Lucene index
                             indexWriter.addDocument(doc);
                         } catch (Exception e) {
