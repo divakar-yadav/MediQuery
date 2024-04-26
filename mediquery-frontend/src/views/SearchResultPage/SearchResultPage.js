@@ -50,9 +50,18 @@ const SearchResultPage = () => {
     setSearchHistory(prevHistory => prevHistory.filter((_, i) => i !== index));
   };
 
+  const getInitialWords = (inputString, wordCount) => {
+    let words = inputString.split(' ');
+    if (words.length > wordCount) {
+      return words.slice(0, wordCount).join(' ') + '...';
+    } else {
+      return inputString;
+    }
+  }
+
   const fetchSearchResults = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/search', {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
@@ -70,7 +79,7 @@ const SearchResultPage = () => {
 
   const fetchDropDownSearchResults = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/search', {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
@@ -142,7 +151,7 @@ const SearchResultPage = () => {
           {currentResults.length > 0 ? currentResults.map((result, index) => (
             <li key={index} className="result-item">
               <h2 href={'https://scholar.google.com'}>{result.title}</h2>
-              <p>{result.description}</p>
+              <p> {getInitialWords(result.abstract, 100)}</p>
               {/* Adding chips */}
               <div className="chips-container">
                 {chips.map((chip, chipIndex) => (

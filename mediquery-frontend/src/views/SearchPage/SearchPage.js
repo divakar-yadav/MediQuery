@@ -24,6 +24,7 @@ const SearchPage = () => {
   }, [searchHistory]);
 
   const handleInputChange = async (event) => {
+    console.log("------",event)
     setSearchTerm(event.target.value);
     // Call API to fetch search results
     fetchSearchResults(event.target.value);
@@ -35,7 +36,7 @@ const SearchPage = () => {
 
   const fetchSearchResults = async (term) => {
     try {
-      const response = await axios.post('http://localhost:8080/search', {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
         searchTerm: term,
         lookupType: lookupType // Use the selected lookup type
       });
