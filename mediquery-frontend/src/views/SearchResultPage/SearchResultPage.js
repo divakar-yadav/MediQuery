@@ -52,7 +52,7 @@ const SearchResultPage = () => {
 
   const fetchSearchResults = async () => {
     try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
+      const response = await axios.post('http://localhost:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
@@ -70,7 +70,7 @@ const SearchResultPage = () => {
 
   const fetchDropDownSearchResults = async () => {
     try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
+      const response = await axios.post('http://localhost:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
@@ -130,7 +130,7 @@ const SearchResultPage = () => {
                     {drpDownsearchResults.map((result, index) => (
                       <div className='search-result-drp-down' onClick={()=>setSearchHistory([])}>
                       <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.briefTitle}) }>
-                        <div className="search-dropdown-item">{result.briefTitle}</div>
+                        <div className="search-dropdown-item">{result.title}</div>
                       </Link>
                       </div>
                     ))}
@@ -141,8 +141,8 @@ const SearchResultPage = () => {
         <ul className="results-list">
           {currentResults.length > 0 ? currentResults.map((result, index) => (
             <li key={index} className="result-item">
-              <h2 href={'https://scholar.google.com'}>{result.briefTitle}</h2>
-              <p>{result.briefSummary}</p>
+              <h2 href={'https://scholar.google.com'}>{result.title}</h2>
+              <p>{result.description}</p>
               {/* Adding chips */}
               <div className="chips-container">
                 {chips.map((chip, chipIndex) => (
