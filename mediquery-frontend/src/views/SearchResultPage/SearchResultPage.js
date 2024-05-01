@@ -15,11 +15,25 @@ const SearchResultPage = () => {
   const [searchHistory, setSearchHistory] = useState([]);
 
   const chips = ['term1','term2','term3','term4']
+  // useEffect(() => {
+  //   const storedSearchHistory = localStorage.getItem('searchHistory');
+  //   if (storedSearchHistory) {
+  //     setSearchHistory(JSON.parse(storedSearchHistory));
+  //   }
+  // }, []);
+
+  // useEffect(() => {
+  //   localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
+  // }, [searchHistory]);
 
   useEffect(() => {
     setIsDropDownOpen(false)
     setSearchTerm(JSON.parse(state).searchTerm);
-    if (JSON.parse(state).searchTerm.trim() !== "") {
+    if(JSON.parse(state).saveHistory){
+      setSearchHistory(prevHistory => [JSON.parse(state).searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
+    }
+    if (JSON.parse(state)?.searchTerm?.trim() !== "") {
+      console.log("----searchTerm---test----",JSON.parse(state))
       let data = JSON.stringify({
         "searchTerm": JSON.parse(state).searchTerm,
         "lookupType": "Researcher"
@@ -131,26 +145,27 @@ const SearchResultPage = () => {
           {isDropDownOpen ? 
                     <div className="search-dropdown-result-page" style={{display : `${drpDownsearchResults.length > 0 ? 'unset' : 'none'}`}}>
                     {searchHistory.map((term, index) => (
+                      <Link to="/search-results" key={index}>
                       <div key={index} className="search-dropdown-item-history" onClick={() => setIsDropDownOpen(false)}>
-                        <Link to="/search-results" key={index}><div className='search-dropdown-item-history-text'>{term}</div></Link>
+                        <div className='search-dropdown-item-history-text'>{term}</div>
                         <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
                       </div>
+                      </Link>
                     ))}
                     {drpDownsearchResults.map((result, index) => (
-                      <div className='search-result-drp-down' onClick={()=>setSearchHistory([])}>
                       <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.briefTitle}) }>
+                      <div className='search-result-drp-down' onClick={()=>setSearchHistory([])}>
                         <div className="search-dropdown-item">{result.title}</div>
-                      </Link>
                       </div>
+                      </Link>
                     ))}
                 </div>
           : null}
-
         </div>
         <ul className="results-list">
           {currentResults.length > 0 ? currentResults.map((result, index) => (
             <li key={index} className="result-item">
-              <h2 href={'https://scholar.google.com'}>{result.title}</h2>
+              <a href={'https://scholar.google.com'}>{result.title}</a>
               <p> {getInitialWords(result.abstract, 100)}</p>
               {/* Adding chips */}
               <div className="chips-container">

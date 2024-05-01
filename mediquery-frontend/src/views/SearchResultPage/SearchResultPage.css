@@ -83,7 +83,7 @@ h3.search-results-title {
 .search-dropdown-result-page {
   position: absolute;
   top: calc(100% + -1px);
-  width: calc(100% - 93px);
+  width: calc(100% - 78px);
   left: 0;
   max-height: 200px;
   overflow-y: auto;
@@ -112,8 +112,11 @@ h3.search-results-title {
 }
 
 .result-item a {
-  color: #1a0dab; /* Google's blue color for links */
+  color: #1a0dab;
   text-decoration: none;
+  text-align: start;
+  display: flex;
+  font-weight: 700;
 }
 
 .result-item a:hover {

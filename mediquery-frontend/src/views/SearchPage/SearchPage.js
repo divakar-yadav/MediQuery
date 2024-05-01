@@ -24,10 +24,29 @@ const SearchPage = () => {
   }, [searchHistory]);
 
   const handleInputChange = async (event) => {
-    console.log("------",event)
     setSearchTerm(event.target.value);
     // Call API to fetch search results
-    fetchSearchResults(event.target.value);
+    if(event.target.value.length > 4){
+      fetchSearchResults(event.target.value);
+    }
+  };
+
+  const handlefetchSearchResults = async () => {
+    try {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
+        searchTerm: searchTerm,
+        lookupType: 'lookupType' // Use the selected lookup type
+      });
+      if (response.status === 200) {
+        setSearchResults(response.data.result); // Update search results
+        // Add current search term to search history
+        setSearchHistory(prevHistory => [searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
+      } else {
+        console.error('Failed to fetch search results');
+      }
+    } catch (error) {
+      console.error('Error fetching search results:', error);
+    }
   };
 
   const handleRadioChange = (event) => {
@@ -43,7 +62,7 @@ const SearchPage = () => {
       if (response.status === 200) {
         setSearchResults(response.data.result); // Update search results
         // Add current search term to search history
-        setSearchHistory(prevHistory => [term, ...prevHistory.filter(item => item !== term)]);
+        // setSearchHistory(prevHistory => [term, ...prevHistory.filter(item => item !== term)]);
       } else {
         console.error('Failed to fetch search results');
       }
@@ -70,22 +89,26 @@ const SearchPage = () => {
             value={searchTerm}
             onChange={handleInputChange}
           />
-          <div className="search-icon-container">
-            <img src={search} alt="Search Icon" className="search-icon" />
-          </div>
+          <Link to="/search-results" state={ JSON.stringify({searchTerm: searchTerm, saveHistory : true}) }>
+            <div className="search-icon-container" >
+              <img src={search} alt="Search Icon" className="search-icon" />
+            </div>
+          </Link>
         </div>
         {/* Search dropdown */}
         <div className="search-dropdown" style={{display : `${searchResults.length > 0 ? 'unset' : 'none'}`}}>
           {/* Render search history */}
           {searchHistory.map((term, index) => (
-            <div key={index} className="search-dropdown-item-history" onClick={() => setSearchTerm(term)}>
-              <Link to="/search-results" key={index}><div className='search-dropdown-item-history-text'>{term}</div></Link>
-              <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
-            </div>
+            <Link to="/search-results" key={index} state={ JSON.stringify({searchTerm: searchTerm, saveHistory : false}) }>
+              <div key={index} className="search-dropdown-item-history" onClick={() => setSearchTerm(term)}>
+                <div className='search-dropdown-item-history-text'>{term}</div>
+                <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
+              </div>
+            </Link>
           ))}
           {/* Render search results */}
           {searchResults.map((result, index) => (
-            <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.title}) }>
+            <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.title, saveHistory : false})}>
               <div className="search-dropdown-item">{result.title}</div>
             </Link>
           ))}
