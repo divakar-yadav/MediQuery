@@ -3,6 +3,11 @@ import './SearchResultPage.css'; // Import your CSS file
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import citation from '../../assets/images/cite.png'
+import published from '../../assets/images/published.png'
+import doi from '../../assets/images/doi.jpeg'
+
+
 
 const SearchResultPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -15,16 +20,16 @@ const SearchResultPage = () => {
   const [searchHistory, setSearchHistory] = useState([]);
 
   const chips = ['term1','term2','term3','term4']
-  // useEffect(() => {
-  //   const storedSearchHistory = localStorage.getItem('searchHistory');
-  //   if (storedSearchHistory) {
-  //     setSearchHistory(JSON.parse(storedSearchHistory));
-  //   }
-  // }, []);
+  useEffect(() => {
+    const storedSearchHistory = localStorage.getItem('searchHistory');
+    if (storedSearchHistory) {
+      setSearchHistory(JSON.parse(storedSearchHistory));
+    }
+  }, []);
 
-  // useEffect(() => {
-  //   localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
-  // }, [searchHistory]);
+  useEffect(() => {
+    localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
+  }, [searchHistory]);
 
   useEffect(() => {
     setIsDropDownOpen(false)
@@ -42,7 +47,7 @@ const SearchResultPage = () => {
       let config = {
         method: 'post',
         maxBodyLength: Infinity,
-        url: 'http://3.144.94.68:8080/search',
+        url: 'http://localhost:8080/search',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -58,7 +63,7 @@ const SearchResultPage = () => {
           console.log(error);
         });
     }
-  }, [state]);
+  }, []);
 
   const handleDeleteHistory = (index) => {
     setSearchHistory(prevHistory => prevHistory.filter((_, i) => i !== index));
@@ -75,7 +80,7 @@ const SearchResultPage = () => {
 
   const fetchSearchResults = async () => {
     try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
+      const response = await axios.post('http://localhost:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
@@ -93,12 +98,12 @@ const SearchResultPage = () => {
 
   const fetchDropDownSearchResults = async () => {
     try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
+      const response = await axios.get(`http://localhost:8080/suggest?query=${searchTerm}`, {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });
       if (response.status === 200) {
-        setdropDownSearchResults(response.data.result); // Update search results
+        setdropDownSearchResults(response.data); // Update search results
         // Add current search term to search history
         // setSearchHistory(prevHistory => [searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
         setIsDropDownOpen(true)
@@ -121,7 +126,7 @@ const SearchResultPage = () => {
   const indexOfLastResult = currentPage * resultsPerPage;
   const indexOfFirstResult = indexOfLastResult - resultsPerPage;
   const currentResults = searchResults.slice(indexOfFirstResult, indexOfLastResult);
-
+  console.log(currentResults,"-----currentResults-----")
   return (
     <div className="search-results">
       <div className='search-box-sidenav'>
@@ -153,9 +158,9 @@ const SearchResultPage = () => {
                       </Link>
                     ))}
                     {drpDownsearchResults.map((result, index) => (
-                      <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.briefTitle}) }>
+                      <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result, saveHistory : false})}>
                       <div className='search-result-drp-down' onClick={()=>setSearchHistory([])}>
-                        <div className="search-dropdown-item">{result.title}</div>
+                        <div className="search-dropdown-item">{result}</div>
                       </div>
                       </Link>
                     ))}
@@ -165,19 +170,38 @@ const SearchResultPage = () => {
         <ul className="results-list">
           {currentResults.length > 0 ? currentResults.map((result, index) => (
             <li key={index} className="result-item">
-              <a href={'https://scholar.google.com'}>{result.title}</a>
-              <p> {getInitialWords(result.abstract, 100)}</p>
+              <a href={result?.url}>{result.title}</a>
+              <div className='meta'>
+                <div className="author-container">
+                {result.authors.slice(0,3).map((chip, chipIndex) => (
+                  <span key={chipIndex} className="author">{chip}</span>
+                ))}
+              </div>
+              </div>
+              {/* <p> {getInitialWords(result.abstract, 100)}</p> */}
+              <p dangerouslySetInnerHTML={{ __html: result.snippet }} />
+
               {/* Adding chips */}
               <div className="chips-container">
-                {chips.map((chip, chipIndex) => (
-                  <span key={chipIndex} className="chip">{chip}</span>
-                ))}
+                <img className='published-icon' src = {doi} />
+                  <a href={result.doi} className="doi">doi</a>
+                  <div className='published-wrapper'>
+                    <img className='published-icon' src = {published} />
+                    <span  className="published-year">Published year</span>
+                    <span  className="published-year">{result.published_year}</span>
+                  </div>
+                  <div className='citation-wrapper'>
+                    <img className='citation-by-icon' src = {citation} />
+                    <span  className="published-year">Cited by</span>
+                    <span  className="citation-by">{result.citation_count}</span>
+                  </div>
+
               </div>
             </li>
           )) : 'No Results found'}
         </ul>
         <div className="pagination">
-          {Array.from({ length: Math.ceil(drpDownsearchResults.length / resultsPerPage) }, (_, i) => (
+          {Array.from({ length: Math.ceil(currentResults.length / resultsPerPage) }, (_, i) => (
             <button key={i} onClick={() => paginate(i + 1)}>{i + 1}</button>
           ))}
         </div>

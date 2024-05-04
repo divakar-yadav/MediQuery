@@ -9,8 +9,10 @@ const SearchPage = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [lookupType, setLookupType] = useState('Researcher'); // Default lookup type
   const [searchHistory, setSearchHistory] = useState([]);
+  const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+  const [startYear, setStartYear] = useState('');
+  const [endYear, setEndYear] = useState('');
 
-  // Load search history from local storage on component mount
   useEffect(() => {
     const storedSearchHistory = localStorage.getItem('searchHistory');
     if (storedSearchHistory) {
@@ -18,51 +20,38 @@ const SearchPage = () => {
     }
   }, []);
 
-  // Update local storage whenever search history changes
   useEffect(() => {
     localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
   }, [searchHistory]);
 
   const handleInputChange = async (event) => {
     setSearchTerm(event.target.value);
-    // Call API to fetch search results
+    if(event.target.value.length === 0){
+      setIsDropDownOpen(false);
+    }
     if(event.target.value.length > 4){
       fetchSearchResults(event.target.value);
+      setIsDropDownOpen(true);
     }
   };
 
-  const handlefetchSearchResults = async () => {
-    try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
-        searchTerm: searchTerm,
-        lookupType: 'lookupType' // Use the selected lookup type
-      });
-      if (response.status === 200) {
-        setSearchResults(response.data.result); // Update search results
-        // Add current search term to search history
-        setSearchHistory(prevHistory => [searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
-      } else {
-        console.error('Failed to fetch search results');
-      }
-    } catch (error) {
-      console.error('Error fetching search results:', error);
-    }
-  };
-
-  const handleRadioChange = (event) => {
-    setLookupType(event.target.value);
+  const handleYearChange = (setter) => (event) => {
+    setter(event.target.value);
   };
 
   const fetchSearchResults = async (term) => {
     try {
-      const response = await axios.post('http://3.144.94.68:8080/search', {
-        searchTerm: term,
-        lookupType: lookupType // Use the selected lookup type
+      const response = await axios.get(`http://localhost:8080/suggest?query=${term}`, {
+        params: {
+          searchTerm: term,
+          lookupType: lookupType,
+          startYear: startYear,
+          endYear: endYear
+        }
       });
       if (response.status === 200) {
-        setSearchResults(response.data.result); // Update search results
-        // Add current search term to search history
-        // setSearchHistory(prevHistory => [term, ...prevHistory.filter(item => item !== term)]);
+        console.log(response,"-----response-----");
+        setSearchResults(response.data); // Update search results
       } else {
         console.error('Failed to fetch search results');
       }
@@ -89,42 +78,48 @@ const SearchPage = () => {
             value={searchTerm}
             onChange={handleInputChange}
           />
-          <Link to="/search-results" state={ JSON.stringify({searchTerm: searchTerm, saveHistory : true}) }>
-            <div className="search-icon-container" >
+          <input
+            type="number"
+            className="year-input"
+            placeholder="Start Year"
+            value={startYear}
+            onChange={handleYearChange(setStartYear)}
+          />
+          <input
+            type="number"
+            className="year-input"
+            placeholder="End Year"
+            value={endYear}
+            onChange={handleYearChange(setEndYear)}
+          />
+          <Link to="/search-results" state={ JSON.stringify({searchTerm, startYear, endYear, saveHistory: true}) }>
+            <div className="search-icon-container">
               <img src={search} alt="Search Icon" className="search-icon" />
             </div>
           </Link>
         </div>
-        {/* Search dropdown */}
-        <div className="search-dropdown" style={{display : `${searchResults.length > 0 ? 'unset' : 'none'}`}}>
-          {/* Render search history */}
-          {searchHistory.map((term, index) => (
-            <Link to="/search-results" key={index} state={ JSON.stringify({searchTerm: searchTerm, saveHistory : false}) }>
-              <div key={index} className="search-dropdown-item-history" onClick={() => setSearchTerm(term)}>
-                <div className='search-dropdown-item-history-text'>{term}</div>
-                <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
-              </div>
-            </Link>
-          ))}
-          {/* Render search results */}
-          {searchResults.map((result, index) => (
-            <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result.title, saveHistory : false})}>
-              <div className="search-dropdown-item">{result.title}</div>
-            </Link>
-          ))}
-        </div>
-      </div>
-      <div className="radio-buttons">
-        <input type="radio" id="option1" name="options" value="Information" checked={lookupType === 'Information'} onChange={handleRadioChange} />
-        <label htmlFor="option1">Information Purpose</label>
-
-        <input type="radio" id="option2" name="options" value="Researcher" checked={lookupType === 'Researcher'} onChange={handleRadioChange} />
-        <label htmlFor="option2">Research Purpose</label>
+        {isDropDownOpen && (
+          <div className="search-dropdown" style={{display : `${searchResults.length > 0 ? 'unset' : 'none'}`}}>
+            {searchHistory.map((term, index) => (
+              <Link to="/search-results" key={index} state={ JSON.stringify({searchTerm: term, saveHistory: false})}>
+                <div className="search-dropdown-item-history" onClick={() => setSearchTerm(term)}>
+                  <div className='search-dropdown-item-history-text'>{term}</div>
+                  <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
+                </div>
+              </Link>
+            ))}
+            {searchResults.map((result, index) => (
+              <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result, saveHistory: false})}>
+                <div className="search-dropdown-item">{result}</div>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
       <footer className="footer">
         <div className="footer-content">
           <p>
-            The MediQuery Information Retrieval System is an innovative platform designed to revolutionize online health-related information retrieval. By leveraging cutting-edge search algorithms and advanced natural language processing (NLP) capabilities, this system aims to cater to a diverse audience ranging from the general public seeking health insights to academic professionals and researchers in search of the latest scientific studies and medical breakthroughs. Through a strategic integration of Java and Apache Lucene, MediQuery promises swift, accurate, and contextually relevant search outcomes, marking a significant advancement in the field of digital health information services.
+            The MediQuery Information Retrieval System is designed to revolutionize online health-related information retrieval...
           </p>
         </div>
       </footer>

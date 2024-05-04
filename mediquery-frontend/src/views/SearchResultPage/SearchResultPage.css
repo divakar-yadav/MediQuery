@@ -139,3 +139,53 @@ h3.search-results-title {
 .pagination button:hover {
   background-color: #0056b3;
 }
+
+.author-container {
+  display: flex;
+  margin-top: 5px;
+}
+span.author {
+  font-size: smaller;
+  color: #006621;
+  margin-right: 4px;
+  font-weight: 400;
+}
+span.citation-by {
+  margin-left: 4px;
+  font-size: 15px;
+}
+img.citation-by-icon {
+  width: 11px;
+  height: 13px;
+  margin-top: 2px;
+}
+.citation-wrapper {
+  margin-left: 10px;
+}
+span.published-year {
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a0dab;
+}
+a.doi {
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+img.published-icon {
+  /* width: 12px; */
+  width: 12px;
+  height: 13px;
+  margin-top: 2px;
+}
+span.published-year {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.published-wrapper {
+  margin-left: 14px;
+}

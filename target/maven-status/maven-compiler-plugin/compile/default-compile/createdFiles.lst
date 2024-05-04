@@ -1,7 +1,9 @@
+org/example/IndexBuilder$CustomAnalyzer.class
 org/example/resources/MediQueryResource.class
 org/example/IndexBuilder.class
 org/example/data/ModelObject.class
 org/example/search/LuceaneSearch.class
 org/example/data/SearchResponse.class
+org/example/KeywordsIndexBuilder.class
 org/example/MediQueryConfiguration.class
 org/example/MediQuery.class
