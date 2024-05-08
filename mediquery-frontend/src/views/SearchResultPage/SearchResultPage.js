@@ -8,7 +8,7 @@ import published from '../../assets/images/published.png'
 import doi from '../../assets/images/doi.jpeg'
 import BrowserV6Field from '../../components/BrowserV6Field/BrowserV6Field'
 import dayjs from 'dayjs';
-
+import CircularIndeterminate from '../../components/BrowserV6Field/Spinner/Spinner'
 
 const SearchResultPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -279,7 +279,7 @@ const SearchResultPage = () => {
 
               </div>
             </li>
-          )) : ''}
+          )) : <CircularIndeterminate/>}
         </ul>
         {/* <div className="pagination">
           {Array.from({ length: Math.ceil(currentResults.length / resultsPerPage) }, (_, i) => (
@@ -288,7 +288,8 @@ const SearchResultPage = () => {
         </div> */}
         <div className="pagination">
   {Array.from({ length: Math.ceil(searchResults.length / resultsPerPage) }, (_, i) => (
-    <button key={i} onClick={() => paginate(i + 1)}>{i + 1}</button>
+    <button key={i} onClick={() => paginate(i + 1)}
+    >{i + 1}</button>
   ))}
 </div>
 
