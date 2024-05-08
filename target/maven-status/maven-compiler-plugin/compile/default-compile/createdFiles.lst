@@ -1,9 +1,14 @@
+org/example/TaxonomyIndexExporter.class
 org/example/IndexBuilder$CustomAnalyzer.class
+org/example/CustomSearcher$CustomScorer.class
+org/example/CustomSearcher$CustomWeight.class
 org/example/resources/MediQueryResource.class
 org/example/IndexBuilder.class
 org/example/data/ModelObject.class
+org/example/CustomSearcher.class
+org/example/KeywordsIndexBuilder.class
 org/example/search/LuceaneSearch.class
 org/example/data/SearchResponse.class
-org/example/KeywordsIndexBuilder.class
 org/example/MediQueryConfiguration.class
+org/example/CustomSearcher$CustomSimilarity.class
 org/example/MediQuery.class
