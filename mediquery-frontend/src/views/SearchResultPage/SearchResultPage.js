@@ -23,7 +23,6 @@ const SearchResultPage = () => {
   const [endYear, setEndYear] = useState('2024');
   const [selectedJournals, setSelectedJournals] = useState({});
   const [showAllJournals, setShowAllJournals] = useState(true);
-  const chips = ['term1','term2','term3','term4']
   const journals = [
     "JMIR Public Health and Surveillance",
     "Frontiers in Immunology",
@@ -282,11 +281,17 @@ const SearchResultPage = () => {
             </li>
           )) : ''}
         </ul>
-        <div className="pagination">
+        {/* <div className="pagination">
           {Array.from({ length: Math.ceil(currentResults.length / resultsPerPage) }, (_, i) => (
             <button key={i} onClick={() => paginate(i + 1)}>{i + 1}</button>
           ))}
-        </div>
+        </div> */}
+        <div className="pagination">
+  {Array.from({ length: Math.ceil(searchResults.length / resultsPerPage) }, (_, i) => (
+    <button key={i} onClick={() => paginate(i + 1)}>{i + 1}</button>
+  ))}
+</div>
+
       </div>
     </div>
   );
