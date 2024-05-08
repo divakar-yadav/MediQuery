@@ -1,0 +1,27 @@
+{
+    "title": "Strategies to overcome/penetrate the BBB for systemic nanoparticle delivery to the brain/brain tumor",
+    "abstract": "Despite its prevalence in the management of peripheral tumors, compared to surgery and \nradiation therapy, chemotherapy is still a suboptimal intervention in fighting against brain \ncancer and cancer brain metastases. This discrepancy is mainly derived from the complicatedly \nphysiological characteristic of intracranial tumors, including the presence of blood-brain barrier \n(BBB) and limited enhanced permeability and retention (EPR) effect attributed to blood-brain \ntumor barrier (BBTB), which largely lead to insufficient therapeutics penetrating to tumor lesions \nto produce pharmacological effects. Therefore, dependable methodologies that can boost the \nefficacy of chemotherapy for brain tumors are urgently needed. Recently, nanomedicines have \nshown great therapeutic potential in brain tumors by employing various transcellular strategies, \nparacellular strategies, and their hybrids, such as adsorptive-mediated transcytosis, receptor-\nmediated transcytosis, BBB disruption technology, and so on. It is compulsory to comprehensively \nsummarize these practices to shed light on future directions in developing therapeutic regimens \nfor brain tumors. In this review, the biological and pathological characteristics of brain tumors, \nincluding BBB and BBTB, are illustrated. After that, the emerging delivery strategies for brain \ntumor management are summarized into different classifications and supported with detailed \nexamples. Finally, the potential challenges and prospects for developing and clinical application of \nbrain tumor-oriented nanomedicine are discussed.\nKeywords\nnanoparticle; blood-brain barrier; transport; transcytosis; brain tumor\n1.",
+    "authors": [
+        "Hai-Jun Liu",
+        "Peisheng Xu"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9724744/\nhttps://doi.org/10.1016/j.addr.2022.114619",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9724744/",
+    "doi": "https://doi.org/10.1016/j.addr.2022.114619",
+    "citation_count": 6,
+    "references": {
+        "10898487": "Recent Advances in Intranasal Administration for Brain-Targeting Delivery: A Comprehensive Review of Lipid-Based Nanoparticles and Stimuli-Responsive Gel Formulations",
+        "10576016": "Nanotechnology Approaches for Prevention and Treatment of Chemotherapy-Induced Neurotoxicity, Neuropathy, and Cardiomyopathy in Breast and Ovarian Cancer Survivors",
+        "10349198": "Nanoparticles\u2010induced potential toxicity on human health: Applications, toxicity mechanisms, and evaluation models",
+        "10215475": "Towards Novel Biomimetic In Vitro Models of the Blood\u2013Brain Barrier for Drug Permeability Evaluation",
+        "10093719": "Mechanisms of Resistance and Current Treatment Options for Glioblastoma Multiforme (GBM)",
+        "9783528": "Lipid and Polymeric Nanoparticles: Successful Strategies for Nose-to-Brain Drug Delivery in the Treatment of Depression and Anxiety Disorders"
+    },
+    "journal": "Advanced drug delivery reviews",
+    "topics": [
+        "systemic, tumor, strategies, delivery",
+        "nanoparticle, bbb, delivery, strategies",
+        "bbb, delivery, tumor, strategies"
+    ]
+}

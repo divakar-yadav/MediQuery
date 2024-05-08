@@ -1,0 +1,51 @@
+{
+    "title": "Covalent Nanodelivery Systems for Selective Imaging and Treatment of Brain Tumors",
+    "abstract": "Nanomedicine is a rapidly evolving form of therapy that holds a great promise in superior drug \ndelivery efficiency and therapeutic efficacy than conventional cancer treatment. In this review, we \nattempt to cover the benefits and the limitations of current nanomedicines with special attention to \ncovalent nanoconjugates for imaging and drug delivery in brain. The improvement in brain tumor \ntreatment remains dismal despite decades of efforts in drug development and patient care. One of \nthe major obstacles in brain cancer treatment is the poor drug delivery efficiency owing to the \nunique blood-brain-barrier (BBB) in the CNS. Although various anti-cancer agents are available to \ntreat tumors outside of the CNS, the majority fails to cross the BBB. In this regard, nanomedicines \nhave increasingly drawn attention due to their multi-functionality and versatility. Nano-drugs can \npenetrate BBB and other biological barriers, and selectively accumulate in tumor cells, while \nconcurrently decreasing systemic toxicity.\nGraphical abstract\nCorresponding Author: Julia Y. Ljubimova, Nanomedicine Research Center Department of Neurosurgery, Cedars-Sinai Medical \nCenter, 8700 Beverly Blvd, AHSP-A8307, Los Angeles, CA 90048, USA. Tel: +1 310 423 0834; fax: +1 310 423 0810. \nJulia.Ljubimova@cshs.org (J.Y. Ljubimova). \nPublisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our \ncustomers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of \nthe resulting proof before it is published in its final citable form. Please note that during the production process errors may be \ndiscovered which could affect the content, and all legal disclaimers that apply to the journal pertain.\nHHS Public Access\nAuthor manuscript\nAdv Drug Deliv Rev. Author manuscript; available in PMC 2017 August 31.\nPublished in final edited form as:\nAdv Drug Deliv Rev. 2017 April ; 113: 177\u2013200. doi:10.1016/j.addr.2017.06.002.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Julia Y. Ljubimova",
+        "Tao Sun",
+        "Leila Mashouf",
+        "Alexander V. Ljubimov",
+        "Liron L. Israel",
+        "Vladimir A. Ljubimov",
+        "Vida Falahatian",
+        "Eggehard Holler"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578712/\nhttps://doi.org/10.1016/j.addr.2017.06.002",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578712/",
+    "doi": "https://doi.org/10.1016/j.addr.2017.06.002",
+    "citation_count": 24,
+    "references": {
+        "10572431": "Novel Approaches to the Establishment of Local Microenvironment from Resorbable Biomaterials in the Brain In Vitro Models",
+        "9885161": "Positive regulators of T cell functions as predictors of prognosis and microenvironment characteristics of low-grade gliomas",
+        "9599962": "Anti-Hormonal Therapy in Breast Cancer and Its Effect on the Blood-Brain Barrier",
+        "9489811": "Enhanced anti-glioma efficacy of doxorubicin with BRD4 PROTAC degrader using targeted nanoparticles",
+        "9214052": "A mitochondria-targeting lipid\u2013small molecule hybrid nanoparticle for imaging and therapy in an orthotopic glioma model",
+        "9210645": "Polymalic acid for translational nanomedicine",
+        "9012800": "Anti-Parkinsonian Therapy: Strategies for Crossing the Blood\u2013Brain Barrier and Nano-Biological Effects of Nanomaterials",
+        "8965725": "Targeted delivery of a STING agonist to brain tumors using bioengineered protein nanoparticles for enhanced immunotherapy",
+        "8951391": "Gold Nanorods for Drug and Gene Delivery: An Overview of Recent Advancements",
+        "8930287": "Ultrasound and nanomaterial: an efficient pair to fight cancer",
+        "8625475": "Small-Sized Co-Polymers for Targeted Delivery of Multiple Imaging and Therapeutic Agents",
+        "8621221": "Multifunctional Nanopolymers for Blood\u2013Brain Barrier Delivery and Inhibition of Glioblastoma Growth through EGFR/EGFRvIII, c-Myc, and PD-1",
+        "8604570": "Neurosurgery at the crossroads of immunology and nanotechnology. New reality in the COVID-19 pandemic",
+        "8531184": "Gene Therapy in the Anterior Eye Segment",
+        "8107190": "Novel nanopolymer RNA therapeutics normalize human diabetic corneal wound healing and epithelial stem cells",
+        "7736172": "POLYMER NANOMEDICINES",
+        "7641100": "Magnetic iron oxide nanoparticles for imaging, targeting and treatment of primary and metastatic tumors of the brain",
+        "7595144": "Synergetic therapy of glioma mediated by a dual delivery system loading \u03b1-mangostin and doxorubicin through cell cycle arrest and apoptotic pathways",
+        "7580597": "Biosynthetic Polymalic Acid as a Delivery Nanoplatform for Translational Cancer Medicine",
+        "7200230": "Single- and Multi-Arm Gadolinium MRI Contrast Agents for Targeted Imaging of Glioblastoma",
+        "7017423": "Nanodrug Delivery Systems for the Treatment of Ovarian Cancer",
+        "6713723": "Blood\u2013brain barrier permeable nano immunoconjugates induce local immune responses for glioma therapy",
+        "6574176": "Polymalic acid chlorotoxin nanoconjugate for near-infrared fluorescence guided resection of glioblastoma multiforme",
+        "6072250": "Noninvasive Brain Tumor Imaging Using Red Emissive Carbonized Polymer Dots across the Blood\u2013Brain Barrier"
+    },
+    "journal": "Advanced drug delivery reviews",
+    "topics": [
+        "systems, selective, brain, tumors",
+        "brain, nanodelivery, imaging, tumors",
+        "covalent, treatment, imaging, nanodelivery"
+    ]
+}

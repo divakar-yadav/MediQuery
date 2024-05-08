@@ -1,0 +1,45 @@
+{
+    "title": "Actionable molecular biomarkers in primary brain tumors",
+    "abstract": "Recent genome-wide studies of malignancies of the central nervous system (CNS) have \nrevolutionized our understanding of the biology of these tumors. This newly gained knowledge \nprovides a wealth of opportunity for biomarker driven clinical research. To date, however, only \nfew of the available molecular markers truly influence clinical decision-making and treatment. The \nmost widely validated markers in neuro-oncology presently are: 1) MGMT promoter methylation \nas a prognostic and predictive marker in glioblastoma, 2) co-deletion of 1p and 19q differentiating \noligodendrogliomas from astrocytomas, 3) IDH1/2 mutations, and 4) select pathway-associated \nmutations. This article focuses on currently impactful biomarkers in adult and pediatric brain \ncancers and it provides a perspective on the direction of research in this field.\nKeywords\nBiomarker; glioma; glioblastoma; medulloblastoma; co-deletion of 1p/19q; MGMT promoter \nmethylation; IDH mutation; BRAF mutation\nClinical Biomarkers in Primary Brain Cancers: State-of-the-art Snapshot\nThe past two decades have provided a wealth of new knowledge on the biology and \npathophysiology of primary tumors of the central nervous system (CNS), largely catalyzed \nby genome-wide studies that unveiled the genomic landscape of these malignancies. Some \nof these key alterations inferred the development of novel biomarkers that have been \nincorporated into the newly released World Health Organization (WHO) Classification of \nCorresponding Author: Matthias Holdhoff, MD, PhD, Brain Cancer Program, Sidney Kimmel Comprehensive Cancer Center at Johns \nHopkins, 1550 Orleans Street, room 1M-16, Baltimore, MD 21287, Phone 410-955-8837, Fax 410-614-9335, mholdho1@jhmi.edu. \nPublisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our \ncustomers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of \nthe resulting proof before it is published in its final citable form. Please note that during the production process errors may be \ndiscovered which could affect the content, and all legal disclaimers that apply to the journal pertain.\nHHS Public Access\nAuthor manuscript\nTrends Cancer. Author manuscript; available in PMC 2017 July 01.\nPublished in final edited form as:\nTrends Cancer. 2016 July ; 2(7): 338\u2013349. doi:10.1016/j.trecan.2016.06.003.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Verena Staedtke",
+        "Omar Dildar a Dzaye",
+        "Matthias Holdhoff"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5461965/\nhttps://doi.org/10.1016/j.trecan.2016.06.003",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5461965/",
+    "doi": "https://doi.org/10.1016/j.trecan.2016.06.003",
+    "citation_count": 23,
+    "references": {
+        "10479744": "The development of a rapid patient-derived xenograft model to predict chemotherapeutic drug sensitivity/resistance in malignant glial tumors",
+        "9913777": "MMP-9 as Prognostic Marker for Brain Tumours: A Comparative Study on Serum-Derived Small Extracellular Vesicles",
+        "9837780": "Molecular marker testing and reporting completeness for adult-type diffuse gliomas in the United States",
+        "9514894": "Unleashing the Mystery of a Treated Case of Medulloblastoma",
+        "9174239": "Cathepsin F and Fibulin-1 as novel diagnostic biomarkers for brain metastasis of non-small cell lung cancer",
+        "9052479": "HOXC6 impacts epithelial-mesenchymal transition and the immune microenvironment through gene transcription in gliomas",
+        "9014574": "Imaging diagnosis and treatment selection for brain tumors in the era of molecular therapeutics",
+        "8675203": "mTORC1 promotes malignant large cell/anaplastic histology and is a targetable vulnerability in SHH-TP53 mutant medulloblastoma",
+        "8582449": "Lack of Benefit of Extending Temozolomide Treatment in Patients with High Vascular Glioblastoma with Methylated MGMT",
+        "8574069": "Upregulated Expression of Cancer-Derived Immunoglobulin G Is Associated With Progression in Glioma",
+        "7986056": "FoundationOne CDx testing accurately determines whole arm 1p19q codeletion status in gliomas",
+        "7668459": "Effect of FAT1 gene expression on the prognosis of medulloblastoma in children: A protocol for systematic review and meta-analysis",
+        "7594562": "Discovery of predictive biomarkers in malignant gliomas",
+        "7432723": "Small Extracellular Vesicles Isolated from Serum May Serve as Signal-Enhancers for the Monitoring of CNS Tumors",
+        "7346025": "Structural plasticity of the bilateral hippocampus in glioma patients",
+        "7136635": "Measure Twice: Promise of Liquid Biopsy in Pediatric High-Grade Gliomas",
+        "7072800": "Exploring Novel Molecular Targets for the Treatment of High-Grade Astrocytomas Using Peptide Therapeutics: An Overview",
+        "6934477": "Quantitative MRI Biomarkers of Stereotactic Radiotherapy Outcome in Brain Metastasis",
+        "6435461": "The potential role of MGMT rs12917 polymorphism in cancer risk: an updated pooling analysis with 21010 cases and 34018 controls",
+        "6046298": "Chromatin remodeling defects in pediatric brain tumors",
+        "6001369": "The developmental origin of brain tumours: a cellular and molecular framework",
+        "5858166": "The role of PTRF/Cavin1 as a biomarker in both glioma and serum exosomes",
+        "5704154": "4SC-202 as a Potential Treatment for the Pediatric Brain Tumor Medulloblastoma"
+    },
+    "journal": "Trends in cancer",
+    "topics": [
+        "biomarkers, tumors, molecular, brain",
+        "biomarkers, brain, tumors, molecular",
+        "primary, actionable, brain, molecular"
+    ]
+}

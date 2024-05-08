@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 import citation from '../../assets/images/cite.png'
 import published from '../../assets/images/published.png'
 import doi from '../../assets/images/doi.jpeg'
-
+import BrowserV6Field from '../../components/BrowserV6Field/BrowserV6Field'
+import dayjs from 'dayjs';
 
 
 const SearchResultPage = () => {
@@ -18,8 +19,31 @@ const SearchResultPage = () => {
   const resultsPerPage = 10; // Number of results to display per page
   const { state } = useLocation();
   const [searchHistory, setSearchHistory] = useState([]);
-
+  const [startYear, setStartYear] = useState('2000');
+  const [endYear, setEndYear] = useState('2024');
+  const [selectedJournals, setSelectedJournals] = useState({});
+  const [showAllJournals, setShowAllJournals] = useState(true);
   const chips = ['term1','term2','term3','term4']
+  const journals = [
+    "JMIR Public Health and Surveillance",
+    "Frontiers in Immunology",
+    "Cell Reports Medicine",
+    "Molecular Cancer",
+    "Bioscience Reports",
+    "International Journal of Molecular Sciences",
+    "Journal of Translational Medicine",
+    "Scientific Reports",
+    "PLoS ONE",
+    "British Journal of Cancer",
+    "BMC Cancer",
+    "BMC Public Health",
+    "Biomolecules",
+    "Pharmacological Research",
+    "Journal of Cellular and Molecular Medicine",
+    "Journal of Experimental & Clinical Cancer Research",
+    "Nature Communications",
+    "Frontiers in Oncology"
+  ];
   useEffect(() => {
     const storedSearchHistory = localStorage.getItem('searchHistory');
     if (storedSearchHistory) {
@@ -34,14 +58,19 @@ const SearchResultPage = () => {
   useEffect(() => {
     setIsDropDownOpen(false)
     setSearchTerm(JSON.parse(state).searchTerm);
+    setStartYear(JSON.parse(state).startYear)
+    setEndYear(JSON.parse(state).endYear)
+    setSelectedJournals(JSON.parse(state).selectedJournals)
     if(JSON.parse(state).saveHistory){
       setSearchHistory(prevHistory => [JSON.parse(state).searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
     }
     if (JSON.parse(state)?.searchTerm?.trim() !== "") {
-      console.log("----searchTerm---test----",JSON.parse(state))
       let data = JSON.stringify({
         "searchTerm": JSON.parse(state).searchTerm,
-        "lookupType": "Researcher"
+        "lookupType": "Researcher",
+        startYear: JSON.parse(state).startYear,
+        endYear: JSON.parse(state).endYear,
+        journals : JSON.parse(state).selectedJournals
       });
 
       let config = {
@@ -82,7 +111,11 @@ const SearchResultPage = () => {
     try {
       const response = await axios.post('http://localhost:8080/search', {
         searchTerm: searchTerm,
-        lookupType: 'lookupType' // Use the selected lookup type
+        lookupType: 'lookupType',
+        startYear: startYear,
+        endYear: endYear,
+        journals : selectedJournals
+        // Use the selected lookup type
       });
       if (response.status === 200) {
         setSearchResults(response.data.result); // Update search results
@@ -103,7 +136,7 @@ const SearchResultPage = () => {
         lookupType: 'lookupType' // Use the selected lookup type
       });
       if (response.status === 200) {
-        setdropDownSearchResults(response.data); // Update search results
+            setdropDownSearchResults(response.data);
         // Add current search term to search history
         // setSearchHistory(prevHistory => [searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
         setIsDropDownOpen(true)
@@ -120,19 +153,68 @@ const SearchResultPage = () => {
     fetchDropDownSearchResults(event.target.value);
   };
 
+  const handleStartYearChange = (newValue) => {
+    setStartYear(newValue.format('YYYY'));  // Assuming newValue is a dayjs object
+  };
+  
+  const handleEndYearChange = (newValue) => {
+    setEndYear(newValue.format('YYYY'));  // Assuming newValue is a dayjs object
+  };
 
+  const handleJournalChange = (journal) => {
+    setSelectedJournals(prev => ({
+      ...prev,
+      [journal]: !prev[journal]
+    }));
+  };
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const indexOfLastResult = currentPage * resultsPerPage;
   const indexOfFirstResult = indexOfLastResult - resultsPerPage;
   const currentResults = searchResults.slice(indexOfFirstResult, indexOfLastResult);
-  console.log(currentResults,"-----currentResults-----")
+
+  const textFieldStyles = {
+    width: '20px', // Adjust width as needed
+    height: '20px', // Adjust height as needed
+    padding: '10px 12px'  // Adjust padding to vertically center the text, if necessary
+};
   return (
     <div className="search-results">
       <div className='search-box-sidenav'>
         <div className="search-page-header">
           <h3>MediQuery</h3>
         </div>
+        <div className='year-filter-sr'>
+          <div className='dt-picker-sr'>
+            <span>Start date</span>
+          <BrowserV6Field
+          value = {dayjs(startYear)}
+          onChange = {handleStartYearChange}
+          />
+          </div>
+           
+          <div className='dt-picker-sr'>
+            <span>End date</span>
+          <BrowserV6Field
+          value = {dayjs(endYear)}
+          onChange = {handleEndYearChange}
+          />
+          </div>            
+          
+          </div>
+        <div className='filters-wrapper-sr'>
+          <span className='filters-wrapper-title-sr'>Filter by Journals</span>
+            {journals.slice(0, showAllJournals ? journals.length : 4).map(journal => (
+                <label key={journal}>
+                  <input
+                      type="checkbox"
+                      checked={selectedJournals[journal] || false}
+                      onChange={() => handleJournalChange(journal)}
+                  /> {journal}
+                </label>
+            ))}
+        </div>
+
       </div>
       <div className='search-box-contain'>
         <h3 className='search-results-title'>Search Results</h3>
@@ -198,7 +280,7 @@ const SearchResultPage = () => {
 
               </div>
             </li>
-          )) : 'No Results found'}
+          )) : ''}
         </ul>
         <div className="pagination">
           {Array.from({ length: Math.ceil(currentResults.length / resultsPerPage) }, (_, i) => (

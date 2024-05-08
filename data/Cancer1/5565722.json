@@ -1,0 +1,40 @@
+{
+    "title": "Drug Delivery to Melanoma Brain Metastases: Can Current Challenges Lead to New Opportunities?",
+    "abstract": "Melanoma has a high propensity to metastasize to the brain, and patients with melanoma brain \nmetastases (MBM) have an extremely poor prognosis. The recent approval of several molecularly-\ntargeted agents (e.g., BRAF, MEK inhibitors) and biologics (anti-CTLA-4, anti-PD-1 and anti-PD-\nL1 antibodies) has brought new hope to patients suffering from this formerly untreatable and lethal \ndisease. Importantly, there have been recent reports of success in some clinical studies examining \nthe efficacy of both targeted agents and immunotherapies that show similar response rates in both \nbrain metastases and extracranial disease. While these studies are encouraging, there remains \nsignificant room for improvement in the treatment of MBM, given the lack of durable response \nand the development of resistance to current therapies. Critical questions remain regarding \nmechanisms that lead to this lack of durable response and development of resistance, and how \nthose mechanisms may differ in systemic sites versus brain metastases. One issue that may not be \nfully appreciated is that the delivery of several small molecule molecularly-targeted therapies to \nthe brain is often restricted due to active efflux at the blood-brain barrier (BBB) interface. \nInadequate local drug concentrations may be partially responsible for the development of unique \npatterns of resistance at metastatic sites in the brain. It is clear that there can be local, \nheterogeneous BBB breakdown in MBM, as exemplified by contrast-enhancement on T1-\nweighted MR imaging. However, it is possible that the successful treatment of MBM with small \nmolecule targeted therapies will depend, in part, on the ability of these therapies to penetrate an \nintact BBB and reach the protected micro-metastases (so called \u201csub-clinical\u201d disease) that escape \nearly detection by contrast-enhanced MRI, as well as regions of tumor within MRI-detectable \nmetastases that may have a less compromised BBB. The emergence of resistance in MBM may be \nrelated to several diverse, yet interrelated, factors including the distinct microenvironment of the \nbrain and inadequate brain penetration of targeted therapies to specific regions of tumor. The \ntumor microenvironment has been ascribed to play a key role in steering the course of disease \nprogression, by dictating changes in expression of tumor drivers and resistance-related signaling \n*Corresponding author: William F. Elmquist, Department of Pharmaceutics, University of Minnesota, 308 Harvard Street SE, \nMinneapolis, MN 55455, USA, elmqu011@umn.edu, Tel. +1(612) 625-0097, Fax. +1(612) 626-2125. \nConflict of Interest Statement: The authors indicate no conflict of interest with the subject matter of this review.\nPublisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our \ncustomers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of \nthe resulting proof before it is published in its final citable form. Please note that during the production process errors may be \ndiscovered which could affect the content, and all legal disclaimers that apply to the journal pertain.\nHHS Public Access\nAuthor manuscript\nPharmacol Res. Author manuscript; available in PMC 2018 September 01.\nPublished in final edited form as:\nPharmacol Res. 2017 September ; 123: 10\u201325. doi:10.1016/j.phrs.2017.06.008.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Gautham Gampa",
+        "Shruthi Vaidhyanathan",
+        "Jann N. Sarkaria",
+        "William F. Elmquist"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565722/\nhttps://doi.org/10.1016/j.phrs.2017.06.008",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565722/",
+    "doi": "https://doi.org/10.1016/j.phrs.2017.06.008",
+    "citation_count": 17,
+    "references": {
+        "10799631": "Gene-edited and -engineered stem cell platform drives immunotherapy for brain metastatic melanomas",
+        "10761933": "Acquired and intrinsic resistance to vemurafenib in BRAFV600E \u2010driven melanoma brain metastases",
+        "8621572": "Cabozantinib Is Effective in Melanoma Brain Metastasis Cell Lines and Affects Key Signaling Pathways",
+        "8208897": "Ultrasound-mediated disruption of the blood tumor barrier for improved therapeutic delivery",
+        "7519637": "E6201, an intravenous MEK1 inhibitor, achieves an exceptional response in BRAF V600E-mutated metastatic malignant melanoma with brain metastases",
+        "7352598": "Melanoma Brain Metastases in the Era of Target Therapies: An Overview",
+        "7162859": "Enhancing Brain Retention of a KIF11 Inhibitor Significantly Improves its Efficacy in a Mouse Model of Glioblastoma",
+        "7097701": "Assessment of Effectiveness and Safety of Osimertinib for Patients With Intracranial Metastatic Disease: A Systematic Review and Meta-analysis",
+        "7022905": "ABC Transporters at the Blood\u2013Brain Interfaces, Their Study Models, and Drug Delivery Implications in Gliomas",
+        "7022256": "Anti-Metastatic Effects on Melanoma via Intravenous Administration of Anti-NF-\u03baB siRNA Complexed with Functional Peptide-Modified Nano-Micelles",
+        "6756291": "Drug Concentration Asymmetry in Tissues and Plasma for Small Molecule\u2013Related Therapeutic Modalities",
+        "6703178": "Improving CNS Delivery to Brain Metastases by Blood-Tumor Barrier Disruption",
+        "6700736": "Barriers to Effective Drug Treatment for Brain Metastases: A Multifactorial Problem in the Delivery of Precision Medicine",
+        "6543612": "Intracranial antitumor responses of nivolumab and ipilimumab: a pharmacodynamic and pharmacokinetic perspective, a scoping systematic review",
+        "6374543": "Brain Distribution and Active Efflux of Three panRAF Inhibitors: Considerations in the Treatment of Melanoma Brain Metastases",
+        "6064184": "Deciphering mechanisms of brain metastasis in melanoma - the gist of the matter",
+        "5896365": "Brain Distribution of a Novel MEK Inhibitor E6201: Implications in the Treatment of Melanoma Brain Metastases"
+    },
+    "journal": "Pharmacological research",
+    "topics": [
+        "brain, challenges, drug, metastases",
+        "metastases, brain, lead, drug",
+        "opportunities, challenges, melanoma, new"
+    ]
+}

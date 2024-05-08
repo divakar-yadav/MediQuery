@@ -1,0 +1,36 @@
+{
+    "title": "Identification of Novel Epigenetic Abnormalities as Sputum Biomarkers for Lung Cancer Risk among Smokers and COPD Patients",
+    "abstract": "Identification of Novel Epigenetic Abnormalities as Sputum Biomarkers for Lung Cancer Risk among Smokers and COPD Patients Mathewos Tessema Dereje D. Tassew Christin M. Yingling Kieu Do Maria A. Picchi Guodong Wu Hans Petersen Scott Randell Yong Lin Steven A. Belinsky Yohannes Tesfaigzi Objectives: Smoking is a common risk factor for chronic obstructive pulmonary disease (COPD) and lung cancer. Epigenetic abnormalities of these genes in lung adenocarcinoma (LUAD) from patients with or without COPD were determined using genome-wide and gene-specific assays and by in vitro treatment of cell lines with trichostatin-A or 5-aza-2-deoxycytidine. Among these, expression of CCNA1, SNCA, and ZNF549 was significantly reduced in lung tissues from COPD compared with non-COPD cases while expression of CCNA1 and SNCA was further downregulated in tumors with COPD.",
+    "authors": [
+        "Mathewos Tessema",
+        "Dereje D. Tassew",
+        "Christin M. Yingling",
+        "Kieu Do",
+        "Maria A. Picchi",
+        "Guodong Wu",
+        "Hans Petersen",
+        "Scott Randell",
+        "Yong Lin",
+        "Steven A. Belinsky",
+        "Yohannes Tesfaigzi"
+    ],
+    "published_year": "Not available",
+    "description": "Objectives:\n          Smoking is a common risk factor for chronic obstructive pulmonary\ndisease (COPD) and lung cancer. Although COPD patients have higher risk of\nlung cancer compared to non-COPD smokers, the molecular links between these\ndiseases are not well-defined. This study aims to identify genes that are\ndownregulated by cigarette smoke and commonly repressed in COPD and lung\ncancer.\nMaterials and Methods:\n          Primary human airway epithelial cells (HAEC) were exposed to\ncigarette-smoke-extract (CSE) for 10-weeks and significantly suppressed\ngenes were identified by transcriptome array. Epigenetic abnormalities of\nthese genes in lung adenocarcinoma (LUAD) from patients with or without COPD\nwere determined using genome-wide and gene-specific assays and by in\nvitro treatment of cell lines with trichostatin-A or\n5-aza-2-deoxycytidine.\nResults:\n          The ten most commonly downregulated genes following chronic CSE\nexposure of HAEC and show promoter hypermethylation in LUAD were selected.\nAmong these, expression of CCNA1, SNCA,\nand ZNF549 was significantly reduced in lung tissues from\nCOPD compared with non-COPD cases while expression of CCNA1\nand SNCA was further downregulated in tumors with COPD. The\npromoter regions of all three genes were hypermethylated in LUAD but not\nnormal or COPD lungs. The reduced expression and aberrant promoter\nhypermethylation of these genes in LUAD were independently validated using\ndata from the Cancer Genome Atlas project. Importantly,\nSNCA and ZNF549 methylation detected\nin sputum DNA from LUAD (52% and 38%) cases were more prevalent compared to\ncancer-free smokers (26% and 15%), respectively (p<0.02).\nConclusions:\n          Our data show that suppression of CCNA1,\nSNCA, and ZNF549 in lung cancer and\nCOPD occurs with or without promoter hypermethylation, respectively.\nDetecting methylation of these and previously identified genes in sputum of\ncancer-free smokers may serve as non-invasive biomarkers for early detection\nof lung cancer among high risk smokers including COPD patients.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384485/",
+    "doi": "https://doi.org/10.1016/j.lungcan.2020.05.017",
+    "citation_count": 6,
+    "references": {
+        "9509651": "Liquid biopsies based on DNA methylation as biomarkers for the detection and prognosis of lung cancer",
+        "9009002": "SNCA correlates with immune infiltration and serves as a prognostic biomarker in lung adenocarcinoma",
+        "8704183": "A functional methylation signature to predict the prognosis of Chinese lung adenocarcinoma based on TCGA",
+        "8507163": "Identification of common microRNA between COPD and non-small cell lung cancer through pathway enrichment analysis",
+        "8106026": "CTNNB1 S37C mutation causing cells proliferation and migration coupled with molecular mechanisms in lung adenocarcinoma",
+        "7860208": "circ-ANXA7 facilitates lung adenocarcinoma progression via\u00a0miR-331/LAD1 axis"
+    },
+    "journal": "Lung cancer (Amsterdam, Netherlands)",
+    "topics": [
+        "patients, smokers, sputum, epigenetic",
+        "biomarkers, among, abnormalities, lung",
+        "biomarkers, risk, abnormalities, lung"
+    ]
+}

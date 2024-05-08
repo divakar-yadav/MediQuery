@@ -1,0 +1,36 @@
+{
+    "title": "Investigating machine learning techniques for MRI-based classification of brain neoplasms",
+    "abstract": "Purpose\u2014Diagnosis and characterization of brain neoplasms appears of utmost importance for \ntherapeutic management. The emerging of imaging techniques, such as Magnetic Resonance (MR) \nimaging, gives insight into pathology, while the combination of several sequences from \nconventional and advanced protocols (such as perfusion imaging) increases the diagnostic \ninformation. To optimally combine the multiple sources and summarize the information into a \ndistinctive set of variables however remains difficult. The purpose of this study is to investigate \nmachine learning algorithms that automatically identify the relevant attributes and are optimal for \nbrain tumor differentiation.\nMethods\u2014Different machine learning techniques are studied for brain tumor classification based \non attributes extracted from conventional and perfusion MRI. The attributes, calculated from \nneoplastic, necrotic, and edematous regions of interest, include shape and intensity characteristics. \nAttributes subset selection is performed aiming to remove redundant attributes using two filtering \nmethods and a wrapper approach, in combination with three different search algorithms (Best \nFirst, Greedy Stepwise and Scatter). The classification frameworks are implemented using the \nWEKA software.\nResults\u2014The highest average classification accuracy assessed by leave-one-out (LOO) cross-\nvalidation on 101 brain neoplasms was achieved using the wrapper evaluator in combination with \nthe Best First search algorithm and the KNN classifier and reached 96.9% when discriminating \nmetastases from gliomas and 94.5% when discriminating high-grade from low-grade neoplasms.\nConclusions\u2014A computer-assisted classification framework is developed and used for \ndifferential diagnosis of brain neoplasms based on MRI. The framework can achieve higher \naccuracy than most reported studies using MRI.\n\u00a9 CARS 2011\nCorrespondence to: Evangelia I. Zacharaki, ezachar@upatras.gr.\nHHS Public Access\nAuthor manuscript\nInt J Comput Assist Radiol Surg. Author manuscript; available in PMC 2015 March 25.\nPublished in final edited form as:\nInt J Comput Assist Radiol Surg. 2011 November ; 6(6): 821\u2013828. doi:10.1007/s11548-011-0559-3.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Evangelia I. Zacharaki",
+        "Vasileios G. Kanas",
+        "Christos Davatzikos"
+    ],
+    "published_year": "",
+    "description": "Purpose\n          Diagnosis and characterization of brain neoplasms appears of utmost importance for therapeutic management. The emerging of imaging techniques, such as Magnetic Resonance (MR) imaging, gives insight into pathology, while the combination of several sequences from conventional and advanced protocols (such as perfusion imaging) increases the diagnostic information. To optimally combine the multiple sources and summarize the information into a distinctive set of variables however remains difficult. The purpose of this study is to investigate machine learning algorithms that automatically identify the relevant attributes and are optimal for brain tumor differentiation.\nMethods\n          Different machine learning techniques are studied for brain tumor classification based on attributes extracted from conventional and perfusion MRI. The attributes, calculated from neoplastic, necrotic, and edematous regions of interest, include shape and intensity characteristics. Attributes subset selection is performed aiming to remove redundant attributes using two filtering methods and a wrapper approach, in combination with three different search algorithms (Best First, Greedy Stepwise and Scatter). The classification frameworks are implemented using the WEKA software.\nResults\n          The highest average classification accuracy assessed by leave-one-out (LOO) cross-validation on 101 brain neoplasms was achieved using the wrapper evaluator in combination with the Best First search algorithm and the KNN classifier and reached 96.9% when discriminating metastases from gliomas and 94.5% when discriminating high-grade from low-grade neoplasms.\nConclusions\n          A computer-assisted classification framework is developed and used for differential diagnosis of brain neoplasms based on MRI. The framework can achieve higher accuracy than most reported studies using MRI.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4373074/\nhttps://doi.org/10.1007/s11548-011-0559-3",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4373074/",
+    "doi": "https://doi.org/10.1007/s11548-011-0559-3",
+    "citation_count": 13,
+    "references": {
+        "10947781": "Evaluating angioarchitectural characteristics of glial and metastatic brain tumors with conventional magnetic resonance imaging",
+        "10568840": "Construction and effect evaluation of prediction model for red blood cell transfusion requirement in cesarean section based on artificial intelligence",
+        "9139355": "Radiophysiomics: Brain Tumors Classification by Machine Learning and Physiological MRI Data",
+        "8946855": "Machine Learning Applications for Differentiation of Glioma from Brain Metastasis\u2014A Systematic Review",
+        "8423553": "Clustering of Brain Tumor Based on Analysis of MRI Images Using Robust Principal Component Analysis (ROBPCA) Algorithm",
+        "8422419": "Deep learning applications in neuro-oncology",
+        "6603356": "Machine learning for semi\u00adautomated classification of glioblastoma, brain metastasis and central nervous system lymphoma using magnetic resonance advanced imaging",
+        "6263850": "Postoperative Bleeding Risk Prediction for Patients Undergoing Colorectal Surgery",
+        "6236025": "Machine Learning in Acute Ischemic Stroke Neuroimaging",
+        "5564607": "Optimizing a machine learning based glioma grading system using multi-parametric MRI histogram and texture features",
+        "5094462": "Pseudo Progression Identification of Glioblastoma with Dictionary Learning",
+        "4331825": "The role of diffusion and perfusion weighted imaging in the differential diagnosis of cerebral tumors: a review and future perspectives",
+        "4126096": "Microvascular MRI and unsupervised clustering yields histology-resembling images in two rat models of glioma"
+    },
+    "journal": "International journal of computer assisted radiology and surgery",
+    "topics": [
+        "classification, learning, neoplasms, brain",
+        "learning, machine, neoplasms, classification",
+        "investigating, techniques, brain, machine"
+    ],
+    "keywords": []
+}

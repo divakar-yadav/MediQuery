@@ -1,0 +1,34 @@
+{
+    "title": "Non-coding RNAs in cancer brain metastasis",
+    "abstract": "More than 90% of cancer death is attributed to metastatic disease, and the brain is one of the major \nmetastatic sites of melanoma, colon, renal, lung and breast cancers. Despite the recent \nadvancement of targeted therapy for cancer, the incidence of brain metastasis is increasing. One \nreason is that most therapeutic drugs can\u2019t penetrate blood-brain-barrier and tumor cells find the \nbrain as sanctuary site. In this review, we describe the pathophysiology of brain metastases to \nintroduce the latest understandings of metastatic brain malignancies. This review also particularly \nfocuses on non-coding RNAs and their roles in cancer brain metastasis. Furthermore, we discuss \nthe roles of the extracellular vesicles as they are known to transport information between cells to \ninitiate cancer cell-microenvironment communication. The potential clinical translation of non-\ncoding RNAs as a tool for diagnosis and for treatment is also discussed in this review. At the end, \nthe computational aspects of non-coding RNA detection, the sequence and structure calculation \nand epigenetic regulation of non-coding RNA in brain metastasis are discussed.\nKeywords\nnon-coding RNA; Brain Metastasis; Microenvironment; Extracellular Vesicle; Clinical \nTranslation; Bioinformatics; Review\n2.",
+    "authors": [
+        "Kerui Wu",
+        "Sambad Sharma",
+        "Suresh Venkat",
+        "Keqin Liu",
+        "Xiaobo Zhou",
+        "Kounosuke Watabe"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5652305/\nhttps://doi.org/10.2741/s457",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5652305/",
+    "doi": "https://doi.org/10.2741/s457",
+    "citation_count": 9,
+    "references": {
+        "9322877": "The Significance of MicroRNAs in the Molecular Pathology of Brain Metastases",
+        "7564168": "Therapeutically Significant MicroRNAs in Primary and Metastatic Brain Malignancies",
+        "7407639": "Loss of miR-101-3p Promotes Transmigration of Metastatic Breast Cancer Cells through the Brain Endothelium by Inducing COX-2/MMP1 Signaling",
+        "6941297": "Tumor microenvironment differences between primary tumor and brain metastases",
+        "6879055": "Epigenomics of Pancreatic Cancer: A Critical Role for Epigenome-Wide Studies",
+        "6167994": "Role of exosomal small RNA in prostate cancer metastasis",
+        "6037714": "Therapeutic Prospects of Extracellular Vesicles in Cancer Treatment",
+        "5675795": "Extracellular vesicles as emerging targets in cancer: recent development from bench to bedside",
+        "5215972": "Advances in Decoding Breast Cancer Brain Metastasis"
+    },
+    "journal": "Frontiers in bioscience (Scholar edition)",
+    "topics": [
+        "metastasis, rnas, brain, cancer",
+        "brain, metastasis, cancer, rnas",
+        "rnas, cancer, brain, metastasis"
+    ]
+}

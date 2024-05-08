@@ -1,0 +1,27 @@
+{
+    "title": "Lung Cancer Screening With Low-Dose Computed Tomography: Current Status in Germany",
+    "abstract": "Lung Cancer Screening With Low-Dose Computed Tomography Martin Reck Sabine Dettmer Hans-Ulrich Kauczor Rudolf Kaaks Niels Reinmuth Jens Vogel-Claussen Background Approximately 21 900 women and 35 300 men developed lung cancer in Germany in 2018, and 16 514 women and 28 365 men died of it. Results In the studies of lung cancer screening that have been published to date, sensitivity ranged from 68.5% to 93.8%, and specificity from 73.4% to 99.2%. A meta-analysis by the German Federal Office for Radiation Protection revealed a 15% reduction in lung cancer mortality when low-dose computed tomography was used in persons who were judged to be at high risk for lung cancer (risk ratio [RR] 0.85, 95% confidence interval [0.77; 0.95]).",
+    "authors": [
+        "Martin Reck",
+        "Sabine Dettmer",
+        "Hans-Ulrich Kauczor",
+        "Rudolf Kaaks",
+        "Niels Reinmuth",
+        "Jens Vogel-Claussen"
+    ],
+    "published_year": "2023",
+    "description": "Background\n          Approximately 21 900 women and 35 300 men developed lung cancer in Germany in 2018, and 16 514 women and 28 365 men died of it. The outcome mainly depends on the tumor stage. In early stages (stage I or II), treatment can be curative; unfortunately, because early-stage lung cancers are generally asymptomatic, 74% of women and 77% of men already have advanced-stage disease (stage III or IV) at the time of diagnosis. Screening with low-dose computed tomography is an option enabling early diagnosis and curative treatment.\nMethods\n          This review is based on pertinent articles retrieved by a selective search of the literature on screening for lung cancer.\nResults\n          In the studies of lung cancer screening that have been published to date, sensitivity ranged from 68.5% to 93.8%, and specificity from 73.4% to 99.2%. A meta-analysis by the German Federal Office for Radiation Protection revealed a 15% reduction in lung cancer mortality when low-dose computed tomography was used in persons who were judged to be at high risk for lung cancer (risk ratio [RR] 0.85, 95% confidence interval [0.77; 0.95]). 1.9% of subjects died in the screening arm of the meta-analysis, and 2.2% in the control group. The observation periods ranged from 6.6 to 10 years; false-positive rates ranged from 84.9% to 96.4%. Malignant findings were confirmed in 45% to 70% of the biopsies or resective procedures that were performed.\nConclusion\n          Systematic lung cancer screening with low-dose CT lowers mortality from lung cancer in (current or former) heavy smokers. This benefit must be weighed against the high rate of false-positive findings and overdiagnoses.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10433361/",
+    "doi": "https://doi.org/10.3238/arztebl.m2023.0099",
+    "citation_count": 2,
+    "references": {
+        "10666255": "Immaterial Conflicts of Interest Present",
+        "10666254": "In Reply"
+    },
+    "journal": "Deutsches \u00c4rzteblatt International",
+    "topics": [
+        "germany, status, cancer, screening",
+        "lung, computed, current, tomography",
+        "computed, lung, tomography, screening"
+    ]
+}

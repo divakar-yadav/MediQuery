@@ -1,0 +1,47 @@
+{
+    "title": "Emerging principles of brain immunology and immune checkpoint blockade in brain metastases",
+    "abstract": "Emerging principles of brain immunology and immune checkpoint blockade in brain metastases Jawad Fares Ilya Ulasov Peter Timashev Maciej S Lesniak",
+    "authors": [
+        "Jawad Fares",
+        "Ilya Ulasov",
+        "Peter Timashev",
+        "Maciej S Lesniak"
+    ],
+    "published_year": "2020",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8105040/\nhttps://doi.org/10.1093/brain/awab012",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8105040/",
+    "doi": "https://doi.org/10.1093/brain/awab012",
+    "citation_count": 24,
+    "references": {
+        "11000333": "Anti-EGFR ScFv functionalized exosomes delivering LPCAT1 specific siRNAs for inhibition of lung cancer brain metastases",
+        "10920107": "Network-based analysis of heterogeneous patient-matched brain and extracranial melanoma metastasis pairs reveals three homogeneous subgroups",
+        "10796095": "The Role of Microglia in Brain Metastases: Mechanisms and Strategies",
+        "10786371": "Proteomic and transcriptomic characterisation of FIA10, a novel murine leukemic cell line that metastasizes into the brain",
+        "10725587": "Harnessing immunotherapy for brain metastases: insights into tumor\u2013brain microenvironment interactions and emerging treatment modalities",
+        "10332266": "Identification of cell death-related biomarkers and immune infiltration in ischemic stroke between male and female patients",
+        "10204080": "TME-targeted approaches of brain metastases and its clinical therapeutic evidence",
+        "10074632": "Molecular landscape and emerging therapeutic strategies in breast cancer brain metastasis",
+        "10027084": "The tumor-immune ecosystem in shaping metastasis",
+        "9893100": "Efficacy and Safety of East Asian Herbal Medicine for Brain Metastases in Non-small Cell Lung Cancer: A Systematic Review and Meta-analysis Protocol to Identify Specific Herbs",
+        "9691610": "Keeping T Cell Memories in Mind",
+        "9358987": "The Role of Immune Checkpoint Inhibitors in Leptomeningeal Disease: A Systematic Review",
+        "9313120": "Cytokine Landscape in Central Nervous System Metastases",
+        "9174542": "Single-Cell Proteomics Analysis of Recurrent Low-Grade Serous Ovarian Carcinoma and Associated Brain Metastases",
+        "9093681": "Extra-Neural Metastases From Primary Intracranial Ependymomas: A Systematic Review",
+        "9055459": "Effectiveness of Immune Checkpoint Inhibition vs Chemotherapy in Combination With Radiation Therapy Among Patients With Non\u2013Small Cell Lung Cancer and Brain Metastasis Undergoing Neurosurgical Resection",
+        "8986255": "Immune suppressive microenvironment in brain metastatic non-small cell lung cancer: comprehensive immune microenvironment profiling of brain metastases versus paired primary lung tumors (GASTO 1060)",
+        "8891382": "Tumor Immune Microenvironment and Immunotherapy in Brain Metastasis From Non-Small Cell Lung Cancer",
+        "8882142": "NK Cells in the Brain: Implications for Brain Tumor Development and Therapy",
+        "8761271": "Identification of a ferroptosis-related gene pair biomarker with immune infiltration landscapes in ischemic stroke: a bioinformatics-based comprehensive study",
+        "8621221": "Multifunctional Nanopolymers for Blood\u2013Brain Barrier Delivery and Inhibition of Glioblastoma Growth through EGFR/EGFRvIII, c-Myc, and PD-1",
+        "8604570": "Neurosurgery at the crossroads of immunology and nanotechnology. New reality in the COVID-19 pandemic",
+        "8501504": "Comparison of Tumor Microenvironments Between Primary Tumors and Brain Metastases in Patients With NSCLC",
+        "7795138": "The Network of Cytokines in Brain Metastases"
+    },
+    "journal": "Brain",
+    "topics": [
+        "immunology, immune, principles, checkpoint",
+        "brain, metastases, blockade, principles",
+        "brain, immune, emerging, checkpoint"
+    ]
+}

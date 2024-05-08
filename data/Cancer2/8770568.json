@@ -1,0 +1,38 @@
+{
+    "title": "ESR1 mutations and therapeutic resistance in metastatic breast cancer: progress and remaining challenges",
+    "abstract": "",
+    "authors": [
+        "Sarah K. Herzog",
+        "Suzanne A. W. Fuqua"
+    ],
+    "published_year": "2021",
+    "description": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8770568/",
+    "doi": "https://doi.org/10.1038/s41416-021-01564-x",
+    "citation_count": 17,
+    "references": {
+        "10986181": "Autophagy and senescence facilitate the development of antiestrogen resistance in ER positive breast cancer",
+        "10778000": "Exosomal DNA: Role in Reflecting Tumor Genetic Heterogeneity, Diagnosis, and Disease Monitoring",
+        "10767813": "KnockTF 2.0: a comprehensive gene expression profile database with knockdown/knockout of transcription (co-)factors in multiple species",
+        "10766306": "Impact of evidence-based nursing on postoperative psychological state, quality of life, and function of affected limbs in breast cancer patients: An observational study",
+        "10763362": "The value of oral selective estrogen receptor degraders in patients with HR-positive, HER2-negative advanced breast cancer after progression on \u2265 1 line of endocrine therapy: systematic review and meta-analysis",
+        "10760953": "Somatic estrogen receptor \u03b1 mutations that induce dimerization promote receptor activity and breast cancer proliferation",
+        "10683592": "Discovery and identification of the prognostic significance and potential mechanism of FMO2 in breast cancer",
+        "10649433": "ESR1 Gene Mutations and Liquid Biopsy in ER-Positive Breast Cancers: A Small Step Forward, a Giant Leap for Personalization of Endocrine Therapy?",
+        "10551544": "Optimization of small molecule degraders and antagonists for targeting estrogen receptor based on breast cancer: current status and future",
+        "10449307": "Genistein exerts anti-colorectal cancer actions: clinical reports, computational and validated findings",
+        "10438957": "Cobind: quantitative analysis of the genomic overlaps",
+        "10228081": "Breast metastatic tumors in lung can be substituted by lung-derived malignant cells transformed by alternative splicing H19 lncRNA",
+        "9992199": "Tailoring therapies to counter the divergent immune landscapes of breast cancer",
+        "9733938": "Tamoxifen resistance-related ceRNA network for breast cancer",
+        "9400723": "In vitro breast cancer models for studying mechanisms of resistance to endocrine therapy",
+        "8882468": "A human breast cancer-derived xenograft and organoid platform for drug discovery and precision oncology",
+        "7613769": "Genome engineering for estrogen receptor mutations reveals differential responses to anti-estrogens and new prognostic gene signatures for breast cancer"
+    },
+    "journal": "British Journal of Cancer",
+    "topics": [
+        "breast, challenges, resistance",
+        "challenges, metastatic, remaining, therapeutic",
+        "progress, mutations, cancer"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "title": "Metabolic Heterogeneity and Adaptability in Brain Tumors",
+    "abstract": "The metabolic complexity and flexibility commonly observed in brain tumors, especially \nglioblastoma, is fundamental for their development and progression. The ability of tumor cells to \nmodify their genetic landscape and adapt metabolically, subverts therapeutic efficacy and \ninevitably instigates therapeutic resistance. In order to overcome these challenges and develop \neffective therapeutic strategies targeting essential metabolic processes, it is to necessary to identify \nthe mechanisms underlying heterogeneity and define metabolic preferences and liabilities of \nmalignant cells. In this review we will discuss metabolic diversity in brain cancer and highlight the \nrole of cancer stem cells in regulating metabolic heterogeneity. We will also highlight potential \ntherapeutic modalities targeting metabolic vulnerabilities and examine how intercellular metabolic \nsignaling can shape the tumor microenvironment.\nKeywords\nGlioma; tumor microenvironment (TME); metabolism; cell communication; tumor initiating cells; \nslow-cycling cells; immune cells",
+    "authors": [
+        "Christian E. Badr",
+        "Daniel J. Silver",
+        "Florian A. Siebzehnrubl",
+        "Loic P. Deleyrolle"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8272080/\nhttps://doi.org/10.1007/s00018-020-03569-w",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8272080/",
+    "doi": "https://doi.org/10.1007/s00018-020-03569-w",
+    "citation_count": 22,
+    "references": {
+        "10968192": "Ketone ester supplementation of Atkins-type diet prolongs survival in an orthotopic xenograft model of glioblastoma",
+        "10925609": "Effects of dietary intervention on human diseases: molecular mechanisms and therapeutic potential",
+        "10503448": "A study on metabolic characteristics and metabolic markers of gastrointestinal tumors",
+        "10502866": "Lactate Efflux Inhibition by Syrosingopine/LOD Co\u2010Loaded Nanozyme for Synergetic Self\u2010Replenishing Catalytic Cancer Therapy and Immune Microenvironment Remodeling",
+        "9966483": "The \u201cSuperoncogene\u201d Myc at the Crossroad between Metabolism and Gene Expression in Glioblastoma Multiforme",
+        "9942236": "Targeting de novo lipid synthesis induces lipotoxicity and impairs DNA damage repair in glioblastoma mouse models ",
+        "9880056": "Recent advances in ferroptosis and therapeutic strategies for glioblastoma",
+        "9856991": "Progresses, Challenges, and Prospects of CRISPR/Cas9 Gene-Editing in Glioma Studies",
+        "9797845": "Lipid droplets and ferroptosis as new players in brain cancer glioblastoma progression and therapeutic resistance",
+        "9703277": "The Multifaceted Glioblastoma: From Genomic Alterations to Metabolic Adaptations.",
+        "9628999": "Heterogeneity of glioblastoma stem cells in the context of the immune microenvironment and geospatial organization",
+        "9618559": "Glioblastoma cell motility depends on enhanced oxidative stress coupled with mobilization of a sulfurtransferase",
+        "8909138": "Slow-Cycling Cells in Glioblastoma: A Specific Population in the Cellular Mosaic of Cancer Stem Cells",
+        "8721571": "Cell Biology Meets Cell Metabolism: Energy Production Is Similar in Stem Cells and in Cancer Stem Cells in Brain and Bone Marrow",
+        "8409594": "Severe consequences of a high-lipid diet include hydrogen sulfide dysfunction and enhanced aggression in glioblastoma",
+        "8392307": "The 3.0 Cell Communication: New Insights in the Usefulness of Tunneling Nanotubes for Glioblastoma Treatment",
+        "8359792": "Identifying subpopulations in multicellular systems by quantitative chemical imaging using label-free hyperspectral CARS microscopy",
+        "8005124": "Energy Metabolism in IDH1 Wild-Type and IDH1-Mutated Glioblastoma Stem Cells: A Novel Target for Therapy?",
+        "7800365": "Patient-derived glioblastoma stem cells transfer mitochondria through tunneling nanotubes in tumor organoids",
+        "7796297": "Tumor-Targeting Peptides Search Strategy for the Delivery of Therapeutic and Diagnostic Molecules to Tumor Cells",
+        "7792799": "Nanomedicine: A Useful Tool against Glioma Stem Cells",
+        "7693784": "Temozolomide Treatment Increases Fatty Acid Uptake in Glioblastoma Stem Cells"
+    },
+    "journal": "Cellular and molecular life sciences : CMLS",
+    "topics": [
+        "tumors, metabolic, brain, adaptability",
+        "heterogeneity, adaptability, brain, metabolic",
+        "adaptability, brain, tumors, metabolic"
+    ]
+}

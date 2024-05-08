@@ -1,0 +1,27 @@
+{
+    "title": "Neighborhood disadvantage and lung cancer risk in a national cohort of never smoking Black women",
+    "abstract": "Neighborhood disadvantage and lung cancer risk in a national cohort of never smoking Black women Loretta Erhunmwunsee Sam E. Wing Xiaoke Zou Patricia Coogan Julie R. Palmer F. Lennie Wong Background: Compared to women of other races who have never smoked, Black women have a higher risk of lung cancer. Associations of lung cancer incidence with neighborhood-level factors (including two composite variables derived from Census Bureau data: neighborhood socioeconomic status and neighborhood concentrated disadvantage), secondhand smoke exposure, and PM2.5 were estimated using Fine-Gray subdistribution hazard models. These findings suggest that non-tobacco-related factors in disadvantaged neighborhoods may be linked to lung cancer risk in Black women and that these factors must be understood and targeted to achieve health equity.",
+    "authors": [
+        "Loretta Erhunmwunsee",
+        "Sam E. Wing",
+        "Xiaoke Zou",
+        "Patricia Coogan",
+        "Julie R. Palmer",
+        "F. Lennie Wong"
+    ],
+    "published_year": "Not available",
+    "description": "Background:\n          Compared to women of other races who have never smoked, Black women have a higher risk of lung cancer. Whether neighborhood disadvantage, which Black women experience at higher rates than other women, is linked to never-smoking lung cancer risk remains unclear. This study investigates the association of neighborhood disadvantage and lung cancer risk in Black never-smoking women.\nMethods and materials:\n          This research utilized data from the Black Women\u2019s Health Study, a prospective cohort of 59,000 Black women recruited from across the US in 1995 and followed by biennial questionnaires. Associations of lung cancer incidence with neighborhood-level factors (including two composite variables derived from Census Bureau data: neighborhood socioeconomic status and neighborhood concentrated disadvantage), secondhand smoke exposure, and PM2.5 were estimated using Fine-Gray subdistribution hazard models.\nResults:\n          Among 37,650 never-smokers, 77 were diagnosed with lung cancer during follow-up from 1995 to 2018. The adjusted subdistribution hazard ratio (sHR) of lung cancer incidence with ten unit increase in neighborhood concentrated disadvantage index was 1.30 (95 % CI: 1.04, 1.63, p = 0.023). Exposure to secondhand smoke at work was associated with increased risk (sHR = 1.93, 95 % CI: 1.21, 3.10, p = 0.006), but exposure to secondhand smoke at home and PM2.5 was not.\nConclusion:\n          Worse neighborhood concentrated disadvantage was associated with increased lung cancer risk in Black women who never smoked. These findings suggest that non-tobacco-related factors in disadvantaged neighborhoods may be linked to lung cancer risk in Black women and that these factors must be understood and targeted to achieve health equity.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9588723/",
+    "doi": "https://doi.org/10.1016/j.lungcan.2022.08.022",
+    "citation_count": 2,
+    "references": {
+        "10865750": "The Role of Smoking Status in Making Risk-Informed Diagnostic Decisions in the Lung Cancer Pathway: A Qualitative Study of Health Care Professionals and Patients",
+        "10644827": "Social determinants of health and lung cancer surgery: a qualitative study"
+    },
+    "journal": "Lung cancer (Amsterdam, Netherlands)",
+    "topics": [
+        "lung, black, never, national",
+        "never, cancer, women, neighborhood",
+        "women, cancer, risk, disadvantage"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "title": "Use of predictive spatial modeling to reveal that primary cancers have distinct central nervous system topography patterns of brain metastasis",
+    "abstract": "OBJECTIVE\u2014Brain metastasis is the most common intracranial neoplasm. Although anatomical \nspatial distributions of brain metastasis may vary according to primary cancer subtype, these \npatterns are not understood and may have major implications for treatment.\nMETHODS\u2014To test the hypothesis that the spatial distribution of brain metastasis varies \naccording to cancer origin in nonrandom patterns, the authors leveraged spatial 3D coordinate data \nderived from stereotactic Gamma Knife radiosurgery procedures performed to treat 2106 brain \nmetastases arising from 5 common cancer types (melanoma, lung, breast, renal, and colorectal). \nCorrespondence: Josh Neman: University of Southern California, Los Angeles, CA. yebrahim@usc.edu.\nAuthor Contributions\nConception and design: Neman, Chang, Zada. Acquisition of data: all authors. Analysis and interpretation of data: Neman, Franklin, \nMadaj, Deshpande, Triche, Sadlik, Carmichael, Chang, Yu, Zada. Drafting the article: Neman, Franklin, Madaj, Deshpande, Triche, \nSadlik, Carmichael, Chang, Yu, Zada. Critically revising the article: Neman, Triche, Carmichael, Chang, Yu, Zada. Reviewed \nsubmitted version of manuscript: Neman, Chang, Strickland, Zada. Approved the final version of the manuscript on behalf of all \nauthors: Neman. Administrative/technical/material support: Neman, Zada. Study supervision: Neman, Zada.\nDisclosures\nThe authors report no conflict of interest concerning the materials or methods used in this study or the findings specified in this paper.\nSupplemental Information\nOnline-Only Content\nSupplemental material is available with the online version of the article.\nSupplemental Material. https://thejns.org/doi/suppl/10.3171/2021.1.JNS203536.\nHHS Public Access\nAuthor manuscript\nJ Neurosurg. Author manuscript; available in PMC 2022 July 01.\nPublished in final edited form as:\nJ Neurosurg. 2022 January 01; 136(1): 88\u201396. doi:10.3171/2021.1.JNS203536.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Josh Neman",
+        "Meredith Franklin",
+        "Zachary Madaj",
+        "Krutika Deshpande",
+        "Timothy J. Triche",
+        "Gal Sadlik",
+        "John D. Carmichael",
+        "Eric Chang",
+        "Cheng Yu",
+        "Ben A. Strickland",
+        "Gabriel Zada"
+    ],
+    "published_year": "",
+    "description": "OBJECTIVE\n          Brain metastasis is the most common intracranial neoplasm. Although anatomical spatial distributions of brain metastasis may vary according to primary cancer subtype, these patterns are not understood and may have major implications for treatment.\nMETHODS\n          To test the hypothesis that the spatial distribution of brain metastasis varies according to cancer origin in nonrandom patterns, the authors leveraged spatial 3D coordinate data derived from stereotactic Gamma Knife radiosurgery procedures performed to treat 2106 brain metastases arising from 5 common cancer types (melanoma, lung, breast, renal, and colorectal). Two predictive topographic models (regional brain metastasis echelon model [RBMEM] and brain region susceptibility model [BRSM]) were developed and independently validated.\nRESULTS\n          RBMEM assessed the hierarchical distribution of brain metastasis to specific brain regions relative to other primary cancers and showed that distinct regions were relatively susceptible to metastasis, as follows: bilateral temporal/parietal and left frontal lobes were susceptible to lung cancer; right frontal and occipital lobes to melanoma; cerebellum to breast cancer; and brainstem to renal cell carcinoma. BRSM provided probability estimates for each cancer subtype, independent of other subtypes, to metastasize to brain regions, as follows: lung cancer had a propensity to metastasize to bilateral temporal lobes; breast cancer to right cerebellar hemisphere; melanoma to left temporal lobe; renal cell carcinoma to brainstem; and colon cancer to right cerebellar hemisphere. Patient topographic data further revealed that brain metastasis demonstrated distinct spatial patterns when stratified by patient age and tumor volume.\nCONCLUSIONS\n          These data support the hypothesis that there is a nonuniform spatial distribution of brain metastasis to preferential brain regions that varies according to cancer subtype in patients treated with Gamma Knife radiosurgery. These topographic patterns may be indicative of the abilities of various cancers to adapt to regional neural microenvironments, facilitate colonization, and establish metastasis. Although the brain microenvironment likely modulates selective seeding of metastasis, it remains unknown how the anatomical spatial distribution of brain metastasis varies according to primary cancer subtype and contributes to diagnosis. For the first time, the authors have presented two predictive models to show that brain metastasis, depending on its origin, in fact demonstrates distinct geographic spread within the central nervous system. These findings could be used as a predictive diagnostic tool and could also potentially result in future translational and therapeutic work to disrupt growth of brain metastasis on the basis of anatomical region.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC8824486/\nhttps://doi.org/10.3171/2021.1.JNS203536",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8824486/",
+    "doi": "https://doi.org/10.3171/2021.1.JNS203536",
+    "citation_count": 5,
+    "references": {
+        "10769085": "Breast to brain metastasis is exacerbated with chemotherapy through blood-cerebral spinal fluid-barrier and induces Alzheimer\u2019s-like pathology",
+        "9673482": "A quantitative characterization of the spatial distribution of brain metastases from breast cancer and respective molecular subtypes",
+        "9159425": "Neuronal exposure induces neurotransmitter signaling and synaptic mediators in tumors early in brain metastasis",
+        "8739649": "Anatomical and topographical variations in the distribution of brain metastases based on primary cancer origin and molecular subtypes: a systematic review",
+        "8633769": "The microenvironment of brain metastases from solid tumors"
+    },
+    "journal": "Journal of neurosurgery",
+    "topics": [
+        "metastasis, system, distinct, patterns",
+        "central, use, nervous, primary",
+        "brain, patterns, metastasis, cancers"
+    ]
+}

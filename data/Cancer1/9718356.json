@@ -1,0 +1,39 @@
+{
+    "title": "Association between airport-related ultrafine particles and risk of malignant brain cancer: a multiethnic cohort study",
+    "abstract": "Ultrafine particles (UFP) (diameter less than or equal to 100 nanometers), may reach the brain via \nsystemic circulation or the olfactory tract and have been implicated in the risk of brain tumors. The \neffects of airport-related UFP on the risk of brain tumors are not known. Here we determined the \nassociation between airport-related UFP and risk of incident malignant brain cancer (n=155) and \nmeningioma (n=420) diagnosed during 16.4 years of follow-up among 75,936 men and women \nresiding in Los Angeles County from the Multiethnic Cohort study. UFP exposure from aircrafts \nwas estimated for participants who lived within a 53 by 43 kilometer grid area around the Los \nAngeles International Airport (LAX) from date of cohort entry (1993\u20131996) through December \n31, 2013. Cox proportional hazards models were used to estimate the effects of time-varying, \nairport-related UFP exposure on risk of malignant brain cancer and meningioma, adjusting for \nsex, race/ethnicity, education, and neighborhood socioeconomic status. Malignant brain cancer \nrisk in all subjects combined increased 12% (95% CI 0.98\u20131.27) per interquartile range (IQR) of \nairport-related UFP exposure (~6700 particles per cm3) for subjects with any address in the grid \narea surrounding the LAX airport. In race/ethnicity-stratified analyses, African Americans, the \nsubgroup who had the highest exposure, showed a hazard ratio (HR) of 1.32 (95% CI 1.07\u20131.64) \n*Corresponding Author: Anna H. Wu, PhD, Department of Preventive Medicine, University of Southern California Keck School of \nMedicine, 1441 Eastlake Avenue, Rm 4443, Los Angeles CA 90089, annawu@usc.edu.\nAuthor Contributions: Study concept and design (AW, IC), Drafting of the manuscript (AW), Critical review of the manuscript (AW, \nIC, SF, TL, JW, BR), Statistical analysis (CT, JY, DS), Obtained funding (AW, IC), Administrative, technical, or material support (SF, \nTL, SS, PI, JJ, VS, JP, LM)\nConflict of Interest Disclosures: The authors have no actual or potential competing financial interests or conflicts.\nHHS Public Access\nAuthor manuscript\nCancer Res. Author manuscript; available in PMC 2022 December 02.\nPublished in final edited form as:\nCancer Res. 2021 August 15; 81(16): 4360\u20134369. doi:10.1158/0008-5472.CAN-21-1138.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Anna H Wu",
+        "Scott Fruin",
+        "Timothy V. Larson",
+        "Chiu-Chen Tseng",
+        "Jun Wu",
+        "Juan Yang",
+        "Jennifer Jain",
+        "Salma Shariff-Marco",
+        "Pushkar P Inamdar",
+        "Veronica W. Setiawan",
+        "Jacqueline Porcel",
+        "Daniel O. Stram",
+        "Loic Le Marchand",
+        "Beate Ritz",
+        "Iona Cheng"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9718356/\nhttps://doi.org/10.1158/0008-5472.CAN-21-1138",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9718356/",
+    "doi": "https://doi.org/10.1158/0008-5472.CAN-21-1138",
+    "citation_count": 5,
+    "references": {
+        "10957117": "Scalable Multipollutant Exposure Assessment Using Routine Mobile Monitoring Platforms",
+        "10702920": "The bio-distribution, clearance pathways, and toxicity mechanisms of ambient ultrafine particles",
+        "10472925": "Maternal exposure to aircraft emitted ultrafine particles during pregnancy and likelihood of ASD in children",
+        "10228722": "Investigation of incidence and geographic distribution of gliomas in Canada from 1992 to 2010: a national population-based study highlighting the importance of exposure to airport operations",
+        "10186727": "Health consequences of exposure to aircraft contaminated air and fume events: a narrative review and medical protocol for the investigation of exposed aircrew and passengers"
+    },
+    "journal": "Cancer research",
+    "topics": [
+        "brain, cohort, association, malignant",
+        "ultrafine, study, malignant, risk",
+        "ultrafine, cancer, study, particles"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "title": "Breast cancer brain metastasis: insight into molecular mechanisms and therapeutic strategies",
+    "abstract": "Breast cancer brain metastasis: insight into molecular mechanisms and therapeutic strategies Yajie Wang Fangzhou Ye Yiran Liang Qifeng Yang",
+    "authors": [
+        "Yajie Wang",
+        "Fangzhou Ye",
+        "Yiran Liang",
+        "Qifeng Yang"
+    ],
+    "published_year": "2021",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8505648/\nhttps://doi.org/10.1038/s41416-021-01424-8",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8505648/",
+    "doi": "https://doi.org/10.1038/s41416-021-01424-8",
+    "citation_count": 27,
+    "references": {
+        "10905006": "Single-cell RNA sequencing reveals epithelial cells driving brain metastasis in lung adenocarcinoma",
+        "10869626": "Neurotoxicity-sparing radiotherapy for brain metastases in breast cancer: a narrative review",
+        "10848367": "A promising target for breast cancer: B7-H3",
+        "10799417": "Cell-cell communication characteristics in breast cancer metastasis",
+        "10794616": "Research progress of exosomes in drug resistance of breast cancer",
+        "10771791": "MMP-2 Responsive Peptide Hydrogel-Based Nanoplatform for Multimodal Tumor Therapy",
+        "10768531": "Bone metastasis is a late-onset and unfavorable event in survivors of gastric cancer after radical gastrectomy: Results from a clinical observational cohort",
+        "10657995": "Patterns of de novo metastasis and survival outcomes by age in breast cancer patients: a SEER population-based study",
+        "10572254": "Brain Metastases from Breast Cancer Histologically Exhibit Solid Growth Pattern with at Least Focal Comedonecrosis: A Histopathologic Study on a Monocentric Series of 30 Cases",
+        "10523396": "Current perspectives and trends in nanoparticle drug delivery systems in breast cancer: bibliometric analysis and review",
+        "10510350": "A Predictive Model for the Early Death of Breast Cancer With Synchronous Liver Metastases: A Population-Based Study",
+        "10498115": "Disitamab Vedotin (RC48) combined with bevacizumab for treatment of HR-negative/HER2-positive metastatic breast cancer with liver and brain involvement: A case report",
+        "10393036": "Extracellular vesicles in the treatment and diagnosis of breast cancer: a status update",
+        "10311757": "Breast cancer brain metastasis: from etiology to state-of-the-art modeling",
+        "10298724": "Breast Cancer with Brain Metastasis: Molecular Insights and Clinical Management",
+        "10251837": "Discordant and Converting Receptor Expressions in Brain Metastases from Breast Cancer: MRI-Based Non-Invasive Receptor Status Tracking",
+        "10138870": "Adhesion to the Brain Endothelium Selects Breast Cancer Cells with Brain Metastasis Potential",
+        "10101248": "Tumor-to-tumor metastasis: A case report of metastasis of nasopharyngeal carcinoma to meningioma and review of the literature",
+        "10074632": "Molecular landscape and emerging therapeutic strategies in breast cancer brain metastasis",
+        "10039515": "A novel feedback regulated loop of circRRM2-IGF2BP1-MYC promotes breast cancer metastasis",
+        "9894725": "WXJ-202, a novel Ribociclib derivative, exerts antitumor effects against breast cancer through CDK4/6",
+        "9861432": "UPLC-Q-TOF/MS-Based Metabolomics Approach Reveals Osthole Intervention in Breast Cancer 4T1 Cells",
+        "9840986": "Establishment and verification of a nomogram to predict tumor-specific mortality risk in triple-negative breast cancer: a competing risk model based on the SEER cohort study",
+        "9540903": "Leptomeningeal metastases in patients with human epidermal growth factor receptor 2 positive breast cancer: Real\u2010world data from a multicentric European cohort",
+        "9433809": "Advances in lipid-based nanocarriers for breast cancer metastasis treatment",
+        "9355905": "Breast cancer metastasis: Is it a matter of OMICS and proper ex-vivo models?",
+        "7613958": "Molecular signaling network and therapeutic developments in breast cancer brain metastasis"
+    },
+    "journal": "British Journal of Cancer",
+    "topics": [
+        "metastasis, cancer, molecular, mechanisms",
+        "breast, therapeutic, brain, strategies",
+        "molecular, insight, cancer, metastasis"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "title": "The shared genetic architectures between lung cancer and multiple polygenic phenotypes in genome-wide association studies",
+    "abstract": "Exploring pairwise genetic correlations between lung cancer and other polygenic traits can reveal the common genetic etiology of correlated phenotypes. We observed highly significant correlations between the genetic architectures of lung cancer and emphysema/chronic bronchitis across all histological subtypes, as well as among lung cancer occurring among smokers. Impact: These findings provide new insights into the etiology of lung cancer by identifying traits that are genetically correlated with increased risk of lung cancer.",
+    "authors": [
+        "Jinyoung Byun",
+        "Younghun Han",
+        "Quinn T. Ostrom",
+        "Jacob Edelson",
+        "Kyle M. Walsh",
+        "Rowland W. Pettit",
+        "Melissa L. Bondy",
+        "Rayjean J. Hung",
+        "James D. McKay",
+        "Christopher I. Amos"
+    ],
+    "published_year": "Not available",
+    "description": "Background:\n          Prior genome-wide association studies have identified numerous lung cancer risk loci and reveal substantial etiologic heterogeneity across histological subtypes. Analyzing the shared genetic architecture underlying variation in complex traits can elucidate common genetic etiologies across phenotypes. Exploring pairwise genetic correlations between lung cancer and other polygenic traits can reveal the common genetic etiology of correlated phenotypes.\nMethods:\n          Using cross-trait linkage disequilibrium score regression, we estimated the pairwise genetic correlation and heritability between lung cancer and multiple traits using publicly available summary statistics. Identified genetic relationships were also examined after excluding genomic regions known to be associated with smoking behaviors, a major risk factor for lung cancer.\nResults:\n          We observed several traits showing moderate SNP-based heritability and significant genetic correlations with lung cancer. We observed highly significant correlations between the genetic architectures of lung cancer and emphysema/chronic bronchitis across all histological subtypes, as well as among lung cancer occurring among smokers. Our analyses revealed highly significant positive correlations between lung cancer and paternal history of lung cancer. We also observed a strong negative correlation with parental longevity. We observed consistent directions in genetic patterns after excluding genomic regions associated with smoking behaviors.\nConclusions:\n          This study identifies numerous phenotypic traits that share genomic architecture with lung carcinogenesis and are not fully accounted for by known smoking-associated genomic loci.\nImpact:\n          These findings provide new insights into the etiology of lung cancer by identifying traits that are genetically correlated with increased risk of lung cancer.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9108090/",
+    "doi": "https://doi.org/10.1158/1055-9965.EPI-20-1635",
+    "citation_count": 9,
+    "references": {
+        "11014425": "Lung cancer in patients who have never smoked \u2014 an emerging disease",
+        "10651112": "Heritable Traits and Lung Cancer Risk: A Two-Sample Mendelian Randomization Study",
+        "10557605": "Context-aware single-cell multiome approach identified cell-type specific lung cancer susceptibility genes",
+        "10464352": "TP53 mutation prevalence in normal airway epithelium as a biomarker for lung cancer risk",
+        "10328362": "Explainable multi-task learning improves the parallel estimation of polygenic risk scores for many diseases through shared genetic basis",
+        "9958016": "Multitrait genome-wide analyses identify new susceptibility loci and candidate drugs to primary sclerosing cholangitis",
+        "9787699": "An integrated genome and phenome-wide association study approach to understanding Alzheimer\u2019s disease predisposition",
+        "9585683": "Functional studies of lung cancer GWAS beyond association",
+        "8814062": "Shared genomic architecture between COVID-19 severity and numerous clinical and physiologic parameters revealed by LD score regression analysis"
+    },
+    "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+    "topics": [
+        "polygenic, architectures, phenotypes, multiple",
+        "genetic, studies, cancer, lung",
+        "polygenic, architectures, shared, lung"
+    ]
+}

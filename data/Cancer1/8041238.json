@@ -1,0 +1,39 @@
+{
+    "title": "Salting the soil: Targeting the microenvironment of brain metastases",
+    "abstract": "Paget\u2019s \u2018seed and soil\u2019 hypothesis of metastatic spread has acted as a foundation of the field for \nover a century, with continued evolution as mechanisms of the process have been elucidated. The \nCNS presents a unique soil through this lens, relatively isolated from peripheral circulation and \nimmune surveillance with distinct cellular and structural composition. Research in primary and \nmetastatic brain tumors has demonstrated that this tumor microenvironment (TME) plays an \nessential role in the growth of CNS tumors. In each case, the cancerous cells develop complex and \nbi-directional relationships that reorganize the local TME and reprogram the CNS cells, including \nendothelial cells, pericytes, astrocytes, microglia, infiltrating monocytes, and lymphocytes. These \ninteractions create a structurally and immunologically permissive TME with malignant processes \npromoting positive feedback loops and systemic consequences. Strategies to interrupt interactions \nwith the native CNS components, on 'salting the soil,' to create an inhospitable environment are \npromising in the preclinical setting. This review aims to examine the general and specific \npathways thus far investigated in BrM and related work in glioma to identify targetable \nmechanisms that may have general application across the spectrum of intracranial tumors.\nKeywords\nmicroenvironment; brain metastasis; immune suppression; therapeutic targets\nCorresponding Author: Mustafa Khasraw MD, Duke University Medical Center; Duke University \u2223 Box 3624, Durham, NC 27710, \nmustafa.khasraw@duke.edu Phone: +1 919.684.6173. \nAuthor\u2019s Financial Disclosures and conflicts:\nESS declares no conflicts; ACT declares no conflicts; CKA: Research funding PUMA, Lilly, Merck, Seattle Genetics, Nektar, Tesaro, \nG1-Therapeutics; Compensated consultant role: Genentech, Eisai, IPSEN, Seattle Genetics; Astra Zeneca; Royalties: UpToDate, Jones \nand Bartlett; Ann Marie Pendergast: The Pew Biomedical Program Advisory Committee; DAS: none declared; DMA: stock and other \nownership interests in Diverse Biotech; consulting or advisory positions for Istari Oncology and Jackson Laboratory for Genomic \nMedicine; patents, royalties, other intellectual property for \u201cMethods for predicting tumor response to immunotherapy, U.S. \nProvisional application no. 62/787\u201d and \u201cMethods for predicting tumor response to immunotherapy, U.S. Provisional application no. \n62/620,577\u201d; and expert testimony for Tanoury, Nauts, McKinney & Gabarino, PLLC; PEF reports consulting for Monteris Medical; \nM.K. reports consultant or advisory roles for Janssen, AbbVie, Ipsen, Pfizer Roche, and Jackson Laboratory for Genomic Medicine; \nresearch funding from AbbVie, Bristol-Myers Squibb (BMS), and Specialized Therapeutics.\nHHS Public Access\nAuthor manuscript\nMol Cancer Ther. Author manuscript; available in PMC 2021 September 01.\nPublished in final edited form as:\nMol Cancer Ther. 2021 March ; 20(3): 455\u2013466. doi:10.1158/1535-7163.MCT-20-0579.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Ethan S. Srinivasan",
+        "Aaron C. Tan",
+        "Carey K. Anders",
+        "Ann Marie Pendergast",
+        "Dorothy A. Sipkins",
+        "David M. Ashley",
+        "Peter E. Fecci",
+        "Mustafa Khasraw"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8041238/\nhttps://doi.org/10.1158/1535-7163.MCT-20-0579",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8041238/",
+    "doi": "https://doi.org/10.1158/1535-7163.MCT-20-0579",
+    "citation_count": 12,
+    "references": {
+        "10759676": "Enhancing brain metastasis prediction in non-small cell lung cancer: a deep learning-based segmentation and CT radiomics-based ensemble learning model",
+        "10725587": "Harnessing immunotherapy for brain metastases: insights into tumor\u2013brain microenvironment interactions and emerging treatment modalities",
+        "10634729": "Proteomic Insights into Metastatic Breast Cancer Response to Brain Cell-Secreted Factors",
+        "10216320": "Interdependencies of the Neuronal, Immune and Tumor Microenvironment in Gliomas",
+        "10171356": "Melanoma central nervous system metastases: An update to approaches, challenges, and opportunities",
+        "9719005": "Non\u2013small cell lung cancer-derived exosomes promote proliferation, phagocytosis, and secretion of microglia via exosomal microRNA in the metastatic microenvironment",
+        "9713504": "A comprehensive profiling of the immune microenvironment of breast cancer brain metastases",
+        "9548021": "Towards updated understanding of brain metastasis",
+        "9403451": "Investigation of the added value of CT-based radiomics in predicting the development of brain metastases in patients with radically treated stage III NSCLC",
+        "9174884": "Feed\u2010forward loops between metastatic cancer cells and their microenvironment\u2014the stage of escalation",
+        "8972292": "Establishment of patient-derived organoid models of lower-grade glioma",
+        "8395168": "Tumor-Associated Macrophages (TAMs) in Colorectal Cancer (CRC): From Mechanism to Therapy and Prognosis"
+    },
+    "journal": "Molecular cancer therapeutics",
+    "topics": [
+        "microenvironment, targeting, brain, soil",
+        "metastases, salting, soil, brain",
+        "targeting, brain, salting, soil"
+    ]
+}

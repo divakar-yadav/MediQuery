@@ -1,0 +1,39 @@
+{
+    "title": "Selective cell size MRI differentiates brain tumors from radiation necrosis",
+    "abstract": "Brain metastasis is a common characteristic of late-stage lung cancers. High doses of targeted \nradiation can control tumor growth in the brain but can also result in radiation-induced necrosis. \nCurrent methods are limited for distinguishing whether new parenchymal lesions following \nradiotherapy are recurrent tumors or radiation-induced necrosis, but the clinical management of \nthese two classes of lesions differs significantly. Here we developed, validated, and evaluated a \nnew MRI technique termed selective size imaging using filters via diffusion times (SSIFT) to \ndifferentiate brain tumors from radiation necrosis in the brain. This approach generates a signal \nfilter that leverages diffusion time dependence to establish a cell-size-weighted map. Computer \nsimulations in silico, cultured cancer cells in vitro, and animals with brain tumors in vivo were \nused to comprehensively validate the specificity of SSIFT for detecting typical large cancer cells \n*Corresponding author: Correspondence to Junzhong Xu. junzhong.xu@vanderbilt.edu. Address: Institute of Imaging Science, \nVanderbilt University Medical Center, 1161 21st Avenue South, AA 1105 MCN, Nashville, TN 37232-2310, United States. Fax: +1 \n615 322 0734. \nConflict of interest disclosure statement: No potential conflicts of interest were disclosed by the authors.\nHHS Public Access\nAuthor manuscript\nCancer Res. Author manuscript; available in PMC 2023 April 04.\nPublished in final edited form as:\nCancer Res. 2022 October 04; 82(19): 3603\u20133613. doi:10.1158/0008-5472.CAN-21-2929.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Sean P Devan",
+        "Xiaoyu Jiang",
+        "Guozhen Luo",
+        "Jingping Xie",
+        "James D Quirk",
+        "John A Engelbach",
+        "Hannah Harmsen",
+        "Eliot T McKinley",
+        "Jing Cui",
+        "Zhongliang Zu",
+        "Albert Attia",
+        "Joel R Garbow",
+        "John C. Gore",
+        "Colin D McKnight",
+        "Austin N Kirschner",
+        "Junzhong Xu"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9532360/\nhttps://doi.org/10.1158/0008-5472.CAN-21-2929",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9532360/",
+    "doi": "https://doi.org/10.1158/0008-5472.CAN-21-2929",
+    "citation_count": 4,
+    "references": {
+        "10528251": "CEST2022: Amide proton transfer-weighted MRI improves the diagnostic performance of multiparametric non-contrast-enhanced MRI techniques in patients with post-treatment high-grade gliomas",
+        "10390727": "Advances in the application of neuroinflammatory molecular imaging in brain malignancies",
+        "10167709": "Towards differentiation of brain tumor from radiation necrosis using multi-parametric MRI: Preliminary results at 4.7T using rodent models",
+        "7615244": "Temporal Diffusion Ratio (TDR) for imaging restricted diffusion: Optimisation and pre-clinical demonstration"
+    },
+    "journal": "Cancer research",
+    "topics": [
+        "selective, cell, radiation, size",
+        "tumors, cell, brain, radiation",
+        "mri, differentiates, tumors, size"
+    ]
+}

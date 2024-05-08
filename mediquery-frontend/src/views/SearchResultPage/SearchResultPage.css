@@ -2,6 +2,7 @@
   padding-top: 35px;
   margin-right: 25px;
   font-size: 22px;
+  min-width: 280px;
 }
 .search-results {
   max-width: 60%;
@@ -188,4 +189,37 @@ span.published-year {
 }
 .published-wrapper {
   margin-left: 14px;
+}
+.search-box-contain {
+  min-width: 80%;
+}
+
+.filters-wrapper-sr {
+  font-weight: 200;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+.year-filter-sr {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.dt-picker-sr {
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.dt-picker-sr span {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+span.filters-wrapper-title-sr {
+  margin-bottom: 10px;
+  font-weight: 400;
 }

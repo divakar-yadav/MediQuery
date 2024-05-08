@@ -1,0 +1,28 @@
+{
+    "title": "Molecular Pathology of Lung Cancer",
+    "abstract": "Molecular Pathology of Lung Cancer James J. Saller Theresa A. Boyle",
+    "authors": [
+        "James J. Saller",
+        "Theresa A. Boyle"
+    ],
+    "published_year": "Not available",
+    "description": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8886739/",
+    "doi": "https://doi.org/10.1101/cshperspect.a037812",
+    "citation_count": 7,
+    "references": {
+        "10931799": "Molecular Classifications in Gastric Cancer: A Call for Interdisciplinary Collaboration",
+        "10709390": "Recognition and combination of multiple cell-death features showed good predictive value in lung adenocarcinoma",
+        "10611059": "Advances in mRNA-Based Cancer Vaccines",
+        "10366644": "Matched tissue and liquid biopsies for advanced non-small cell lung cancer patients A potentially indispensable complementary approach",
+        "10242197": " GPX2 promotes EMT and metastasis in non\u2010small cell lung cancer by activating PI3K/AKT/mTOR/Snail signaling axis",
+        "9344265": "HS-1793 inhibits cell proliferation in lung cancer by interfering with the interaction between p53 and MDM2",
+        "9161888": "Kruppel like factor 16 promotes lung adenocarcinoma progression by upregulating lamin B2"
+    },
+    "journal": "Cold Spring Harbor Perspectives in Medicine",
+    "topics": [
+        "pathology, lung, molecular, cancer",
+        "cancer, pathology, molecular, lung",
+        "lung, molecular, cancer, pathology"
+    ]
+}

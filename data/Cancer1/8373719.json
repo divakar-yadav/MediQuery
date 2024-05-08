@@ -1,0 +1,40 @@
+{
+    "title": "Tryptophan metabolism in brain tumors \u2014 IDO and beyond",
+    "abstract": "Metabolism of the essential amino acid tryptophan is a key metabolic pathway that restricts \nantitumor immunity and is a drug development target for cancer immunotherapy. Tryptophan \nmetabolism is active in brain tumors including gliomas and promotes a malignant phenotype \nand contributes to the immunosuppressive tumor microenvironment. In recent years, improved \nunderstanding of the regulation and downstream function of tryptophan metabolism has been \nsignificantly expanded beyond the initial in vitro observation that the enzyme indoleamine-2,3-\ndioxygenase 1 (IDO1) promotes the depletion of intracellular tryptophan. Here, we revisit the \nspecific roles of tryptophan metabolites in regulating brain functioning and neuronal integrity as \nwell as in the context of brain tumors. This review summarizes recent developments in identifying \nkey regulators, as well as the cellular and molecular effects of tryptophan metabolism with a \nparticular focus on potential therapeutic targets in glioma\nCorresponding authors: Platten, Michael (m.platten@dkfz.de), Opitz, Christiane A (c.opitz@dkfz.de). \nConflict of interest statement\nM.P. and C.A.O. are listed as inventors on patents on diagnostic tools for tryptophan metabolism (WO2008108994 (M. P.) \nand WO2017072368 (M.P. and C.A.O.). M.P. is inventor on patents on therapeutic targeting of the aryl hydrocarbon receptor \nin brain tumors and other types of cancer (WO2018146010A1, WO2019101643A1, WO20191016 47A1, WO2019101641A1, \nWO2019101641A1, WO2019101 642A1). C.A.O. is inventor on patents on AHR activity (WO2013034685 and WO20203715471) as \nwell as tryptophan metabolism as a biomarker (WO2020208190 and PCT/EP2020/085647).\nFigures were created using BioRender.com.\nHHS Public Access\nAuthor manuscript\nCurr Opin Immunol. Author manuscript; available in PMC 2021 August 19.\nPublished in final edited form as:\nCurr Opin Immunol. 2021 June ; 70: 57\u201366. doi:10.1016/j.coi.2021.03.005.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Michael Platten",
+        "Mirco Friedrich",
+        "Derek A Wainwright",
+        "Verena Panitz",
+        "Christiane A Opitz"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8373719/\nhttps://doi.org/10.1016/j.coi.2021.03.005",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8373719/",
+    "doi": "https://doi.org/10.1016/j.coi.2021.03.005",
+    "citation_count": 16,
+    "references": {
+        "10931797": "Glioblastoma Therapy: Past, Present and Future",
+        "10862068": "ARID5A stabilizes Indoleamine 2,3-dioxygenase expression and enhances CAR T cell exhaustion in colorectal cancer",
+        "10811239": "A multidimensional atlas of human glioblastoma-like organoids reveals highly coordinated molecular networks and effective drugs",
+        "10051585": "Kynureninase Promotes Immunosuppression and Predicts Survival in Glioma Patients: In Silico Data Analyses of the Chinese Glioma Genome Atlas (CGGA) and of the Cancer Genome Atlas (TCGA)",
+        "10011102": "Identification and validation of a risk model and molecular subtypes based on tryptophan metabolism-related genes to predict the clinical prognosis and tumor immune microenvironment in lower-grade glioma",
+        "9926378": "Endothelial Indoleamine-2,3-Dioxygenase-1 is not Critically Involved in Regulating Antitumor Immunity in the Central Nervous System",
+        "9673907": "Identification of tryptophan metabolic gene-related subtypes, development of prognostic models, and characterization of tumor microenvironment infiltration in gliomas",
+        "9672321": "Indoleamine 2, 3-dioxygenase 1 inhibitory compounds from natural sources",
+        "9455275": "Identify metabolism-related genes IDO1, ALDH2, NCOA2, SLC7A5, SLC3A2, LDHB, and HPRT1 as potential prognostic markers and correlate with immune infiltrates in head and neck squamous cell carcinoma",
+        "8891133": "Indolethylamine-N-Methyltransferase Inhibits Proliferation and Promotes Apoptosis of Human Prostate Cancer Cells: A Mechanistic Exploration",
+        "8700075": "Glioblastoma: Relationship between Metabolism and Immunosuppressive Microenvironment",
+        "8591748": "Novel Substituted Piperazine Amide Compounds as Indoleamine-2,3-dioxygenase (IDO) Inhibitors",
+        "8521614": "Novel Substituted Tetrahydroquinoline Compounds as Indoleamine-2,3-dioxygenase (IDO) Inhibitors",
+        "8490504": "Tryptophan metabolism is inversely regulated in the tumor and blood of patients with glioblastoma",
+        "8445903": "Blockade of IDO-Kynurenine-AhR Axis Ameliorated Colitis-Associated Colon Cancer via Inhibiting Immune Tolerance",
+        "8234854": "Targeted Therapies and Immune Checkpoint Inhibitors in Primary CNS Lymphoma"
+    },
+    "journal": "Current opinion in immunology",
+    "topics": [
+        "tumors, metabolism, ido, brain",
+        "beyond, tryptophan, brain, ido",
+        "tryptophan, ido, tumors, metabolism"
+    ]
+}

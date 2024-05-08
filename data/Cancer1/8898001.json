@@ -1,0 +1,28 @@
+{
+    "title": "Impact of Reverse Causation on Estimates of Cancer Risk Associated With Radiation Exposure From Computerized Tomography: A Simulation Study Modeled on Brain Cancer",
+    "abstract": "Impact of Reverse Causation on Estimates of Cancer Risk Associated With Radiation Exposure From Computerized Tomography: A Simulation Study Modeled on Brain Cancer Mark P Little Ankur Patel Choonsik Lee Michael Hauptmann Amy Berrington de Gonzalez Paul Albert",
+    "authors": [
+        "Mark P Little",
+        "Ankur Patel",
+        "Choonsik Lee",
+        "Michael Hauptmann",
+        "Amy Berrington de Gonzalez",
+        "Paul Albert"
+    ],
+    "published_year": "2021",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898001/\nhttps://doi.org/10.1093/aje/kwab247",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898001/",
+    "doi": "https://doi.org/10.1093/aje/kwab247",
+    "citation_count": 3,
+    "references": {
+        "10144250": "Quantitative Analysis of the Clinical Reasons Influencing the Frequency of Pediatric Head CT Examinations: A Single-Center Observation Study",
+        "9167801": "Cancer risks among studies of medical diagnostic radiation exposure in early life without quantitative estimates of dose",
+        "9118883": "Review of the risk of cancer following low and moderate doses of sparsely ionising radiation received in early life in groups with individually estimated doses"
+    },
+    "journal": "American Journal of Epidemiology",
+    "topics": [
+        "estimates, associated, impact, exposure",
+        "cancer, exposure, impact, simulation",
+        "cancer, risk, estimates, associated"
+    ]
+}

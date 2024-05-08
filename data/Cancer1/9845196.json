@@ -1,0 +1,24 @@
+{
+    "title": "Neuron-glial interactions in health and brain cancer",
+    "abstract": "Brain tumors are devastating diseases of the central nervous system. Brain tumor pathogenesis \ndepends on both tumor-intrinsic oncogenic programs and extrinsic microenvironmental factors, \nincluding neurons and glial cells. Glial cells (oligodendrocytes, astrocytes, and microglia) make \nup half of cells in the brain, and interact with neurons to modulate neurodevelopment and \nplasticity. Many brain tumor cells exhibit transcriptomic profiles similar to macroglial cells \n(oligodendrocytes and astrocytes) and their progenitors, making them likely to subvert existing \nneuron-glial interactions to support tumor pathogenesis. For example, oligodendrocyte precursor \ncells, a putative glioma cell of origin, can form bona fide synapses with neurons. Such synapses \nwere recently identified in gliomas and drive glioma pathophysiology, underscoring how brain \ntumor cells can take advantage of neuron-glial interactions to support cancer progression. In this \nreview, we briefly summarize how neurons and their activity normally interact with glial cells and \nglial progenitors, and discuss how brain tumor cells utilize neuron-glial interactions to support \ntumor initiation and progression. We also point out unresolved questions on these topics and \npotential avenues to therapeutically target neuron-glia-cancer interactions in the brain.\nKeywords\nneuron-glial interactions; brain tumor; glioma; neuron-glioma synapse; cancer neuroscience\nBrain cancers are devastating diseases that recapitulate and subvert mechanisms of healthy \nbrain development and plasticity. We will therefore consider glial malignancies in the \ncontext of the neuron-glial interactions that regulate and modulate normal brain function, \ndiscussing how these powerful intercellular interactions are subverted in the context of brain \ncancer.\nINTERACTIONS BETWEEN NEURONS AND OLIGODENDROGLIA\nNeuronal activity modulates oligodendroglial plasticity\nOligodendrocytes are glial cells that myelinate central nervous system (CNS) neuronal \naxons and facilitate fast saltatory electrical conductance of action potentials. Myelination is \n*co-corresponding: Ypan4@mdanderson.org; mmonje@stanford.edu. \nHHS Public Access\nAuthor manuscript\nAdv Biol (Weinh). Author manuscript; available in PMC 2023 March 01.\nPublished in final edited form as:\nAdv Biol (Weinh). 2022 September ; 6(9): e2200122. doi:10.1002/adbi.202200122.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Yuan Pan",
+        "Michelle Monje"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9845196/\nhttps://doi.org/10.1002/adbi.202200122",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9845196/",
+    "doi": "https://doi.org/10.1002/adbi.202200122",
+    "citation_count": 3,
+    "references": {
+        "10804459": "Characterization of prevalent tyrosine kinase inhibitors and their challenges in glioblastoma treatment",
+        "10470823": "An overview of human single-cell RNA sequencing studies in neurobiological disease",
+        "9723066": "Brain Tumor Networks in Diffuse Glioma"
+    },
+    "journal": "Advanced biology",
+    "topics": [
+        "health, brain, cancer, interactions",
+        "interactions, brain, health, cancer",
+        "cancer, interactions, brain, health"
+    ]
+}

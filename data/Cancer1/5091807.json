@@ -1,0 +1,41 @@
+{
+    "title": "Interrogating Metabolism in Brain Cancer",
+    "abstract": "Interrogating Metabolism in Brain Cancer Travis Salzillo Jingzhe Hu Linda Nguyen Nicholas Whiting Jaehyuk Lee Joseph Weygand Prasanta Dutta Shivanand Pudakalakatti Niki Zacharias Millward Seth Gammon Frederick Lang Amy Heimberger Pratip Bhattacharya",
+    "authors": [
+        "Travis Salzillo",
+        "Jingzhe Hu",
+        "Linda Nguyen",
+        "Nicholas Whiting",
+        "Jaehyuk Lee",
+        "Joseph Weygand",
+        "Prasanta Dutta",
+        "Shivanand Pudakalakatti",
+        "Niki Zacharias Millward",
+        "Seth Gammon",
+        "Frederick Lang",
+        "Amy Heimberger",
+        "Pratip Bhattacharya"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091807/\nhttps://doi.org/10.1016/j.mric.2016.07.003",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091807/",
+    "doi": "https://doi.org/10.1016/j.mric.2016.07.003",
+    "citation_count": 9,
+    "references": {
+        "10540236": "Molecular landscapes of glioblastoma cell lines revealed a group of patients that do not benefit from WWOX tumor suppressor expression",
+        "10526791": "Non-Invasive Assessment of Isocitrate Dehydrogenase-Mutant Gliomas Using Optimized Proton Magnetic Resonance Spectroscopy on a Routine Clinical 3-Tesla MRI",
+        "10093051": "Stereotactic Magnetic Resonance-Guided Adaptive and Non-Adaptive Radiotherapy on Combination MR-Linear Accelerators: Current Practice and Future Directions",
+        "9953338": "Magnetic Resonance Imaging of Primary Adult Brain Tumors: State of the Art and Future Perspectives",
+        "8534002": "Measuring the Metabolic Evolution of Glioblastoma throughout Tumor Development, Regression, and Recurrence with Hyperpolarized Magnetic Resonance",
+        "8269017": "A Systems Approach to Brain Tumor Treatment",
+        "7471621": "Glioblastoma Utilizes Fatty Acids and Ketone Bodies for Growth Allowing Progression during Ketogenic Diet Therapy",
+        "6642106": "PI3K/mTOR inhibition of IDH1 mutant glioma leads to reduced 2HG production that is associated with increased survival",
+        "5291814": "Interrogating IDH Mutation in Brain Tumor: Magnetic Resonance and Hyperpolarization"
+    },
+    "journal": "Magnetic resonance imaging clinics of North America",
+    "topics": [
+        "metabolism, interrogating, cancer, brain",
+        "metabolism, interrogating, cancer, brain",
+        "brain, cancer, interrogating, metabolism"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Microphysiological systems to study tumor-stroma interactions in brain cancer",
+    "abstract": "Brain tumors still lack effective treatments, and the mechanisms of tumor progression and \ntherapeutic resistance are unclear. Multiple parameters affect cancer prognosis (e.g., type and \ngrade, age, location, size, and genetic mutations) and election of suitable treatments is based on \npreclinical models and clinical data. However, most candidate drugs fail in human trials due to \ninefficacy. Cell lines and tissue culture plates do not provide physiologically relevant \nenvironments, and animal models are not able to adequately mimic characteristics of disease in \nhumans. Therefore, increasing technological advances are focusing on in vitro and computational \nmodeling to increase the throughput and predicting capabilities of preclinical systems. The \nextensive use of these therapeutic agents requires a more profound understanding of the tumor-\nstroma interactions, including neural tissue, extracellular matrix, blood-brain barrier, astrocytes \nand microglia. Microphysiological brain tumor models offer physiologically relevant vascularized \n\u2018minitumors\u2019 that can help deciphering disease mechanisms, accelerating the drug discovery and \npredicting patient\u2019s response to anticancer treatments. This article reviews progress in tumor-on-a-\nchip platforms that are designed to comprehend the particular roles of stromal cells in the brain \ntumor microenvironment.\nKeywords\norgan-on-a-chip; disease models; brain tumor; glioblastoma; microfluidic devices\n1.",
+    "authors": [
+        "Edward R Neves",
+        "Brendan AC Harley",
+        "Sara Pedron"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8324563/\nhttps://doi.org/10.1016/j.brainresbull.2021.06.012",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8324563/",
+    "doi": "https://doi.org/10.1016/j.brainresbull.2021.06.012",
+    "citation_count": 0,
+    "references": [],
+    "journal": "Brain research bulletin",
+    "topics": [
+        "cancer, brain, interactions, systems",
+        "cancer, brain, microphysiological, interactions",
+        "microphysiological, study, systems, interactions"
+    ]
+}

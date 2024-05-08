@@ -1,0 +1,47 @@
+{
+    "title": "Promising approaches to circumvent the blood-brain barrier: progress, pitfalls and clinical prospects in brain cancer",
+    "abstract": "Brain drug delivery is a major challenge for therapy of central nervous system (CNS) diseases. \nBiochemical modifications of drugs or drug nanocarriers, methods of local delivery, and blood\u2013\nbrain barrier (BBB) disruption with focused ultrasound and microbubbles are promising \napproaches which enhance transport or bypass the BBB. These approaches are discussed in the \ncontext of brain cancer as an example in CNS drug development. Targeting to receptors enabling \ntransport across the BBB offers noninvasive delivery of small molecule and biological cancer \ntherapeutics. Local delivery methods enable high dose delivery while avoiding systemic exposure. \nBBB disruption with focused ultrasound and microbubbles offers local and noninvasive treatment. \nClinical trials show the prospects of these technologies and point to challenges for the future.\nThe blood\u2013brain barrier (BBB) present in brain capillaries poses a formidable challenge for \ndelivery of therapeutics to treat a wide array of diseases affecting the brain (e.g., primary \nand secondary brain tumors, neurodegenerative diseases, lysosomal storage disorders, \ninfections) [1\u20133]. As a consequence of the BBB, drugs which may be otherwise effective \ncannot be utilized, require invasive delivery methods or have limited efficacy as well as side \neffects resulting from the use of large dosages.\nThe BBB phenotype is altered in many CNS diseases (see [4] for an extensive list) which \ncan have important implications for drug delivery. In the context of brain cancer, a \nproangiogenic environment yields blood vessels with a disorganized endothelium and \naltered blood flow which can reduce perfusion of affected tumor regions [5,6]. Hyper-\npermeability of the tumor vasculature is often observed as a result of increased paracellular \nflux due to loss of tight junctions as well as increased fenestrations and transcytotic vesicles \nin endothelial cells (ECs) [5,6]. The heterogeneous permeability of the BBB in tumors can \nreportedly limit drug efficacy [7,8]. A recent study found that the measured concentration of \nsystemically administered capecitabine or lapatinib within intracranial tumors was variable \n*Author for correspondence: Tel.: +1 617 353 7366, Fax: +1 617 353 5866, tmp@bu.edu. \nFinancial & competing interests disclosure\nThe authors have no other relevant affiliations or financial involvement with any organization or entity with a financial interest in or \nfinancial conflict with the subject matter or materials discussed in the manuscript apart from those disclosed.\nNo writing assistance was utilized in the production of this manuscript.\nHHS Public Access\nAuthor manuscript\nTher Deliv. Author manuscript; available in PMC 2016 June 25.\nPublished in final edited form as:\nTher Deliv. 2015 August ; 6(8): 989\u20131016. doi:10.4155/tde.15.48.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Iason T Papademetriou",
+        "Tyrone Porter"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4618388/\nhttps://doi.org/10.4155/tde.15.48",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4618388/",
+    "doi": "https://doi.org/10.4155/tde.15.48",
+    "citation_count": 25,
+    "references": {
+        "10795035": "Development of a Targeted SN-38-Conjugate for the Treatment of Glioblastoma",
+        "10741850": "Therapeutic Targeting of Glioblastoma and the Interactions with Its Microenvironment",
+        "10672656": "Influence of Brain Metastasis on Analgesia-Related Outcomes in Patients with Lung and Breast Cancers Treated with Naldemedine: A Propensity Score-Matched Analysis",
+        "10059750": "Glycosylation and Lipidation Strategies: Approaches for Improving Antimicrobial Peptide Efficacy",
+        "9908025": "Anti-seed PNAs targeting multiple oncomiRs for brain tumor therapy",
+        "9882566": "Deep Learning Enables Reduced Gadolinium Dose for Contrast-Enhanced Blood-Brain Barrier Opening",
+        "9864328": "Thymine-Modified Nanocarrier for Doxorubicin Delivery in Glioblastoma Cells",
+        "9472014": "Targeted brain delivery of RVG29\u2010modified rifampicin\u2010loaded nanoparticles for Alzheimer's disease treatment and diagnosis",
+        "8994312": "Anti-cancer peptide-based therapeutic strategies in solid tumors",
+        "8553628": "Focused Ultrasound-Mediated Blood-Brain Barrier Opening Increases Delivery and Efficacy of Etoposide for Glioblastoma Treatment",
+        "8295095": "The influence of brain metastases on the central nervous system effects of methylnaltrexone: a post hoc analysis of 3 randomized, double-blind studies",
+        "8266951": "Organ-on-a-chip technology for nanoparticle research",
+        "7827410": "Nanotechnology and Nanocarrier-Based Drug Delivery as the Potential Therapeutic Strategy for Glioblastoma Multiforme: An Update",
+        "7479245": "Strategies for Improved Intra-arterial Treatments Targeting Brain Tumors: a Systematic Review",
+        "7406673": "Chitosan-Based Non-viral Gene and Drug Delivery Systems for Brain Cancer",
+        "7288394": "Tumor targeting peptides: novel therapeutic strategies in glioblastoma",
+        "7277349": "Non-Invasive Delivery of Therapeutics into the Brain: The Potential of Aptamers for Targeted Delivery",
+        "7116796": "Lipid-Based Nanocarriers for The Treatment of Glioblastoma",
+        "7023012": "Antibodies for the Treatment of Brain Metastases, a Dream or a Reality?",
+        "6213072": "Glioblastoma Chemoresistance: The Double Play by Microenvironment and Blood-Brain Barrier",
+        "6206841": "Developments in Blood-Brain Barrier Penetrance and Drug Repurposing for Improved Treatment of Glioblastoma",
+        "6177192": "Effect of flow on targeting and penetration of angiopep-decorated nanoparticles in a microfluidic model blood-brain barrier",
+        "5900787": "Ultrasound-Triggered Effects of the Microbubbles Coupled to GDNF Plasmid-Loaded PEGylated Liposomes in a Rat Model of Parkinson's Disease",
+        "5894159": "Current Therapies for Human Epidermal Growth Factor Receptor 2-Positive Metastatic Breast Cancer Patients",
+        "5374154": "Targeted Nanotechnology in Glioblastoma Multiforme"
+    },
+    "journal": "Therapeutic delivery",
+    "topics": [
+        "promising, circumvent, prospects, progress",
+        "barrier, brain, approaches, cancer",
+        "prospects, progress, promising, circumvent"
+    ],
+    "keywords": []
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Brain Tumors in Patients with Myotonic Dystrophy: A population-based Study",
+    "abstract": "Background.\u2014Patients with myotonic dystrophy (DM) are at high risk of brain cancer. This \nstudy described the spectrum of brain neoplasms in DM patients.\nMethods.\u2014Data from 1,119 DM patients identified from the National Swedish Patient Register \nbetween 1987 and 2007 were linked to the National Cancer and the Cause of Death Registers. We \ncalculated standardized incidence ratios (SIR), and cumulative incidence to quantify the relative \nand absolute risks of brain neoplasms, and used the Kaplan-Meier estimator for survival analysis. \nPatient follow-up started at birth or the age at the start of Swedish cancer registration (January 1, \n1958), and ended at the age of brain neoplasm diagnosis, death, or in December 31, 2007.\nResults.\u2014Twenty patients developed brain neoplasm during follow-up (median age=53, \nrange=2\u201376 years, accounting for a five-fold excess risk of brain tumors during patient lifetime \n(Standardized incidence ratio, SIR=5.4 [95%CI=3.4\u20138.1, p=1\u00d710\u22125]). Astrocytoma was the most \ncommon histological subtype (n=16, 80%), and almost all cases (n=19) developed after age 20. No \nstatistically significant differences in gender-specific risks (SIR in men= 6.3, and in women=3.8, \np-heterogeneity=0.46) were observed. After accounting for competing mortality related to DM, the \ncumulative incidence of brain neoplasms reached 2.9% (95%CI=1.8\u20134.7%) by age 70. Five-year \nsurvival after brain tumor diagnosis was 52% (95%CI=29\u201375%) overall (number at risk=8), and \n34% (95% CI=26\u201347%) for malignant neoplasms (number at risk=5).\nConclusion.\u2014Despite the high relative risk of DM-related brain tumors, the absolute risk is \nmodest. Nonetheless, careful evaluation of DM patients with new central nervous system \nsymptoms is warranted.\n*Corresponding Author: Shahinaz M. Gadalla, M.D., Ph.D., Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, \nNational Cancer Institute, NIH, 9609 Medical Center Drive, Rockville, MD 20850, Phone:240-276-7254; Fax: 240-276-7836; \ngadallas@mail.nih.gov. \nConflict of Interest: None of the manuscript authors has conflict of interest to disclose\nHHS Public Access\nAuthor manuscript\nEur J Neurol. Author manuscript; available in PMC 2019 July 19.\nPublished in final edited form as:\nEur J Neurol. 2016 March ; 23(3): 542\u2013547. doi:10.1111/ene.12886.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Shahinaz M. Gadalla",
+        "Ruth M Pfeiffer",
+        "Sigurdur Y Kristinsson",
+        "Magnus Bj\u00f6rkholm",
+        "Ola Landgren",
+        "Mark H Greene"
+    ],
+    "published_year": "",
+    "description": "Background.\n          Patients with myotonic dystrophy (DM) are at high risk of brain cancer. This study described the spectrum of brain neoplasms in DM patients.\nMethods.\n          Data from 1,119 DM patients identified from the National Swedish Patient Register between 1987 and 2007 were linked to the National Cancer and the Cause of Death Registers. We calculated standardized incidence ratios (SIR), and cumulative incidence to quantify the relative and absolute risks of brain neoplasms, and used the Kaplan-Meier estimator for survival analysis. Patient follow-up started at birth or the age at the start of Swedish cancer registration (January 1, 1958), and ended at the age of brain neoplasm diagnosis, death, or in December 31, 2007.\nResults.\n          Twenty patients developed brain neoplasm during follow-up (median age=53, range=2\u201376 years, accounting for a five-fold excess risk of brain tumors during patient lifetime (Standardized incidence ratio, SIR=5.4 [95%CI=3.4\u20138.1, p=1\u00d710\u22125]). Astrocytoma was the most common histological subtype (n=16, 80%), and almost all cases (n=19) developed after age 20. No statistically significant differences in gender-specific risks (SIR in men= 6.3, and in women=3.8, p-heterogeneity=0.46) were observed. After accounting for competing mortality related to DM, the cumulative incidence of brain neoplasms reached 2.9% (95%CI=1.8\u20134.7%) by age 70. Five-year survival after brain tumor diagnosis was 52% (95%CI=29\u201375%) overall (number at risk=8), and 34% (95% CI=26\u201347%) for malignant neoplasms (number at risk=5).\nConclusion.\n          Despite the high relative risk of DM-related brain tumors, the absolute risk is modest. Nonetheless, careful evaluation of DM patients with new central nervous system symptoms is warranted.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640147/\nhttps://doi.org/10.1111/ene.12886",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640147/",
+    "doi": "https://doi.org/10.1111/ene.12886",
+    "citation_count": 8,
+    "references": {
+        "6375124": "Systematic thyroid screening in myotonic dystrophy: link between thyroid volume and insulin resistance",
+        "6286884": "Cancer Risk in Myotonic Dystrophy Type I: Evidence of a Role for Disease Severity",
+        "6283697": "Survival Patterns and Cancer Determinants in Families with Myotonic Dystrophy Type I",
+        "6173974": "Cancer Phenotype in Myotonic Dystrophy Patients: Results from a Meta-analysis",
+        "5988134": "Health economic evaluation of a serum-based blood test for brain tumour diagnosis: exploration of two clinical scenarios",
+        "5773358": "Risk of skin cancer among patients with myotonic dystrophy type 1 based on Primary care physician data from the United Kingdom Clinical Practice Research Datalink",
+        "5464410": "Pigmentation Phenotype, Photosensitivity, and Skin Neoplasms in Patients with Myotonic Dystrophy",
+        "5397409": "Myotonic Dystrophies: State of the Art of New Therapeutic Developments for the CNS"
+    },
+    "journal": "European journal of neurology",
+    "topics": [
+        "brain, patients, myotonic, tumors",
+        "dystrophy, patients, myotonic, brain",
+        "dystrophy, study, tumors, myotonic"
+    ]
+}

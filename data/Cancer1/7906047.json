@@ -1,0 +1,30 @@
+{
+    "title": "Genome-wide analysis of high-risk primary brain cancer pedigrees identifies PDXDC1 as a candidate brain cancer predisposition gene",
+    "abstract": "Background.\u2002There is evidence for an inherited contribution to primary brain cancer. Linkage analysis of high-risk \nbrain cancer pedigrees has identified candidate regions of interest in which brain cancer predisposition genes are \nlikely to reside.\nMethods.\u2002 Genome-wide linkage analysis was performed in a unique set of 11 informative, extended, high-risk \nprimary brain cancer pedigrees identified in a population genealogy database, which include from 2 to 6 sam-\npled, related primary brain cancer cases. Access to formalin-fixed paraffin embedded tissue samples archived in a \nbiorepository allowed analysis of extended pedigrees.\nResults.\u2002 Individual high-risk pedigrees were singly informative for linkage at multiple regions. Suggestive evi-\ndence for linkage was observed on chromosomes 2, 3, 14, and 16. \nThe chromosome 16 region in particular contains \na promising candidate gene, pyridoxal-dependent decarboxylase domain-containing 1 (PDXDC1), with prior evi-\ndence for involvement with glioblastoma from other previously reported experimental settings, and contains the \nlead single nucleotide polymorphism (rs3198697) from the linkage analysis of the chromosome 16 region.\nConclusions.\u2002 Pedigrees with a statistical excess of primary brain cancers have been identified in a unique gene-\nalogy resource representing the homogeneous Utah population. Genome-wide linkage analysis of these pedigrees \nhas identified a potential candidate predisposition gene, as well as multiple candidate regions that could harbor \npredisposition loci, and for which further analysis is suggested.\nKey\u00a0Points\n1.\u2002 \u0007\nA resource of pedigrees exhibiting a significant excess of individuals with primary brain \ncancer was analyzed.\n2.\u2002 \u0007\nHigh-risk pedigrees were identified in a genealogic resource with large numbers of \nbiosamples available.\n3.\u2002 \u0007\nAnalysis of high-risk brain cancer pedigrees identified a candidate primary brain tumor \npredisposition gene.",
+    "authors": [
+        "Lisa A Cannon-Albright",
+        "James M Farnham",
+        "Jeffrey Stevens",
+        "Craig C Teerlink",
+        "Cheryl A Palmer",
+        "Kerry Rowe",
+        "Melissa H Cessna",
+        "Deborah T Blumenthal"
+    ],
+    "published_year": "",
+    "description": "Background\n          There is evidence for an inherited contribution to primary brain cancer. Linkage analysis of high-risk brain cancer pedigrees has identified candidate regions of interest in which brain cancer predisposition genes are likely to reside.\nMethods\n          Genome-wide linkage analysis was performed in a unique set of 11 informative, extended, high-risk primary brain cancer pedigrees identified in a population genealogy database, which include from 2 to 6 sampled, related primary brain cancer cases. Access to formalin-fixed paraffin embedded tissue samples archived in a biorepository allowed analysis of extended pedigrees.\nResults\n          Individual high-risk pedigrees were singly informative for linkage at multiple regions. Suggestive evidence for linkage was observed on chromosomes 2, 3, 14, and 16. The chromosome 16 region in particular contains a promising candidate gene, pyridoxal-dependent decarboxylase domain-containing 1 (PDXDC1), with prior evidence for involvement with glioblastoma from other previously reported experimental settings, and contains the lead single nucleotide polymorphism (rs3198697) from the linkage analysis of the chromosome 16 region.\nConclusions\n          Pedigrees with a statistical excess of primary brain cancers have been identified in a unique genealogy resource representing the homogeneous Utah population. Genome-wide linkage analysis of these pedigrees has identified a potential candidate predisposition gene, as well as multiple candidate regions that could harbor predisposition loci, and for which further analysis is suggested.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC7906047/\nhttps://doi.org/10.1093/neuonc/noaa161",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7906047/",
+    "doi": "https://doi.org/10.1093/neuonc/noaa161",
+    "citation_count": 3,
+    "references": {
+        "8158787": "An intronic variant in the CELF4 gene is associated with risk for colorectal cancer",
+        "7990766": "NPC2 as a Prognostic Biomarker for Glioblastoma Based on Integrated Bioinformatics Analysis and Cytological Experiments",
+        "7691903": "The First Orally Deliverable Small Molecule for the Treatment of Spinal Muscular Atrophy"
+    },
+    "journal": "Neuro-Oncology",
+    "topics": [
+        "identifies, pedigrees, predisposition, gene",
+        "brain, cancer, primary, analysis",
+        "identifies, pedigrees, gene, candidate"
+    ]
+}

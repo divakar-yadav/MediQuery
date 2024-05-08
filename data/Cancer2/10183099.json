@@ -1,0 +1,31 @@
+{
+    "title": "Transcriptome- and proteome-oriented identification of dysregulated eIF4G, STAT3, and Hippo pathways altered by PIK3CAH1047R in HER2/ER-positive breast cancer",
+    "abstract": "Methods In this study, we systematically investigated the biological consequences of PIK3CAH1047R in HER2+/ER+ breast cancer by uniquely incorporating mRNA transcriptomic data from The Cancer Genome Atlas and proteomic data from reverse-phase protein arrays. By examining breast cancer cell lines having both microarray gene expression and drug treatment data from the Genomics of Drug Sensitivity in Cancer and the Stand Up to Cancer datasets, we found that the elevated YAP1 mRNA expression was associated with the resistance of BCL-2 family inhibitors, but with the sensitivity to MEK/MAPK inhibitors in breast cancer cells. Conclusions In summary, these findings shed light on the functional consequences of PIK3CAH1047R-driven breast tumorigenesis and resistance to the existing therapeutic agents in HER2+/ER+ breast cancer.",
+    "authors": [
+        "Feixiong Cheng",
+        "Junfei Zhao",
+        "Ariella B. Hanker",
+        "Monica Red Brewer",
+        "Carlos L. Arteaga",
+        "Zhongming Zhao"
+    ],
+    "published_year": "Not available",
+    "description": "Purpose\n          Phosphatidylinositol 3-kinase (PI3K)/AKT pathway aberrations are common in human breast cancer. Furthermore, PIK3CA mutations are commonly associated with resistance to anti-epidermal growth factor receptor 2 (HER2) or anti-estrogen receptor (ER) agents in HER2 or ER positive (HER2+/ER+) breast cancer. Hence, deciphering the underlying mechanisms of PIK3CA mutations in HER2+/ER+ breast cancer would provide novel insights into elucidating resistance to anti-HER2/ER therapies.\nMethods\n          In this study, we systematically investigated the biological consequences of PIK3CAH1047R in HER2+/ER+ breast cancer by uniquely incorporating mRNA transcriptomic data from The Cancer Genome Atlas and proteomic data from reverse-phase protein arrays.\nResults\n          Our integrative bioinformatics analyses revealed that several important pathways such as STAT3 and VEGF/hypoxia were selectively altered by PIK3CAH1047R in HER2+/ER+ breast cancer. Protein differential expression analysis indicated that an elevated eIF4G might promote tumor angiogenesis and growth via regulation of the hypoxia-activated switch in HER2+PIK3CAH1047R breast cancer. We observed hypo-phosphorylation of EGFR in HER2+PIK3CAH1047R breast cancer versus HER2+ PIK3CAwild-type (PIK3CAWT). In addition, ER and PIK3CAH1047R might cooperate to activate STAT3, MAPK, AKT, and Hippo pathways in ER+PIK3CAH1047R breast cancer. A higher YAPpS127 level was observed in ER+PIK3CAH1047R patients than that in an ER+PIK3CAWT subgroup. By examining breast cancer cell lines having both microarray gene expression and drug treatment data from the Genomics of Drug Sensitivity in Cancer and the Stand Up to Cancer datasets, we found that the elevated YAP1 mRNA expression was associated with the resistance of BCL-2 family inhibitors, but with the sensitivity to MEK/MAPK inhibitors in breast cancer cells.\nConclusions\n          In summary, these findings shed light on the functional consequences of PIK3CAH1047R-driven breast tumorigenesis and resistance to the existing therapeutic agents in HER2+/ER+ breast cancer.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10183099/",
+    "doi": "https://doi.org/10.1007/s10549-016-4011-9",
+    "citation_count": 6,
+    "references": {
+        "10930197": "\u7ec4\u5b66\u6280\u672f\u5728\u80bf\u7624\u8010\u836f\u9886\u57df\u7684\u7814\u7a76\u8fdb\u5c55\uff1a\u4ece\u5355\u7ec4\u5b66\u5230\u591a\u7ec4\u5b66\u8054\u5408\u5e94\u7528",
+        "8238204": "PRER: A patient representation with pairwise relative expression of proteins on biological networks",
+        "7923925": "The Role of the Hippo Pathway in Breast Cancer Carcinogenesis, Prognosis, and Treatment: A Systematic Review",
+        "7487029": "A Systems Biology Approach to Discovering Pathway Signaling Dysregulation in Metastasis",
+        "7364656": "Transcriptomic insight into salinomycin mechanisms in breast cancer cell lines: synergistic effects with dasatinib and induction of estrogen receptor \u03b2",
+        "6387057": "Current Coverage of the mTOR Pathway by Next-Generation Sequencing Oncology Panels"
+    },
+    "journal": "Breast cancer research and treatment",
+    "topics": [
+        "pathways, hippo, altered",
+        "identification, breast, altered, dysregulated",
+        "hippo, pathways"
+    ]
+}

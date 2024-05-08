@@ -1,0 +1,44 @@
+{
+    "title": "Towards controlled drug delivery in brain tumors with microbubble-enhanced focused ultrasound",
+    "abstract": "Brain tumors are particularly challenging malignancies, due to their location in a structurally and \nfunctionally distinct part of the human body \u2013 the central nervous system (CNS). The CNS is \nseparated and protected by a unique system of brain and blood vessel cells which together prevent \nmost bloodborne therapeutics from entering the brain tumor microenvironment (TME). Recently, \ngreat strides have been made through microbubble (MB) ultrasound contrast agents in conjunction \nwith ultrasound energy to locally increase the permeability of brain vessels and modulate the brain \nTME. As we elaborate in this review, this physical method can effectively deliver a wide range \nof anticancer agents, including chemotherapeutics, antibodies, and nanoparticle drug conjugates \nacross a range of preclinical brain tumors, including high grade glioma (glioblastoma), diffuse \nintrinsic pontine gliomas, and brain metastasis. Moreover, recent evidence suggests that this \ntechnology can promote the effective delivery of novel immunotherapeutic agents, including, \nimmune check-point inhibitors and chimeric antigen receptor T cells, among others. With early \nclinical studies demonstrating safety and several Phase I/II trials testing the preclinical findings \nunderway this technology is making firm steps towards shaping the future treatments of primary \nand metastatic brain cancer. By elaborating on its key components, including ultrasound systems \nPublisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our \ncustomers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review \nof the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered \nwhich could affect the content, and all legal disclaimers that apply to the journal pertain.\nHHS Public Access\nAuthor manuscript\nAdv Drug Deliv Rev. Author manuscript; available in PMC 2023 January 01.\nPublished in final edited form as:\nAdv Drug Deliv Rev. 2022 January ; 180: 114043. doi:10.1016/j.addr.2021.114043.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Scott Schoen",
+        "M. Sait Kilinc",
+        "Hohyun Lee",
+        "Yutong Guo",
+        "F. Levent Degertekin",
+        "Graeme F. Woodworth",
+        "Costas Arvanitis"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724442/\nhttps://doi.org/10.1016/j.addr.2021.114043",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724442/",
+    "doi": "https://doi.org/10.1016/j.addr.2021.114043",
+    "citation_count": 18,
+    "references": {
+        "11031353": "Miniaturized therapeutic systems for ultrasound-modulated drug delivery to the central and peripheral nervous system",
+        "10749175": "Advances in Brain Tumor Therapy Based on the Magnetic Nanoparticles",
+        "10616392": "Exit pathways of therapeutic antibodies from the brain and retention strategies",
+        "10302530": "Targeted Microbubbles for Drug, Gene, and Cell Delivery in Therapy and Immunotherapy",
+        "10217559": "Surgical Management of Brain Tumors with Focused Ultrasound",
+        "10173311": "Focused ultrasound-mediated small-molecule delivery to potentiate immune checkpoint blockade in solid tumors",
+        "10146986": "Ultrasound-Responsive Biomimetic Superhydrophobic Drug-Loaded Mesoporous Silica Nanoparticles for Treating Prostate Tumor",
+        "10142092": "Ultrasound and Microbubbles Mediated Bleomycin Delivery in Feline Oral Squamous Cell Carcinoma\u2014An In Vivo Veterinary Study",
+        "10141545": "Microbubble-Assisted Ultrasound for Drug Delivery to the Retina in an Ex Vivo Eye Model",
+        "9977958": "Ultrasound-targeted microbubble destruction remodels tumour microenvironment to improve immunotherapeutic effect",
+        "9959315": "Microbubble Delivery Platform for Ultrasound-Mediated Therapy in Brain Cancers",
+        "9944161": "Preclinical Research on Focused Ultrasound-Mediated Blood\u2013Brain Barrier Opening for Neurological Disorders: A Review",
+        "9805716": "Biosynthetic Gas Vesicles Combined with Focused Ultrasound for Blood\u2013Brain Barrier Opening",
+        "9689062": "Focused Delivery of Chemotherapy to Augment Surgical Management of Brain Tumors",
+        "9674274": "Spatially targeted brain cancer immunotherapy with closed-loop controlled focused ultrasound and immune checkpoint blockade",
+        "9622975": "Nano-drug delivery system for pancreatic cancer: A visualization and bibliometric analysis",
+        "9563027": "Applications of Focused Ultrasound for the Treatment of Glioblastoma: A New Frontier",
+        "9119565": "The roles of thermal and mechanical stress in focused ultrasound-mediated immunomodulation and immunotherapy for central nervous system tumors"
+    },
+    "journal": "Advanced drug delivery reviews",
+    "topics": [
+        "drug, delivery, towards, ultrasound",
+        "brain, focused, delivery, ultrasound",
+        "controlled, tumors, towards, ultrasound"
+    ]
+}

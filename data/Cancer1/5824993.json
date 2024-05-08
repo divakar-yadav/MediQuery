@@ -1,0 +1,32 @@
+{
+    "title": "Trends in brain cancer mortality among U.S. Gulf War veterans: 21 year follow-up",
+    "abstract": "Objective\u2014Previous mortality studies of U.S. Gulf War veterans through 2000 and 2004 have \nshown an increased risk of brain cancer mortality among some deployed individuals. When \nveterans possibly exposed to environmental contaminants associated with demolition of the \nKhamisiyah Ammunition Storage Facility at Khamisiyah, Iraq, have been compared to \ncontemporaneously deployed unexposed veterans, the results have suggested increased risk for \nmortality from brain cancer among the exposed. Brain cancer mortality risk in this cohort has not \nbeen updated since 2004.\nMethods\u2014This study analyzes the risk for brain cancer mortality between 1991\u20132011 through \ntwo series of comparisons: U.S. Gulf War deployed and non-deployed veterans from the same era; \nand veterans possibly exposed to environmental contaminants at Khamisiyah compared to \ncontemporaneously deployed but unexposed U.S. Gulf War veterans. Risk of brain cancer \nmortality was determined using logistic regression. Life test hazard models were created to plot \ncomparisons of annual hazard rates. Joinpoint regression models were applied to assess trends in \nhazard rates for brain cancer mortality.\nResults\u2014U.S. Army veterans possibly exposed at Khamisiyah had similar rates of brain cancer \nmortality compared to those not possibly exposed; however, veterans possibly exposed had a \nhigher risk of brain cancer in the time period immediately following the Gulf War.\n*Corresponding author at: VISN 2 Center of Excellence for Suicide Prevention, Canandaigua VA Medical Center, Canandaigua, NY, \nUSA. shannon.barth@va.gov (S.K. Barth). \nConflicts of interest\nNone.\nAuthors\u2019 contribution\nShannon Barth was responsible for data analyses and manuscript writing. Dr. Erin Dursa contributed to the review of the data analyses, \nmanuscript writing and review. Dr. Robert Bossarte contributed to the statistical analyses plan, and manuscript writing and review. Dr. \nAaron Schneiderman contributed to manuscript writing and review.\nHHS Public Access\nAuthor manuscript\nCancer Epidemiol. Author manuscript; available in PMC 2018 October 01.\nPublished in final edited form as:\nCancer Epidemiol. 2017 October ; 50(Pt A): 22\u201329. doi:10.1016/j.canep.2017.07.012.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Shannon K. Barth",
+        "Erin K. Dursa",
+        "Robert M. Bossarte",
+        "Aaron I. Schneiderman"
+    ],
+    "published_year": "",
+    "description": "Objective\n          Previous mortality studies of U.S. Gulf War veterans through 2000 and 2004 have shown an increased risk of brain cancer mortality among some deployed individuals. When veterans possibly exposed to environmental contaminants associated with demolition of the Khamisiyah Ammunition Storage Facility at Khamisiyah, Iraq, have been compared to contemporaneously deployed unexposed veterans, the results have suggested increased risk for mortality from brain cancer among the exposed. Brain cancer mortality risk in this cohort has not been updated since 2004.\nMethods\n          This study analyzes the risk for brain cancer mortality between 1991\u20132011 through two series of comparisons: U.S. Gulf War deployed and non-deployed veterans from the same era; and veterans possibly exposed to environmental contaminants at Khamisiyah compared to contemporaneously deployed but unexposed U.S. Gulf War veterans. Risk of brain cancer mortality was determined using logistic regression. Life test hazard models were created to plot comparisons of annual hazard rates. Joinpoint regression models were applied to assess trends in hazard rates for brain cancer mortality.\nResults\n          U.S. Army veterans possibly exposed at Khamisiyah had similar rates of brain cancer mortality compared to those not possibly exposed; however, veterans possibly exposed had a higher risk of brain cancer in the time period immediately following the Gulf War.\nConclusion\n          Results from these analyses suggest that veterans possibly exposed at Khamisiyah experienced different patterns of brain cancer mortality risk compared to the other groups.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5824993/\nhttps://doi.org/10.1016/j.canep.2017.07.012",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5824993/",
+    "doi": "https://doi.org/10.1016/j.canep.2017.07.012",
+    "citation_count": 9,
+    "references": {
+        "10836768": "Brain tumors in United States military veterans",
+        "10150238": "Risk and Protective Factors for Cancer Mortality among United States Service Members and Veterans (2001\u20132018)",
+        "10001022": "Soluble Guanylate Cyclase \u03b21 Subunit Represses Human Glioblastoma Growth",
+        "9846208": "Older veterans associated with reduced risk of cancer: Retrospective nationwide matched cohort study in Taiwan",
+        "9832991": "A Review of Chemical Warfare Agents Linked to Respiratory and Neurological Effects Experienced in Gulf War Illness",
+        "9093163": "Evaluation of a Gene\u2013Environment Interaction of PON1 and Low-Level Nerve Agent Exposure with Gulf War Illness: A Prevalence Case\u2013Control Study Drawn from the U.S. Military Health Survey\u2019s National Population Sample",
+        "8807020": "Data Matching to Support Analysis of Cancer Epidemiology Among Veterans Compared With Non-Veteran Populations\u2014An Exemplar in Brain Tumors",
+        "8533803": "The Department of Veterans Affairs Gulf War Veterans\u2019 Illnesses Biorepository: Supporting Research on Gulf War Veterans\u2019 Illnesses",
+        "8043054": "An Exploratory Study of the Frequency of Central Nervous System Tumors by Type in the Central Texas Military and Civilian Populations"
+    },
+    "journal": "Cancer epidemiology",
+    "topics": [
+        "trends, cancer, mortality",
+        "war, veterans, gulf, cancer",
+        "among, mortality, brain"
+    ]
+}

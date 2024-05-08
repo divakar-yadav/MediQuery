@@ -1,0 +1,45 @@
+{
+    "title": "HOTAIR lncRNA SNPs rs920778 and rs1899663 are associated with smoking, male gender, and squamous cell carcinoma in a Chinese lung cancer population",
+    "abstract": "HOTAIR lncRNA SNPs rs920778 and rs1899663 are associated with smoking, male gender, and squamous cell carcinoma in a Chinese lung cancer population Cong Wang Ying Li Yong-wen Li Hong-bing Zhang Hao Gong Yin Yuan Wei-ting Li Hong-yu Liu Jun Chen",
+    "authors": [
+        "Cong Wang",
+        "Ying Li",
+        "Yong-wen Li",
+        "Hong-bing Zhang",
+        "Hao Gong",
+        "Yin Yuan",
+        "Wei-ting Li",
+        "Hong-yu Liu",
+        "Jun Chen"
+    ],
+    "published_year": "2018",
+    "description": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6289398/",
+    "doi": "https://doi.org/10.1038/s41401-018-0083-x",
+    "citation_count": 17,
+    "references": {
+        "10610215": "The Intergenic Type LncRNA (LINC RNA) Faces in Cancer with In Silico Scope and a Directed Lens to LINC00511: A Step toward ncRNA Precision",
+        "10441144": "RE: Comment On: Association of HOTAIR rs1899663 G>T Polymorphism with Colorectal Cancer in the Turkish Population: A Case\u2013Control Study",
+        "10388228": "Association of HOTAIR rs2366152 and rs1899663 polymorphisms with colorectal cancer susceptibility in Iranian population: A case\u2013control study",
+        "10328106": "Exploring the Association Between PRC2 Genes Variants and Lung Cancer Risk in Chinese Han Population",
+        "10047939": "Genetic Variants of HOTAIR Associated with Colorectal Cancer: A Case-Control Study in the Saudi Population",
+        "9524440": "Association of HOTAIR rs1899663 G>T Polymorphism with Colorectal Cancer in the Turkish Population: A Case\u2013Control Study",
+        "9257968": "Association between long non-coding RNA HOTAIR polymorphism and lung cancer risk: A systematic review and meta-analysis",
+        "8964191": "Association of Polymorphisms within HOX Transcript Antisense RNA (HOTAIR) with Type 2 Diabetes Mellitus and Laboratory Characteristics: A Preliminary Case-Control Study",
+        "8430083": "Comprehensive network analysis of different subtypes of molecular disorders in lung cancer",
+        "7765138": "Association of Long Non-Coding RNA Polymorphisms with Gastric Cancer and Atrophic Gastritis",
+        "7685008": "Relationship between MEG3 gene polymorphism and risk of gastric cancer in Chinese population with high incidence of gastric cancer",
+        "7336741": "Roles of HOTAIR in lung cancer susceptibility and prognosis",
+        "7156602": "Detection of Allosteric Effects of lncRNA Secondary Structures Altered by SNPs in Human Diseases",
+        "7050528": "A HOTAIR regulatory element modulates glioma cell sensitivity to temozolomide through long-range regulation of multiple target genes",
+        "6853959": "Identification of high-risk patients for ADR induced by traditional Chinese medicine injection: a nested case-control study",
+        "6462928": "Impact of Long Non-Coding RNA HOTAIR Genetic Variants on the Susceptibility and Clinicopathologic Characteristics of Patients with Urothelial Cell Carcinoma",
+        "6312999": "lincRNA-p21 inhibits the progression of non-small cell lung cancer via targeting miR-17-5p"
+    },
+    "journal": "Acta Pharmacologica Sinica",
+    "topics": [
+        "cell, cancer, male, associated",
+        "lncrna, lung, chinese",
+        "lncrna, male"
+    ]
+}

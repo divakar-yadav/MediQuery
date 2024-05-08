@@ -1,0 +1,36 @@
+{
+    "title": "Nanoparticle designs for delivery of nucleic acid therapeutics as brain cancer therapies",
+    "abstract": "Glioblastoma (GBM) is an aggressive central nervous system cancer with a dismal prognosis. \nThe standard of care involves surgical resection followed by radiotherapy and chemotherapy, but \nfive-year survival is only 5.6% despite these measures. Novel therapeutic approaches, such as \nimmunotherapies, targeted therapies, and gene therapies, have been explored to attempt to extend \nsurvival for patients. Nanoparticles have been receiving increasing attention as promising vehicles \nfor non-viral nucleic acid delivery in the context of GBM, though delivery is often limited by low \nblood-brain barrier permeability, particle instability, and low trafficking to target brain structures \nand cells. In this review, nanoparticle design considerations and new advances to overcome nucleic \nacid delivery challenges to treat brain cancer are summarized and discussed.\nKeywords\nNanoparticles; Biomaterials; Gene delivery; RNA delivery; BBB crossing; Targeted delivery; \nGlioblastoma; Intracellular delivery\n1",
+    "authors": [
+        "Johan Karlsson",
+        "Kathryn M. Luly",
+        "Stephany Y. Tzeng",
+        "Jordan J. Green"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8720292/\nhttps://doi.org/10.1016/j.addr.2021.113999",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8720292/",
+    "doi": "https://doi.org/10.1016/j.addr.2021.113999",
+    "citation_count": 13,
+    "references": {
+        "10955104": "Recent advances in carbon monoxide-releasing nanomaterials",
+        "10915804": "Immunotherapy Study on Non-small-Cell Lung Cancer (NSCLC) Combined with Cytotoxic T Cells and miRNA34a",
+        "10758055": "Nanoparticle technology for mRNA: Delivery strategy, clinical application and developmental landscape",
+        "10377144": "Counteracting Immunosenescence\u2014Which Therapeutic Strategies Are Promising?",
+        "10327649": "Functionalized nanoparticles crossing the brain\u2013blood barrier to target glioma cells",
+        "9880004": "Reprogramming systemic and local immune function to empower immunotherapy against glioblastoma",
+        "9863966": "The Plant Viruses and Molecular Farming: How Beneficial They Might Be for Human and Animal Health?",
+        "9821959": "Dissecting Functional Biological Interactions Using Modular RNA Nanoparticles",
+        "9809344": "The nanoprodrug of polytemozolomide combines with MGMT siRNA to enhance the effect of temozolomide in glioma",
+        "9655255": "Smart Nanoformulations for Brain Cancer Theranostics: Challenges and Promises",
+        "9312945": "Site-Specific Considerations on Engineered T Cells for Malignant Gliomas",
+        "9090367": "Combinatorial therapeutic strategies for enhanced delivery of therapeutics to brain cancer cells through nanocarriers: current trends and future perspectives",
+        "8955506": "Iodine Nanoparticles (Niodx\u2122) for Radiotherapy Enhancement of Glioblastoma and Other Cancers: An NCI Nanotechnology Characterization Laboratory Study"
+    },
+    "journal": "Advanced drug delivery reviews",
+    "topics": [
+        "designs, brain, acid, nucleic",
+        "therapeutics, delivery, therapies, cancer",
+        "nucleic, brain, cancer, nanoparticle"
+    ]
+}

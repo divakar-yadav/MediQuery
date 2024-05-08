@@ -1,0 +1,30 @@
+{
+    "title": "Functional studies of lung cancer GWAS beyond association",
+    "abstract": "Functional studies of lung cancer GWAS beyond association Erping Long Harsh Patel Jinyoung Byun Christopher I Amos Jiyeon Choi",
+    "authors": [
+        "Erping Long",
+        "Harsh Patel",
+        "Jinyoung Byun",
+        "Christopher I Amos",
+        "Jiyeon Choi"
+    ],
+    "published_year": "2022",
+    "description": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9585683/",
+    "doi": "https://doi.org/10.1093/hmg/ddac140",
+    "citation_count": 6,
+    "references": {
+        "10840262": "Impact of individual level uncertainty of lung cancer polygenic risk score (PRS) on risk stratification",
+        "10829297": "Integrative single-cell analysis: dissecting CD8\u2009+\u2009memory cell roles in LUAD and COVID-19 via eQTLs and Mendelian Randomization",
+        "10822800": "Air Pollution and Lung Cancer: Contributions of Extracellular Vesicles as Pathogenic Mechanisms and Clinical Utility",
+        "10557605": "Context-aware single-cell multiome approach identified cell-type specific lung cancer susceptibility genes",
+        "10262209": "Editorial: Exploring GWAS data by biomolecular network analysis in revealing genetic disease mechanisms",
+        "10126796": "Lung Cancer and Risk Factors in Lebanon: Epidemiology, Temporal Trends, and Comparison to Countries From Different Regions in the World"
+    },
+    "journal": "Human Molecular Genetics",
+    "topics": [
+        "studies, association, gwas, lung",
+        "studies, beyond, lung, association",
+        "functional, cancer, gwas, lung"
+    ]
+}

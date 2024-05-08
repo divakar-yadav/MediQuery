@@ -1,0 +1,44 @@
+{
+    "title": "Biomarkers for lung cancer screening and detection",
+    "abstract": "Biomarkers for lung cancer screening and detection Edwin J. Ostrin David Sidransky Avrum Spira Samir M. Hanash",
+    "authors": [
+        "Edwin J. Ostrin",
+        "David Sidransky",
+        "Avrum Spira",
+        "Samir M. Hanash"
+    ],
+    "published_year": "Not available",
+    "description": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7710615/",
+    "doi": "https://doi.org/10.1158/1055-9965.EPI-20-0865",
+    "citation_count": 21,
+    "references": {
+        "10813699": "Combining Low-Dose Computer-Tomography-Based Radiomics and Serum Metabolomics for Diagnosis of Malignant Nodules in Participants of Lung Cancer Screening Studies",
+        "10775005": "Serum-based biomarkers associated with lung cancer risk and cause-specific mortality in the German randomized Lung Cancer Screening Intervention (LUSI) trial",
+        "10713268": "The opportunities and challenges of perioperative therapy of localized non-small cell lung cancer\u2014thoughts from the KEYNOTE-671 trial",
+        "10483334": "Circulating proteome for pulmonary nodule malignancy",
+        "10444865": "Early detection of lung cancer using artificial intelligence-enhanced optical nanosensing of chromatin alterations in field carcinogenesis",
+        "10423989": "ERS International Congress 2022: highlights from the Thoracic Oncology Assembly",
+        "10320232": "Plasma protein biomarkers for early prediction of lung cancer",
+        "10308181": "Non-small cell lung carcinoma (NSCLC): Implications on molecular pathology and advances in early diagnostics and therapeutics",
+        "10267948": "The predictive value of chest computed tomography images, tumor markers, and metabolomics in the identification of benign and malignant pulmonary nodules",
+        "9553848": "circPTN Promotes the Progression of Non-Small Cell Lung Cancer through Upregulation of E2F2 by Sponging miR-432-5p",
+        "9359957": "Lung cancer susceptibility beyond smoking history: opportunities and challenges",
+        "9078818": "NEIL3 Mediates Lung Cancer Progression and Modulates PI3K/AKT/mTOR Signaling: A Potential Therapeutic Target",
+        "9028053": "Clinical Implications of Circulating Circular RNAs in Lung Cancer",
+        "8869872": "Computational Analyses of YY1 and Its Target RKIP Reveal Their Diagnostic and Prognostic Roles in Lung Cancer",
+        "8391249": "The Liquid Biopsy for Lung Cancer: State of the Art, Limitations and Future Developments",
+        "8307680": "The Lipid Composition of Serum-Derived Small Extracellular Vesicles in Participants of a Lung Cancer Screening Study",
+        "8198431": "Serum Metabolite Profiles in Participants of Lung Cancer Screening Study; Comparison of Two Independent Cohorts",
+        "8040712": "Intratumoral Treatment with Chemotherapy and Immunotherapy for NSCLC with EBUS-TBNA 19G",
+        "8002857": "Serum Exosomes and Their miRNA Load\u2014A Potential Biomarker of Lung Cancer",
+        "7947407": "Molecular biomarkers in early stage lung cancer",
+        "7717495": "THE NATIONAL CANCER INSTITUTE EARLY DETECTION RESEARCH NETWORK: TWO DECADES OF PROGRESS IN CANCER BIOMARKERS"
+    },
+    "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+    "topics": [
+        "biomarkers, detection, cancer, lung",
+        "screening, lung, detection, cancer",
+        "screening, cancer, lung, biomarkers"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "title": "Neuroinflammation and immunoregulation in glioblastoma and brain metastases: Recent developments in imaging approaches",
+    "abstract": "Brain tumors and brain metastases induce changes in brain tissue remodeling that \nlead to immunosuppression and trigger an inflammatory response within the tumor \nmicroenvironment. These immune and inflammatory changes can influence inva-\nsion and metastasis. Other neuroinflammatory and necrotic lesions may occur in \npatients with brain cancer or brain metastases as sequelae from treatment with ra-\ndiotherapy. Glioblastoma (GBM) is the most aggressive primary malignant brain \ncancer in adults. Imaging methods such as positron emission tomography (PET) and \ndifferent magnetic resonance imaging (MRI) techniques are highly valuable for the \ndiagnosis and therapeutic evaluation of GBM and other malignant brain tumors. \nHowever, differentiating between tumor tissue and inflamed brain tissue with im-\naging protocols remains a challenge. Here, we review recent advances in imaging \nmethods that have helped to improve the specificity of primary tumor diagnosis ver-\nsus evaluation of inflamed and necrotic brain lesions. We also comment on advances \nin differentiating metastasis from neuroinflammation processes. Recent advances \ninclude the radiosynthesis of 18F-\u00ad\nFIMP, an L-\u00ad\ntype amino acid transporter 1 (LAT1)-\u00ad\nspecific PET probe that allows clearer differentiation between tumor tissue and in-\nflammation compared to previous probes, and the combination of different advanced \nimaging protocols with the inclusion of radiomics and machine learning algorithms.\nK E Y W O R D S\nbrain metastases, brain tumor, glioblastoma, imaging, magnetic resonance imaging, positron \nemission tomography",
+    "authors": [
+        "Rafael Roesler",
+        "Simone Afonso Dini",
+        "Gustavo R. Isolan"
+    ],
+    "published_year": "2021",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8561695/\nhttps://doi.org/10.1111/cei.13668",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8561695/",
+    "doi": "https://doi.org/10.1111/cei.13668",
+    "citation_count": 15,
+    "references": {
+        "10884227": "MET receptor serves as a promising target in melanoma brain metastases",
+        "10814625": "The Role of Progranulin (PGRN) in the Pathogenesis of Glioblastoma Multiforme",
+        "10725587": "Harnessing immunotherapy for brain metastases: insights into tumor\u2013brain microenvironment interactions and emerging treatment modalities",
+        "10671437": "Cytokine Profile in Development of Glioblastoma in Relation to Healthy Individuals",
+        "10548166": "Amyloids and brain cancer: molecular linkages and crossovers",
+        "10506313": "Dysregulation of inflammasome activation in glioma",
+        "10390727": "Advances in the application of neuroinflammatory molecular imaging in brain malignancies",
+        "9832385": "Dopamine, Immunity, and Disease",
+        "9630032": "Steroid utility, immunotherapy, and brain tumor management: an update on conflicting therapies",
+        "9610067": "Molecular Imaging of Ultrasound-Mediated Blood-Brain Barrier Disruption in a Mouse Orthotopic Glioblastoma Model",
+        "9576505": "Chronic Inflammation Pathway NF-\u03baB Cooperates with Epigenetic Reprogramming to Drive the Malignant Progression of Glioblastoma",
+        "9225636": "Prognostic Values of Combined Ratios of White Blood Cells in Glioblastoma: A Retrospective Study",
+        "9027882": "DTI Abnormalities Related to Glioblastoma: A Prospective Comparative Study with Metastasis and Healthy Subjects",
+        "8875488": "Progress and Viewpoints of Multifunctional Composite Nanomaterials for Glioblastoma Theranostics",
+        "8561697": "Imaging immune responses in neuroinflammatory diseases"
+    },
+    "journal": "Clinical and Experimental Immunology",
+    "topics": [
+        "neuroinflammation, glioblastoma, metastases, imaging",
+        "recent, imaging, approaches, brain",
+        "developments, approaches, brain, glioblastoma"
+    ]
+}

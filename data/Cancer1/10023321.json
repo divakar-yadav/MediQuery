@@ -1,0 +1,25 @@
+{
+    "title": "Nonviral nanoparticle gene delivery into the CNS for neurological disorders and brain cancer applications",
+    "abstract": "Nonviral nanoparticles have emerged as an attractive alternative to viral vectors for gene \ntherapy applications, utilizing a range of lipid-based, polymeric, and inorganic materials. These \nmaterials can either encapsulate or be functionalized to bind nucleic acids and protect them from \ndegradation. To effectively elicit changes to gene expression, the nanoparticle carrier needs to \nundergo a series of steps intracellularly, from interacting with the cellular membrane to facilitate \ncellular uptake to endosomal escape and nucleic acid release. Adjusting physiochemical properties \nof the nanoparticles, such as size, charge, and targeting ligands, can improve cellular uptake and \nultimately gene delivery. Applications in the central nervous system (CNS; i.e., neurological \ndiseases, brain cancers) face further extracellular barriers for a gene-carrying nanoparticle \nto surpass, with the most significant being the blood\u2013brain barrier (BBB). Approaches to \novercome these extracellular challenges to deliver nanoparticles into the CNS include systemic, \nintracerebroventricular, intrathecal, and intranasal administration. This review describes and \ncompares different biomaterials for nonviral nanoparticle-mediated gene therapy to the CNS and \nexplores challenges and recent preclinical and clinical developments in overcoming barriers to \nnanoparticle-mediated delivery to the brain.\nThis article is categorized under:\nTherapeutic Approaches and Drug Discovery > Nanomedicine for Neurological Disease\nCorrespondence: Jordan J. Green, Departments of Biomedical Engineering, Ophthalmology, Oncology, Neurosurgery, Materials \nScience & Engineering, and Chemical & Biomolecular Engineering, Johns Hopkins University School of Medicine, Baltimore, \nMaryland, USA. green@jhu.edu.\nAUTHOR CONTRIBUTIONS\nJoanna Yang: Conceptualization (equal); writing \u2013 original draft (equal). Kathryn M. Luly: Conceptualization (equal); writing \u2013 \noriginal draft (equal). Jordan Green: Conceptualization (equal); funding acquisition (lead); supervision (lead); writing \u2013 review and \nediting (lead).\nCONFLICT OF INTEREST\nPatents related to polymer technology discussed in the manuscript have been filed by Johns Hopkins University with Kathryn M. \nLuly and Jordan J. Green as co-inventors. Jordan J. Green is a co-founder, manager, and CTO of Dome Therapeutics, co-founder, \nboard member, and CSO of Cove Therapeutics, co-founder of WyveRNA Therapeutics, and board member of VasoRx. Any potential \nconflicts of interest are managed by the Johns Hopkins University Committee on Outside Interests.\nRELATED WIREs ARTICLES\nNanotherapeutic systems for local treatment of brain tumors\nPolymer-mediated gene therapy: Recent advances and merging of delivery techniques\nHHS Public Access\nAuthor manuscript\nWiley Interdiscip Rev Nanomed Nanobiotechnol. Author manuscript; available in PMC \n2024 March 01.\nPublished in final edited form as:\nWiley Interdiscip Rev Nanomed Nanobiotechnol. 2023 March ; 15(2): e1853. doi:10.1002/wnan.1853.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+    "authors": [
+        "Joanna Yang",
+        "Kathryn M. Luly",
+        "Jordan J. Green"
+    ],
+    "published_year": "",
+    "description": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10023321/\nhttps://doi.org/10.1002/wnan.1853",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10023321/",
+    "doi": "https://doi.org/10.1002/wnan.1853",
+    "citation_count": 2,
+    "references": {
+        "10572512": "MSRNet: Multiclass Skin Lesion Recognition Using Additional Residual Block Based Fine-Tuned Deep Models Information Fusion and Best Feature Selection",
+        "10212980": "The blood\u2013brain barrier: structure, regulation, and drug delivery"
+    },
+    "journal": "Wiley interdisciplinary reviews. Nanomedicine and nanobiotechnology",
+    "topics": [
+        "disorders, delivery, brain, gene",
+        "disorders, nonviral, gene, brain",
+        "cancer, cns, applications, nanoparticle"
+    ],
+    "keywords": []
+}
