@@ -76,7 +76,7 @@ const SearchResultPage = () => {
       let config = {
         method: 'post',
         maxBodyLength: Infinity,
-        url: 'http://localhost:8080/search',
+        url: 'http://3.144.94.68:8080/search',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -109,7 +109,7 @@ const SearchResultPage = () => {
 
   const fetchSearchResults = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/search', {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
         searchTerm: searchTerm,
         lookupType: 'lookupType',
         startYear: startYear,
@@ -131,7 +131,7 @@ const SearchResultPage = () => {
 
   const fetchDropDownSearchResults = async () => {
     try {
-      const response = await axios.get(`http://localhost:8080/suggest?query=${searchTerm}`, {
+      const response = await axios.get(`http://3.144.94.68:8080/suggest?query=${searchTerm}`, {
         searchTerm: searchTerm,
         lookupType: 'lookupType' // Use the selected lookup type
       });

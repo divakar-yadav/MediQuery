@@ -66,7 +66,7 @@ const SearchPage = () => {
 
   const fetchSearchResults = async (term) => {
     try {
-      const response = await axios.get(`http://localhost:8080/suggest?query=${term}`, {
+      const response = await axios.get(`http://3.144.94.68:8080/suggest?query=${term}`, {
         params: {
           searchTerm: term,
           lookupType: lookupType,
