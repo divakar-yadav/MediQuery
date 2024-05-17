@@ -128,6 +128,32 @@ const SearchResultPage = () => {
     }
   };
 
+  const handleSearchResults = async (searchTerm) => {
+    setSearchResults([])
+    setIsDropDownOpen(false)
+    setSearchHistory([])
+    setSearchTerm(searchTerm)
+    try {
+      const response = await axios.post('http://3.144.94.68:8080/search', {
+        searchTerm: searchTerm,
+        lookupType: 'lookupType',
+        startYear: startYear,
+        endYear: endYear,
+        journals : selectedJournals
+        // Use the selected lookup type
+      });
+      if (response.status === 200) {
+        setSearchResults(response.data.result); // Update search results
+        // Add current search term to search history
+        // setSearchHistory(prevHistory => [searchTerm, ...prevHistory.filter(item => item !== searchTerm)]);
+      } else {
+        console.error('Failed to fetch search results');
+      }
+    } catch (error) {
+      console.error('Error fetching search results:', error);
+    }
+  };
+
   const fetchDropDownSearchResults = async () => {
     try {
       const response = await axios.get(`http://3.144.94.68:8080/suggest?query=${searchTerm}`, {
@@ -231,19 +257,19 @@ const SearchResultPage = () => {
           {isDropDownOpen ? 
                     <div className="search-dropdown-result-page" style={{display : `${drpDownsearchResults.length > 0 ? 'unset' : 'none'}`}}>
                     {searchHistory.map((term, index) => (
-                      <Link to="/search-results" key={index}>
-                      <div key={index} className="search-dropdown-item-history" onClick={() => setIsDropDownOpen(false)}>
+                      // <Link to="/search-results" key={index}>
+                      <div key={index} className="search-dropdown-item-history" onClick={() => {handleSearchResults(term)}}>
                         <div className='search-dropdown-item-history-text'>{term}</div>
                         <div className="delete-history" onClick={(e) => { e.stopPropagation(); handleDeleteHistory(index); }}>X</div>
                       </div>
-                      </Link>
+                      // </Link>
                     ))}
                     {drpDownsearchResults.map((result, index) => (
-                      <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result, saveHistory : false})}>
-                      <div className='search-result-drp-down' onClick={()=>setSearchHistory([])}>
+                      // <Link to="/search-results" key={index}  state={ JSON.stringify({searchTerm: result, saveHistory : false})}>
+                      <div className='search-result-drp-down' onClick={() => {handleSearchResults(result)}}>
                         <div className="search-dropdown-item">{result}</div>
                       </div>
-                      </Link>
+                      // </Link>
                     ))}
                 </div>
           : null}

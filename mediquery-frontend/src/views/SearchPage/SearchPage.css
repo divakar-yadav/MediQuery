@@ -137,7 +137,7 @@ a {
   }
   .search-dropdown {
     position: absolute;
-    top: calc(100% + -215px);
+    top: calc(100% + -233px);
     left: 0;
     width: calc(100% - 3px);
     max-height: 200px;
